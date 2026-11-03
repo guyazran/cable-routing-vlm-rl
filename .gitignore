@@ -9,3 +9,6 @@ assets/robots/
 
 # Self-contained demo page (21 MB of base64 media; trips secret scanning). The same page is in reports/robot_demo/site/.
 reports/robot_demo/showcase.html
+
+# Cluster access notes: local only, never published.
+get-compute.md
