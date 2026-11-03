@@ -1,0 +1,6866 @@
+{
+ "dataset": {
+  "name": "shapes",
+  "shapes": [
+   "arc",
+   "circle",
+   "spiral",
+   "serpentine",
+   "zigzag",
+   "square"
+  ],
+  "n_clips": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "train_per_cell": 20,
+  "test_per_cell": 20,
+  "validation_per_cell": 8,
+  "seed_base": 10000000,
+  "validation_seed_base": 30000000,
+  "split_seed": 20261102,
+  "max_attempts": 400,
+  "screen_n_clips": 10,
+  "screen_per_shape": 5,
+  "calibration_n_clips": [
+   5,
+   10
+  ]
+ },
+ "generator_version": "route-family-v4",
+ "families": {
+  "arc": {
+   "name": "arc",
+   "n_clips": 10,
+   "clip_scale": 1.0,
+   "stage_length": [
+    0.21,
+    0.25
+   ],
+   "turn_deg": [
+    15.0,
+    22.0
+   ],
+   "sign_persistence": [
+    0.2,
+    0.8
+   ],
+   "stage_tries": 40,
+   "max_backtracks": 30,
+   "reach_radius": [
+    0.15,
+    1.18
+   ],
+   "max_bearing_deg": 150.0,
+   "min_reach_margin": 0.02,
+   "base_clearance": 0.2,
+   "stage_shape": "arc",
+   "bearing_deg": [
+    0.0,
+    0.0
+   ],
+   "min_path_radius": 0.0,
+   "motif": "arc",
+   "turn_jitter_deg": 2.0,
+   "turn_end_deg": [
+    0.0,
+    0.0
+   ],
+   "motif_period": [
+    1
+   ],
+   "bias_deg": [
+    0.0,
+    0.0
+   ],
+   "placement_tries": 1000,
+   "min_clip_separation": 0.14,
+   "path_clearance": 0.05,
+   "view_x": [
+    -0.33,
+    1.05
+   ],
+   "view_y": [
+    -0.92,
+    0.92
+   ],
+   "view_margin": 0.0,
+   "insertion_region": 0.16,
+   "cable_length": 3.0,
+   "cable_radius": 0.0025,
+   "head_allowance": 0.12,
+   "tail_reserve": 0.3,
+   "initial_head_axial": [
+    0.06,
+    0.11
+   ],
+   "initial_head_lateral": [
+    -0.025,
+    0.025
+   ],
+   "initial_angle_deg": 10.0,
+   "initial_lead": 0.3,
+   "initial_max_bend_deg": 100.0,
+   "initial_clip_clearance": 0.04
+  },
+  "circle": {
+   "name": "circle",
+   "n_clips": 10,
+   "clip_scale": 1.0,
+   "stage_length": [
+    0.21,
+    0.25
+   ],
+   "turn_deg": [
+    28.0,
+    34.0
+   ],
+   "sign_persistence": [
+    0.2,
+    0.8
+   ],
+   "stage_tries": 40,
+   "max_backtracks": 30,
+   "reach_radius": [
+    0.15,
+    1.18
+   ],
+   "max_bearing_deg": 150.0,
+   "min_reach_margin": 0.02,
+   "base_clearance": 0.2,
+   "stage_shape": "arc",
+   "bearing_deg": [
+    0.0,
+    0.0
+   ],
+   "min_path_radius": 0.0,
+   "motif": "circle",
+   "turn_jitter_deg": 2.0,
+   "turn_end_deg": [
+    0.0,
+    0.0
+   ],
+   "motif_period": [
+    1
+   ],
+   "bias_deg": [
+    0.0,
+    0.0
+   ],
+   "placement_tries": 1000,
+   "min_clip_separation": 0.14,
+   "path_clearance": 0.05,
+   "view_x": [
+    -0.33,
+    1.05
+   ],
+   "view_y": [
+    -0.92,
+    0.92
+   ],
+   "view_margin": 0.0,
+   "insertion_region": 0.16,
+   "cable_length": 3.0,
+   "cable_radius": 0.0025,
+   "head_allowance": 0.12,
+   "tail_reserve": 0.3,
+   "initial_head_axial": [
+    0.06,
+    0.11
+   ],
+   "initial_head_lateral": [
+    -0.025,
+    0.025
+   ],
+   "initial_angle_deg": 10.0,
+   "initial_lead": 0.3,
+   "initial_max_bend_deg": 100.0,
+   "initial_clip_clearance": 0.04
+  },
+  "spiral": {
+   "name": "spiral",
+   "n_clips": 10,
+   "clip_scale": 1.0,
+   "stage_length": [
+    0.21,
+    0.25
+   ],
+   "turn_deg": [
+    6.0,
+    12.0
+   ],
+   "sign_persistence": [
+    0.2,
+    0.8
+   ],
+   "stage_tries": 40,
+   "max_backtracks": 30,
+   "reach_radius": [
+    0.15,
+    1.18
+   ],
+   "max_bearing_deg": 150.0,
+   "min_reach_margin": 0.02,
+   "base_clearance": 0.2,
+   "stage_shape": "arc",
+   "bearing_deg": [
+    0.0,
+    0.0
+   ],
+   "min_path_radius": 0.0,
+   "motif": "spiral",
+   "turn_jitter_deg": 2.0,
+   "turn_end_deg": [
+    45.0,
+    55.0
+   ],
+   "motif_period": [
+    1
+   ],
+   "bias_deg": [
+    0.0,
+    0.0
+   ],
+   "placement_tries": 1000,
+   "min_clip_separation": 0.14,
+   "path_clearance": 0.05,
+   "view_x": [
+    -0.33,
+    1.05
+   ],
+   "view_y": [
+    -0.92,
+    0.92
+   ],
+   "view_margin": 0.0,
+   "insertion_region": 0.16,
+   "cable_length": 3.0,
+   "cable_radius": 0.0025,
+   "head_allowance": 0.12,
+   "tail_reserve": 0.3,
+   "initial_head_axial": [
+    0.06,
+    0.11
+   ],
+   "initial_head_lateral": [
+    -0.025,
+    0.025
+   ],
+   "initial_angle_deg": 10.0,
+   "initial_lead": 0.3,
+   "initial_max_bend_deg": 100.0,
+   "initial_clip_clearance": 0.04
+  },
+  "serpentine": {
+   "name": "serpentine",
+   "n_clips": 10,
+   "clip_scale": 1.0,
+   "stage_length": [
+    0.21,
+    0.25
+   ],
+   "turn_deg": [
+    22.0,
+    32.0
+   ],
+   "sign_persistence": [
+    0.2,
+    0.8
+   ],
+   "stage_tries": 40,
+   "max_backtracks": 30,
+   "reach_radius": [
+    0.15,
+    1.18
+   ],
+   "max_bearing_deg": 150.0,
+   "min_reach_margin": 0.02,
+   "base_clearance": 0.2,
+   "stage_shape": "arc",
+   "bearing_deg": [
+    0.0,
+    0.0
+   ],
+   "min_path_radius": 0.0,
+   "motif": "serpentine",
+   "turn_jitter_deg": 2.0,
+   "turn_end_deg": [
+    0.0,
+    0.0
+   ],
+   "motif_period": [
+    2,
+    3
+   ],
+   "bias_deg": [
+    6.0,
+    12.0
+   ],
+   "placement_tries": 1000,
+   "min_clip_separation": 0.14,
+   "path_clearance": 0.05,
+   "view_x": [
+    -0.33,
+    1.05
+   ],
+   "view_y": [
+    -0.92,
+    0.92
+   ],
+   "view_margin": 0.0,
+   "insertion_region": 0.16,
+   "cable_length": 3.0,
+   "cable_radius": 0.0025,
+   "head_allowance": 0.12,
+   "tail_reserve": 0.3,
+   "initial_head_axial": [
+    0.06,
+    0.11
+   ],
+   "initial_head_lateral": [
+    -0.025,
+    0.025
+   ],
+   "initial_angle_deg": 10.0,
+   "initial_lead": 0.3,
+   "initial_max_bend_deg": 100.0,
+   "initial_clip_clearance": 0.04
+  },
+  "zigzag": {
+   "name": "zigzag",
+   "n_clips": 10,
+   "clip_scale": 1.0,
+   "stage_length": [
+    0.21,
+    0.25
+   ],
+   "turn_deg": [
+    60.0,
+    80.0
+   ],
+   "sign_persistence": [
+    0.2,
+    0.8
+   ],
+   "stage_tries": 40,
+   "max_backtracks": 30,
+   "reach_radius": [
+    0.15,
+    1.18
+   ],
+   "max_bearing_deg": 150.0,
+   "min_reach_margin": 0.02,
+   "base_clearance": 0.2,
+   "stage_shape": "arc",
+   "bearing_deg": [
+    0.0,
+    0.0
+   ],
+   "min_path_radius": 0.0,
+   "motif": "zigzag",
+   "turn_jitter_deg": 2.0,
+   "turn_end_deg": [
+    0.0,
+    0.0
+   ],
+   "motif_period": [
+    2
+   ],
+   "bias_deg": [
+    4.0,
+    10.0
+   ],
+   "placement_tries": 1000,
+   "min_clip_separation": 0.14,
+   "path_clearance": 0.05,
+   "view_x": [
+    -0.33,
+    1.05
+   ],
+   "view_y": [
+    -0.92,
+    0.92
+   ],
+   "view_margin": 0.0,
+   "insertion_region": 0.16,
+   "cable_length": 3.0,
+   "cable_radius": 0.0025,
+   "head_allowance": 0.12,
+   "tail_reserve": 0.3,
+   "initial_head_axial": [
+    0.06,
+    0.11
+   ],
+   "initial_head_lateral": [
+    -0.025,
+    0.025
+   ],
+   "initial_angle_deg": 10.0,
+   "initial_lead": 0.3,
+   "initial_max_bend_deg": 100.0,
+   "initial_clip_clearance": 0.04
+  },
+  "square": {
+   "name": "square",
+   "n_clips": 10,
+   "clip_scale": 1.0,
+   "stage_length": [
+    0.21,
+    0.25
+   ],
+   "turn_deg": [
+    86.0,
+    94.0
+   ],
+   "sign_persistence": [
+    0.2,
+    0.8
+   ],
+   "stage_tries": 40,
+   "max_backtracks": 30,
+   "reach_radius": [
+    0.15,
+    1.18
+   ],
+   "max_bearing_deg": 150.0,
+   "min_reach_margin": 0.02,
+   "base_clearance": 0.2,
+   "stage_shape": "arc",
+   "bearing_deg": [
+    0.0,
+    0.0
+   ],
+   "min_path_radius": 0.0,
+   "motif": "square",
+   "turn_jitter_deg": 2.0,
+   "turn_end_deg": [
+    0.0,
+    0.0
+   ],
+   "motif_period": [
+    3,
+    4
+   ],
+   "bias_deg": [
+    0.0,
+    0.0
+   ],
+   "placement_tries": 1000,
+   "min_clip_separation": 0.14,
+   "path_clearance": 0.05,
+   "view_x": [
+    -0.33,
+    1.05
+   ],
+   "view_y": [
+    -0.92,
+    0.92
+   ],
+   "view_margin": 0.0,
+   "insertion_region": 0.16,
+   "cable_length": 3.0,
+   "cable_radius": 0.0025,
+   "head_allowance": 0.12,
+   "tail_reserve": 0.3,
+   "initial_head_axial": [
+    0.06,
+    0.11
+   ],
+   "initial_head_lateral": [
+    -0.025,
+    0.025
+   ],
+   "initial_angle_deg": 10.0,
+   "initial_lead": 0.3,
+   "initial_max_bend_deg": 100.0,
+   "initial_clip_clearance": 0.04
+  }
+ },
+ "note": "each cell uses its shape family with n_clips replaced by the cell's length",
+ "subset": "screen",
+ "split": "test",
+ "rule": "per shape (in dataset order s = 0..5): the 10-clip test scenes, lowest scene ID first within each variant, cycling over variants from variant s mod 4; 5 per shape",
+ "scenes": [
+  {
+   "scene_id": "arc-n10-0004",
+   "pool": "test",
+   "seed": 10704000,
+   "variant": {
+    "mirror": 1,
+    "reverse": false
+   },
+   "family": "arc",
+   "generator_version": "route-family-v4",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      -0.05219092736267229,
+      0.6999368818248182,
+      -0.2058277635413841
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.17152701217502347,
+      0.609709097534106,
+      -0.5608861505185669
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.3334810867872119,
+      0.46677616952292167,
+      -0.8852966253554908
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      0.4580680149391301,
+      0.25181033396896196,
+      -1.2057778000586956
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      0.5052530596863152,
+      0.02288591730461853,
+      -1.5292756474388174
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C06",
+     "pose": [
+      0.47748147835992605,
+      -0.20039945271099202,
+      -1.8598002192688925
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C07",
+     "pose": [
+      0.3783203253957757,
+      -0.40379018223300145,
+      -2.1890527553411543
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C08",
+     "pose": [
+      0.21508935140792274,
+      -0.5714607407644499,
+      -2.4965045681785076
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C09",
+     "pose": [
+      0.009868921884721174,
+      -0.676097045610073,
+      -2.843651581091655
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C10",
+     "pose": [
+      -0.22977788952393274,
+      -0.7070424166604683,
+      3.1004884966415522
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.24122763011107037,
+     "relative_angle_deg": -20.343347054515327,
+     "arc_length": 0.2424994177799011
+    },
+    {
+     "stage": 3,
+     "chord": 0.21600681515484804,
+     "relative_angle_deg": -18.587351037990732,
+     "arc_length": 0.216956940052006
+    },
+    {
+     "stage": 4,
+     "chord": 0.2484596810787281,
+     "relative_angle_deg": -18.36221872388844,
+     "arc_length": 0.24952616006421033
+    },
+    {
+     "stage": 5,
+     "chord": 0.23373664024475022,
+     "relative_angle_deg": -18.535061336448212,
+     "arc_length": 0.2347589572538383
+    },
+    {
+     "stage": 6,
+     "chord": 0.2250058159078924,
+     "relative_angle_deg": -18.937662991231935,
+     "arc_length": 0.22603330117927883
+    },
+    {
+     "stage": 7,
+     "chord": 0.2262757678424157,
+     "relative_angle_deg": -18.864780710919483,
+     "arc_length": 0.22730108920373393
+    },
+    {
+     "stage": 8,
+     "chord": 0.23400377575430487,
+     "relative_angle_deg": -17.61569127922645,
+     "arc_length": 0.2349279725020142
+    },
+    {
+     "stage": 9,
+     "chord": 0.23035663868322423,
+     "relative_angle_deg": -19.89005871049684,
+     "arc_length": 0.23151740562540152
+    },
+    {
+     "stage": 10,
+     "chord": 0.2416365249869762,
+     "relative_angle_deg": -19.425860711322127,
+     "arc_length": 0.24279777217269047
+    }
+   ],
+   "reach_margin": 0.2761025952673919,
+   "route_arc_length": 2.1063190158330745,
+   "route_slack": 0.4736809841669256,
+   "initial_head": [
+    -0.1555812248826255,
+    0.7261715003412788,
+    -0.06788679371743367
+   ],
+   "initial_tail": [
+    -3.1446158826672277,
+    0.981842404268699
+   ],
+   "cable_length": 3.0,
+   "cable_radius": 0.0025,
+   "initial_path": [
+    [
+     -0.1555812248826255,
+     0.7261715003412788
+    ],
+    [
+     -0.45489019781951445,
+     0.7465218988500218
+    ],
+    [
+     -3.1446158826672277,
+     0.981842404268699
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.09156971626950464,
+     "lateral": 0.004550209248587549,
+     "angle_deg": 7.903435392853819
+    },
+    "initial_tail_bend_deg": 1.1103732353158127,
+    "initial_tail_clearance": 0.364,
+    "motif": "arc",
+    "motif_sign": -1,
+    "motif_level_deg": 18.85176228538603,
+    "motif_base_turn_deg": [
+     -18.85176228538603,
+     -18.85176228538603,
+     -18.85176228538603,
+     -18.85176228538603,
+     -18.85176228538603,
+     -18.85176228538603,
+     -18.85176228538603,
+     -18.85176228538603,
+     -18.85176228538603
+    ],
+    "total_heading_change_deg": -170.56203255603955
+   }
+  },
+  {
+   "scene_id": "arc-n10-0005",
+   "pool": "test",
+   "seed": 10705000,
+   "variant": {
+    "mirror": -1,
+    "reverse": false
+   },
+   "family": "arc",
+   "generator_version": "route-family-v4",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      0.845602497915008,
+      -0.2857847179589933,
+      1.0234710294775375
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.9290521416392705,
+      -0.0741550919258033,
+      1.3669223434198674
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.9345933599120058,
+      0.15232984948461692,
+      1.7257477373067047
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      0.8554734392960869,
+      0.3767839771534044,
+      2.0936441579378746
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      0.7088324569635064,
+      0.5521849665464026,
+      2.4406070903548223
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C06",
+     "pose": [
+      0.5213970482382257,
+      0.665650825839365,
+      2.7538758096039446
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C07",
+     "pose": [
+      0.3159184096352705,
+      0.7091961664929296,
+      3.1116458594101752
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C08",
+     "pose": [
+      0.10516812288791011,
+      0.6832966270937262,
+      -2.8670879383601147
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C09",
+     "pose": [
+      -0.11691837867505772,
+      0.5816843602695866,
+      -2.557893293752172
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C10",
+     "pose": [
+      -0.273014611180293,
+      0.43968869913129593,
+      -2.2490307534675678
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.22748833300337448,
+     "relative_angle_deg": 19.678310757118147,
+     "arc_length": 0.22861028559396282
+    },
+    {
+     "stage": 3,
+     "chord": 0.2265527174536372,
+     "relative_angle_deg": 20.55918065183515,
+     "arc_length": 0.22777271172354988
+    },
+    {
+     "stage": 4,
+     "chord": 0.23799079239715484,
+     "relative_angle_deg": 21.0789122001357,
+     "arc_length": 0.23933825653930643
+    },
+    {
+     "stage": 5,
+     "chord": 0.2286243311187741,
+     "relative_angle_deg": 19.879511674973916,
+     "arc_length": 0.22977514321276324
+    },
+    {
+     "stage": 6,
+     "chord": 0.21910393348615023,
+     "relative_angle_deg": 17.948975466443404,
+     "arc_length": 0.22000243234979017
+    },
+    {
+     "stage": 7,
+     "chord": 0.21004206153710944,
+     "relative_angle_deg": 20.49871389008227,
+     "arc_length": 0.21116647697863003
+    },
+    {
+     "stage": 8,
+     "chord": 0.21233574712041664,
+     "relative_angle_deg": 17.44378655554015,
+     "arc_length": 0.21315803431252917
+    },
+    {
+     "stage": 9,
+     "chord": 0.2442283090585902,
+     "relative_angle_deg": 17.715548184082536,
+     "arc_length": 0.24520388487786773
+    },
+    {
+     "stage": 10,
+     "chord": 0.21101848635706955,
+     "relative_angle_deg": 17.696520007997186,
+     "arc_length": 0.2118595899229313
+    }
+   ],
+   "reach_margin": 0.13368468272387313,
+   "route_arc_length": 2.0268868155113307,
+   "route_slack": 0.5531131844886694,
+   "initial_head": [
+    0.7953464066144594,
+    -0.3702718108012411,
+    0.9932116586179678
+   ],
+   "initial_tail": [
+    -0.917110573141737,
+    -2.8333174908997707
+   ],
+   "cable_length": 3.0,
+   "cable_radius": 0.0025,
+   "initial_path": [
+    [
+     0.7953464066144594,
+     -0.3702718108012411
+    ],
+    [
+     0.6315458050060883,
+     -0.6216069713194934
+    ],
+    [
+     -0.917110573141737,
+     -2.8333174908997707
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.0832987032403345,
+     "lateral": -0.001052858495865977,
+     "angle_deg": -1.7337342409745133
+    },
+    "initial_tail_bend_deg": 1.906836201997935,
+    "initial_tail_clearance": 0.356,
+    "motif": "arc",
+    "motif_sign": -1,
+    "motif_level_deg": 19.30535334226912,
+    "motif_base_turn_deg": [
+     19.30535334226912,
+     19.30535334226912,
+     19.30535334226912,
+     19.30535334226912,
+     19.30535334226912,
+     19.30535334226912,
+     19.30535334226912,
+     19.30535334226912,
+     19.30535334226912
+    ],
+    "total_heading_change_deg": 172.49945938820846
+   }
+  },
+  {
+   "scene_id": "arc-n10-0002",
+   "pool": "test",
+   "seed": 10702000,
+   "variant": {
+    "mirror": 1,
+    "reverse": true
+   },
+   "family": "arc",
+   "generator_version": "route-family-v4",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      -0.0753360396154511,
+      -0.7642840467543918,
+      0.008991388519357102
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.15826834766551257,
+      -0.7316098023686443,
+      0.26894547732502083
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.35551446623553895,
+      -0.648295976888834,
+      0.530361997621958
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      0.5501156375288053,
+      -0.49692953798568384,
+      0.7917881976774743
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      0.6914065341200177,
+      -0.3021243045865377,
+      1.0948038555191264
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C06",
+     "pose": [
+      0.7648331082263866,
+      -0.10404680367697405,
+      1.3368045282179182
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C07",
+     "pose": [
+      0.7849527136264812,
+      0.1229582865092319,
+      1.627988831069132
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C08",
+     "pose": [
+      0.7453170612531002,
+      0.345475363391793,
+      1.8661544428133023
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C09",
+     "pose": [
+      0.6469988828887833,
+      0.5506287320574961,
+      2.1692462135466872
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C10",
+     "pose": [
+      0.4992033325466476,
+      0.7112161807199419,
+      2.460229187356026
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.23587839240399705,
+     "relative_angle_deg": 14.89427215573353,
+     "arc_length": 0.23654385995978278
+    },
+    {
+     "stage": 3,
+     "chord": 0.21411965067929004,
+     "relative_angle_deg": 14.978063308010523,
+     "arc_length": 0.21473056130730678
+    },
+    {
+     "stage": 4,
+     "chord": 0.24653887055580564,
+     "relative_angle_deg": 14.978617917323811,
+     "arc_length": 0.24724232954279962
+    },
+    {
+     "stage": 5,
+     "chord": 0.24064953027015132,
+     "relative_angle_deg": 17.361518320706892,
+     "arc_length": 0.24157267168451008
+    },
+    {
+     "stage": 6,
+     "chord": 0.21124904296014282,
+     "relative_angle_deg": 13.865617184967574,
+     "arc_length": 0.21176541057501344
+    },
+    {
+     "stage": 7,
+     "chord": 0.22789495275653435,
+     "relative_angle_deg": 16.683631613833732,
+     "arc_length": 0.22870206598349038
+    },
+    {
+     "stage": 8,
+     "chord": 0.22601954438371724,
+     "relative_angle_deg": 13.645884378092356,
+     "arc_length": 0.2265546159182698
+    },
+    {
+     "stage": 9,
+     "chord": 0.22749586561466015,
+     "relative_angle_deg": 17.365879268169717,
+     "arc_length": 0.22836898867669345
+    },
+    {
+     "stage": 10,
+     "chord": 0.21824722992250878,
+     "relative_angle_deg": 16.67209630944087,
+     "arc_length": 0.21901910362975982
+    }
+   ],
+   "reach_margin": 0.2262320617295076,
+   "route_arc_length": 2.0544996072776263,
+   "route_slack": 0.5255003927223738,
+   "initial_head": [
+    -0.18225676105762875,
+    -0.7803293984295432,
+    0.09592076087203072
+   ],
+   "initial_tail": [
+    -3.17060338490817,
+    -1.0443820250554918
+   ],
+   "cable_length": 3.0,
+   "cable_radius": 0.0025,
+   "initial_path": [
+    [
+     -0.18225676105762875,
+     -0.7803293984295432
+    ],
+    [
+     -0.4808777000604566,
+     -0.8090615196368153
+    ],
+    [
+     -3.17060338490817,
+     -1.0443820250554918
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.09206066751175326,
+     "lateral": -0.015083350292055549,
+     "angle_deg": 4.980686151529419
+    },
+    "initial_tail_bend_deg": 0.4958547656510227,
+    "initial_tail_clearance": 0.366,
+    "motif": "arc",
+    "motif_sign": -1,
+    "motif_level_deg": 15.632283130666593,
+    "motif_base_turn_deg": [
+     15.632283130666593,
+     15.632283130666593,
+     15.632283130666593,
+     15.632283130666593,
+     15.632283130666593,
+     15.632283130666593,
+     15.632283130666593,
+     15.632283130666593,
+     15.632283130666593
+    ],
+    "total_heading_change_deg": 140.445580456279
+   }
+  },
+  {
+   "scene_id": "arc-n10-0003",
+   "pool": "test",
+   "seed": 10703000,
+   "variant": {
+    "mirror": -1,
+    "reverse": true
+   },
+   "family": "arc",
+   "generator_version": "route-family-v4",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      0.8227438905471849,
+      0.5718705145141585,
+      -1.0024274264893798
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.9110670314670384,
+      0.3661435074194176,
+      -1.3281137038676576
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.9291018387605268,
+      0.1429616221067416,
+      -1.6522140216393888
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      0.8741991505658131,
+      -0.07808384553810477,
+      -1.976280400030321
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      0.7503603744412386,
+      -0.2690554064124266,
+      -2.3159059789473257
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C06",
+     "pose": [
+      0.5564250118275516,
+      -0.4187424301682333,
+      -2.652613995221113
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C07",
+     "pose": [
+      0.32290198056606756,
+      -0.49482353641484944,
+      -3.0006661082256736
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C08",
+     "pose": [
+      0.09751566495529085,
+      -0.4845699436954405,
+      2.909741974894871
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C09",
+     "pose": [
+      -0.09950680065587517,
+      -0.4021666907412249,
+      2.5811764232546546
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C10",
+     "pose": [
+      -0.2731747843799879,
+      -0.24630566460943024,
+      2.2391827502725627
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.2238851908235734,
+     "relative_angle_deg": -18.660449139102376,
+     "arc_length": 0.22487775438528787
+    },
+    {
+     "stage": 3,
+     "chord": 0.22390937498424163,
+     "relative_angle_deg": -18.569580347169026,
+     "arc_length": 0.22489237187657726
+    },
+    {
+     "stage": 4,
+     "chord": 0.22776172623453392,
+     "relative_angle_deg": -18.567635763889953,
+     "arc_length": 0.22876142549592945
+    },
+    {
+     "stage": 5,
+     "chord": 0.22760970878854728,
+     "relative_angle_deg": -19.45911228663165,
+     "arc_length": 0.22870730698884428
+    },
+    {
+     "stage": 6,
+     "chord": 0.24498393815304245,
+     "relative_angle_deg": -19.29194826071026,
+     "arc_length": 0.24614504258067224
+    },
+    {
+     "stage": 7,
+     "chord": 0.24560403265675612,
+     "relative_angle_deg": -19.941917125771706,
+     "arc_length": 0.2468481159814021
+    },
+    {
+     "stage": 8,
+     "chord": 0.22561943052019293,
+     "relative_angle_deg": -21.35856163718579,
+     "arc_length": 0.22693110816225046
+    },
+    {
+     "stage": 9,
+     "chord": 0.2135606425653836,
+     "relative_angle_deg": -18.825419402372102,
+     "arc_length": 0.2145243012430048
+    },
+    {
+     "stage": 10,
+     "chord": 0.23335215455970118,
+     "relative_angle_deg": -19.594794082051113,
+     "arc_length": 0.2344932455599197
+    }
+   ],
+   "reach_margin": 0.07728703827144381,
+   "route_arc_length": 2.076180672273888,
+   "route_slack": 0.503819327726112,
+   "initial_head": [
+    0.7513864867355011,
+    0.6505092897895142,
+    -1.0888418350407116
+   ],
+   "initial_tail": [
+    -0.7376670882725738,
+    3.254605085683429
+   ],
+   "cable_length": 3.0,
+   "cable_radius": 0.0025,
+   "initial_path": [
+    [
+     0.7513864867355011,
+     0.6505092897895142
+    ],
+    [
+     0.6123329117274257,
+     0.9163364954654447
+    ],
+    [
+     -0.7376670882725738,
+     3.254605085683429
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.08968389194292566,
+     "lateral": -0.017810637923259473,
+     "angle_deg": -4.951180899110533
+    },
+    "initial_tail_bend_deg": 2.3860417051125595,
+    "initial_tail_clearance": 0.362,
+    "motif": "arc",
+    "motif_sign": -1,
+    "motif_level_deg": 20.528598638989592,
+    "motif_base_turn_deg": [
+     -20.528598638989592,
+     -20.528598638989592,
+     -20.528598638989592,
+     -20.528598638989592,
+     -20.528598638989592,
+     -20.528598638989592,
+     -20.528598638989592,
+     -20.528598638989592,
+     -20.528598638989592
+    ],
+    "total_heading_change_deg": -174.26941804488396
+   }
+  },
+  {
+   "scene_id": "arc-n10-0016",
+   "pool": "test",
+   "seed": 10716000,
+   "variant": {
+    "mirror": 1,
+    "reverse": false
+   },
+   "family": "arc",
+   "generator_version": "route-family-v4",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      0.6246713898093342,
+      -0.6669259875996792,
+      0.7822977788860732
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.757620697224472,
+      -0.4874809287728184,
+      1.0840026826366405
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.8292079373495966,
+      -0.2803737047364063,
+      1.391995958296345
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      0.8374281764593379,
+      -0.0327915568791356,
+      1.6832169455770831
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      0.7793909222216572,
+      0.19819546083357875,
+      1.9506996657546338
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C06",
+     "pose": [
+      0.665929844388572,
+      0.39222934211568294,
+      2.2491527716324455
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C07",
+     "pose": [
+      0.5041634985285284,
+      0.5437387668410097,
+      2.528694564835389
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C08",
+     "pose": [
+      0.2992307980243351,
+      0.6459374441087532,
+      2.829286457084695
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C09",
+     "pose": [
+      0.08941558779051328,
+      0.6826147015440073,
+      3.1077812272042404
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C10",
+     "pose": [
+      -0.1370989395308786,
+      0.6561482100491715,
+      -2.875151316264141
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.22332945949771238,
+     "relative_angle_deg": 17.286417643308226,
+     "arc_length": 0.22417874510931224
+    },
+    {
+     "stage": 3,
+     "chord": 0.21913040682844734,
+     "relative_angle_deg": 17.646714813710418,
+     "arc_length": 0.21999892078103778
+    },
+    {
+     "stage": 4,
+     "chord": 0.2477185747348002,
+     "relative_angle_deg": 16.685733476819323,
+     "arc_length": 0.24859611695933978
+    },
+    {
+     "stage": 5,
+     "chord": 0.23816659134157125,
+     "relative_angle_deg": 15.325630958852441,
+     "arc_length": 0.23887808020469542
+    },
+    {
+     "stage": 6,
+     "chord": 0.22477224754947647,
+     "relative_angle_deg": 17.100103349369714,
+     "arc_length": 0.22560864583531354
+    },
+    {
+     "stage": 7,
+     "chord": 0.22163812044301112,
+     "relative_angle_deg": 16.0165649480475,
+     "arc_length": 0.22236141877165042
+    },
+    {
+     "stage": 8,
+     "chord": 0.22900214272189193,
+     "relative_angle_deg": 17.22264678173645,
+     "arc_length": 0.22986657022178728
+    },
+    {
+     "stage": 9,
+     "chord": 0.21299681607581544,
+     "relative_angle_deg": 15.956574944316012,
+     "arc_length": 0.21368670519330804
+    },
+    {
+     "stage": 10,
+     "chord": 0.22805548943114656,
+     "relative_angle_deg": 17.2032161477908,
+     "arc_length": 0.2289143970893209
+    }
+   ],
+   "reach_margin": 0.16627534310858172,
+   "route_arc_length": 2.0520896001657656,
+   "route_slack": 0.5279103998342345,
+   "initial_head": [
+    0.5794643998186463,
+    -0.7287057324781256,
+    0.7518866925461722
+   ],
+   "initial_tail": [
+    -1.5488443667669531,
+    -2.842799447068626
+   ],
+   "cable_length": 3.0,
+   "cable_radius": 0.0025,
+   "initial_path": [
+    [
+     0.5794643998186463,
+     -0.7287057324781256
+    ],
+    [
+     0.36034394243672563,
+     -0.9336111378649478
+    ],
+    [
+     -1.5488443667669531,
+     -2.842799447068626
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.06061434968921024,
+     "lateral": -0.011953197996432463,
+     "angle_deg": -1.74242689768427
+    },
+    "initial_tail_bend_deg": 1.920065845053848,
+    "initial_tail_clearance": 0.334,
+    "motif": "arc",
+    "motif_sign": 1,
+    "motif_level_deg": 16.70269175631235,
+    "motif_base_turn_deg": [
+     16.70269175631235,
+     16.70269175631235,
+     16.70269175631235,
+     16.70269175631235,
+     16.70269175631235,
+     16.70269175631235,
+     16.70269175631235,
+     16.70269175631235,
+     16.70269175631235
+    ],
+    "total_heading_change_deg": 150.4436030639509
+   }
+  },
+  {
+   "scene_id": "circle-n10-0001",
+   "pool": "test",
+   "seed": 11501002,
+   "variant": {
+    "mirror": -1,
+    "reverse": false
+   },
+   "family": "circle",
+   "generator_version": "route-family-v4",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      0.16575985635566257,
+      0.3294915804403275,
+      0.25338745212358527
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.4077016526421946,
+      0.3291290102593406,
+      -0.25638461850936567
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.594892297446937,
+      0.22209337286124844,
+      -0.7824677353546101
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      0.7179244996954733,
+      0.005624136837767579,
+      -1.325467031514819
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      0.7189996422580485,
+      -0.22717401256094766,
+      -1.806888994365524
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C06",
+     "pose": [
+      0.6179000145187269,
+      -0.4212394489663092,
+      -2.295247293877148
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C07",
+     "pose": [
+      0.42918898124904137,
+      -0.5507181072757039,
+      -2.7852369337179734
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C08",
+     "pose": [
+      0.18796773886050505,
+      -0.5790263351730929,
+      3.0188758800247317
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C09",
+     "pose": [
+      -0.031898306907427204,
+      -0.49200235032865597,
+      2.510540627868906
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C10",
+     "pose": [
+      -0.18467732531081218,
+      -0.3085416868636755,
+      2.019853702057981
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.2419420679573726,
+     "relative_angle_deg": -29.207788160912987,
+     "arc_length": 0.24458176484909283
+    },
+    {
+     "stage": 3,
+     "chord": 0.2156315495831514,
+     "relative_angle_deg": -30.142342268320252,
+     "arc_length": 0.21813839186141343
+    },
+    {
+     "stage": 4,
+     "chord": 0.24898966431302771,
+     "relative_angle_deg": -31.111567948554214,
+     "arc_length": 0.2520750997418722
+    },
+    {
+     "stage": 5,
+     "chord": 0.23280063207602422,
+     "relative_angle_deg": -27.583446636249306,
+     "arc_length": 0.2350640697033533
+    },
+    {
+     "stage": 6,
+     "chord": 0.21882076760726535,
+     "relative_angle_deg": -27.98086945220184,
+     "arc_length": 0.22101046419698103
+    },
+    {
+     "stage": 7,
+     "chord": 0.22885929527837262,
+     "relative_angle_deg": -28.07433836801454,
+     "arc_length": 0.23116487923702936
+    },
+    {
+     "stage": 8,
+     "chord": 0.24287660147935103,
+     "relative_angle_deg": -27.448831954742115,
+     "arc_length": 0.2452148570945165
+    },
+    {
+     "stage": 9,
+     "chord": 0.23646194624047073,
+     "relative_angle_deg": -29.1254645262473,
+     "arc_length": 0.23902721971370866
+    },
+    {
+     "stage": 10,
+     "chord": 0.2387451434130392,
+     "relative_angle_deg": -28.114289911214943,
+     "arc_length": 0.2411572184851257
+    }
+   ],
+   "reach_margin": 0.058821453582146854,
+   "route_arc_length": 2.127433964883093,
+   "route_slack": 0.4525660351169072,
+   "initial_head": [
+    0.06358710939727269,
+    0.2854905589806759,
+    0.3525419593765169
+   ],
+   "initial_tail": [
+    -2.755132380700319,
+    -0.7415491912985401
+   ],
+   "cable_length": 3.0,
+   "cable_radius": 0.0025,
+   "initial_path": [
+    [
+     0.06358710939727269,
+     0.2854905589806759
+    ],
+    [
+     -0.21796230457836596,
+     0.1819051956807654
+    ],
+    [
+     -2.755132380700319,
+     -0.7415491912985401
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.09494062994460062,
+     "lateral": -0.01698287366437955,
+     "angle_deg": 5.681134785292288
+    },
+    "initial_tail_bend_deg": 0.19916637354693414,
+    "initial_tail_clearance": 0.369,
+    "motif": "circle",
+    "motif_sign": 1,
+    "motif_level_deg": 29.129990189163976,
+    "motif_base_turn_deg": [
+     -29.12999018916398,
+     -29.12999018916398,
+     -29.12999018916398,
+     -29.12999018916398,
+     -29.12999018916398,
+     -29.12999018916398,
+     -29.12999018916398,
+     -29.12999018916398,
+     -29.12999018916398
+    ],
+    "total_heading_change_deg": -258.78893922645744
+   }
+  },
+  {
+   "scene_id": "circle-n10-0002",
+   "pool": "test",
+   "seed": 11502000,
+   "variant": {
+    "mirror": 1,
+    "reverse": true
+   },
+   "family": "circle",
+   "generator_version": "route-family-v4",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      0.4537199456336481,
+      -0.11509506276400111,
+      0.337453015936263
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.6398186235624352,
+      0.008332168299004655,
+      0.8337936793936409
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.7437156305190205,
+      0.2112788721461264,
+      1.3614874551724077
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      0.7348872096135388,
+      0.42298933714393117,
+      1.863457798969911
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      0.626729169170539,
+      0.6054910955743585,
+      2.3481167818081623
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C06",
+     "pose": [
+      0.4430731577653089,
+      0.711805362105344,
+      2.885582182979647
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C07",
+     "pose": [
+      0.20020346263207922,
+      0.7166710835802585,
+      -2.925645399921647
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C08",
+     "pose": [
+      -0.014119950195826153,
+      0.611204593836681,
+      -2.4429400769417553
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C09",
+     "pose": [
+      -0.15714406851510718,
+      0.4129146853142309,
+      -1.9483940816324345
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C10",
+     "pose": [
+      -0.18283259172942284,
+      0.18925358691779143,
+      -1.4219057683901468
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.22330920109731947,
+     "relative_angle_deg": 28.438225216830922,
+     "arc_length": 0.22561799266462249
+    },
+    {
+     "stage": 3,
+     "chord": 0.22799551016839795,
+     "relative_angle_deg": 30.23462622744612,
+     "arc_length": 0.23066247848480162
+    },
+    {
+     "stage": 4,
+     "chord": 0.2118944595907856,
+     "relative_angle_deg": 28.760782140327883,
+     "arc_length": 0.21413558277213743
+    },
+    {
+     "stage": 5,
+     "chord": 0.21214394533586775,
+     "relative_angle_deg": 27.768914219735194,
+     "arc_length": 0.21423456765869503
+    },
+    {
+     "stage": 6,
+     "chord": 0.21220804365833876,
+     "relative_angle_deg": 30.794499121431716,
+     "arc_length": 0.21478390933937594
+    },
+    {
+     "stage": 7,
+     "chord": 0.24291843087666154,
+     "relative_angle_deg": 27.04118570974513,
+     "arc_length": 0.24518769126651482
+    },
+    {
+     "stage": 8,
+     "chord": 0.23886754853900288,
+     "relative_angle_deg": 27.656977755247077,
+     "arc_length": 0.2412024559599177
+    },
+    {
+     "stage": 9,
+     "chord": 0.24448882641717867,
+     "relative_angle_deg": 28.335398306320688,
+     "arc_length": 0.2469982162488498
+    },
+    {
+     "stage": 10,
+     "chord": 0.22513148860351415,
+     "relative_angle_deg": 30.16555831174474,
+     "arc_length": 0.22775283931421908
+    }
+   ],
+   "reach_margin": 0.034445178430400465,
+   "route_arc_length": 2.060575733709134,
+   "route_slack": 0.5194242662908661,
+   "initial_head": [
+    0.3402168158095877,
+    -0.15053290534191366,
+    0.22689297890251447
+   ],
+   "initial_tail": [
+    -2.5600939227193797,
+    -0.9168296949104917
+   ],
+   "cable_length": 3.0,
+   "cable_radius": 0.0025,
+   "initial_path": [
+    [
+     0.3402168158095877,
+     -0.15053290534191366
+    ],
+    [
+     0.04790580826110469,
+     -0.21801827313368555
+    ],
+    [
+     -2.5600939227193797,
+     -0.9168296949104917
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.10383459816893857,
+     "lateral": 0.004139981215093534,
+     "angle_deg": -6.334623504843875
+    },
+    "initial_tail_bend_deg": 1.9999899077350998,
+    "initial_tail_clearance": 0.377,
+    "motif": "circle",
+    "motif_sign": -1,
+    "motif_level_deg": 28.961290898379076,
+    "motif_base_turn_deg": [
+     28.96129089837908,
+     28.96129089837908,
+     28.96129089837908,
+     28.96129089837908,
+     28.96129089837908,
+     28.96129089837908,
+     28.96129089837908,
+     28.96129089837908,
+     28.96129089837908
+    ],
+    "total_heading_change_deg": 259.1961670088295
+   }
+  },
+  {
+   "scene_id": "circle-n10-0003",
+   "pool": "test",
+   "seed": 11503000,
+   "variant": {
+    "mirror": -1,
+    "reverse": true
+   },
+   "family": "circle",
+   "generator_version": "route-family-v4",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      0.07368824376261685,
+      0.29242989974406725,
+      0.3057045702348482
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.3219501807951871,
+      0.3022398606354564,
+      -0.22671654631349014
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.5341318120856282,
+      0.18962275772698123,
+      -0.7491838184741137
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      0.6522998465001199,
+      -0.002620819373962191,
+      -1.290123206679251
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      0.651688436566868,
+      -0.22697795892286832,
+      -1.8569197608246801
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C06",
+     "pose": [
+      0.537210875499406,
+      -0.4078655635270227,
+      -2.4131440255607632
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C07",
+     "pose": [
+      0.31466105541450906,
+      -0.5204803334065443,
+      -2.9331364892382403
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C08",
+     "pose": [
+      0.10120590168026627,
+      -0.5068570147250151,
+      2.8056636597377187
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C09",
+     "pose": [
+      -0.08214973758254439,
+      -0.3810849562417197,
+      2.275059024361078
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C10",
+     "pose": [
+      -0.18597263499483085,
+      -0.15625812844821896,
+      1.7317647273515746
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.24845567957254364,
+     "relative_angle_deg": -30.5054829018627,
+     "arc_length": 0.25141472065328585
+    },
+    {
+     "stage": 3,
+     "chord": 0.24021585402418963,
+     "relative_angle_deg": -29.935169628516665,
+     "arc_length": 0.24296993996557048
+    },
+    {
+     "stage": 4,
+     "chord": 0.22565743350031892,
+     "relative_angle_deg": -30.993543916543185,
+     "arc_length": 0.22843238236466837
+    },
+    {
+     "stage": 5,
+     "chord": 0.22435797264343832,
+     "relative_angle_deg": -32.47505039509134,
+     "arc_length": 0.22738955589335347
+    },
+    {
+     "stage": 6,
+     "chord": 0.21406876812693482,
+     "relative_angle_deg": -31.86930283214495,
+     "arc_length": 0.216853447781203
+    },
+    {
+     "stage": 7,
+     "chord": 0.24942034563130097,
+     "relative_angle_deg": -29.793373547329196,
+     "arc_length": 0.25225272045218655
+    },
+    {
+     "stage": 8,
+     "chord": 0.21388945151083943,
+     "relative_angle_deg": -31.190971994629514,
+     "arc_length": 0.21655359585291054
+    },
+    {
+     "stage": 9,
+     "chord": 0.22234635401687938,
+     "relative_angle_deg": -30.401406197159435,
+     "arc_length": 0.22497625253494458
+    },
+    {
+     "stage": 10,
+     "chord": 0.24764146769628584,
+     "relative_angle_deg": -31.128470252171578,
+     "arc_length": 0.25071356069414397
+    }
+   ],
+   "reach_margin": 0.02748287875113145,
+   "route_arc_length": 2.1115561761922668,
+   "route_slack": 0.4684438238077333,
+   "initial_head": [
+    -0.042488695798528056,
+    0.27330131454765766,
+    0.18712020972375099
+   ],
+   "initial_tail": [
+    -2.9962328398523383,
+    -0.25135781000808965
+   ],
+   "cable_length": 3.0,
+   "cable_radius": 0.0025,
+   "initial_path": [
+    [
+     -0.042488695798528056,
+     0.27330131454765766
+    ],
+    [
+     -0.33725190671937666,
+     0.21749226969262261
+    ],
+    [
+     -2.9962328398523383,
+     -0.25135781000808965
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.10154744938012832,
+     "lateral": 0.016723519378307995,
+     "angle_deg": -6.7943833735437025
+    },
+    "initial_tail_bend_deg": 0.7211982787737962,
+    "initial_tail_clearance": 0.361,
+    "motif": "circle",
+    "motif_sign": -1,
+    "motif_level_deg": 31.535408793585344,
+    "motif_base_turn_deg": [
+     -31.535408793585347,
+     -31.535408793585347,
+     -31.535408793585347,
+     -31.535408793585347,
+     -31.535408793585347,
+     -31.535408793585347,
+     -31.535408793585347,
+     -31.535408793585347,
+     -31.535408793585347
+    ],
+    "total_heading_change_deg": -278.2927716654486
+   }
+  },
+  {
+   "scene_id": "circle-n10-0004",
+   "pool": "test",
+   "seed": 11504001,
+   "variant": {
+    "mirror": 1,
+    "reverse": false
+   },
+   "family": "circle",
+   "generator_version": "route-family-v4",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      0.39864619633178994,
+      0.13290194141853146,
+      -0.12560784771625366
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.6224599416680695,
+      0.03434998426387492,
+      -0.7039591625024855
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.754962567239496,
+      -0.16385812826599822,
+      -1.2590884666521975
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      0.7659756757497787,
+      -0.37876683323311805,
+      -1.7801027215976228
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      0.6595039222290469,
+      -0.5889450609908033,
+      -2.2992828941965944
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C06",
+     "pose": [
+      0.4588870686025941,
+      -0.7193769303241897,
+      -2.83093533031897
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C07",
+     "pose": [
+      0.22168715925946372,
+      -0.7260690305852833,
+      2.887346191185486
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C08",
+     "pose": [
+      0.03087019592193263,
+      -0.6192748392315688,
+      2.3753676806983997
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C09",
+     "pose": [
+      -0.08736235636573053,
+      -0.41022852007215643,
+      1.795678120406956
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C10",
+     "pose": [
+      -0.07568667153383146,
+      -0.19177095820990608,
+      1.2391241191265472
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.2445507735838639,
+     "relative_angle_deg": -33.13708941309321,
+     "arc_length": 0.2479926478167934
+    },
+    {
+     "stage": 3,
+     "chord": 0.23841854302041293,
+     "relative_angle_deg": -31.80656621181272,
+     "arc_length": 0.2415076637373786
+    },
+    {
+     "stage": 4,
+     "chord": 0.21519070618803177,
+     "relative_angle_deg": -29.85191787452595,
+     "arc_length": 0.21764406478604134
+    },
+    {
+     "stage": 5,
+     "chord": 0.23560798314390982,
+     "relative_angle_deg": -29.746832696794698,
+     "arc_length": 0.23827508859699853
+    },
+    {
+     "stage": 6,
+     "chord": 0.2392897709823367,
+     "relative_angle_deg": -30.461440757660725,
+     "arc_length": 0.24213135722938686
+    },
+    {
+     "stage": 7,
+     "chord": 0.23729429238457,
+     "relative_angle_deg": -32.366602750147734,
+     "arc_length": 0.24047909493640193
+    },
+    {
+     "stage": 8,
+     "chord": 0.21866895711154447,
+     "relative_angle_deg": -29.33420785230441,
+     "arc_length": 0.22107559045446698
+    },
+    {
+     "stage": 9,
+     "chord": 0.24016515145739586,
+     "relative_angle_deg": -33.2137652324942,
+     "arc_length": 0.24356111670458613
+    },
+    {
+     "stage": 10,
+     "chord": 0.21876934874678577,
+     "relative_angle_deg": -31.888195344486043,
+     "arc_length": 0.22161858095695336
+    }
+   ],
+   "reach_margin": 0.05616637131359625,
+   "route_arc_length": 2.1142852052190073,
+   "route_slack": 0.46571479478099276,
+   "initial_head": [
+    0.3186739796952384,
+    0.16672491468555803,
+    -0.25768038843071794
+   ],
+   "initial_tail": [
+    -2.579420862708868,
+    0.9419878003340001
+   ],
+   "cable_length": 3.0,
+   "cable_radius": 0.0025,
+   "initial_path": [
+    [
+     0.3186739796952384,
+     0.16672491468555803
+    ],
+    [
+     0.028578868271615765,
+     0.24317637855719337
+    ],
+    [
+     -2.579420862708868,
+     0.9419878003340001
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.0685794397782141,
+     "lateral": 0.023537761166801813,
+     "angle_deg": -7.567199172508543
+    },
+    "initial_tail_bend_deg": 0.23600127962818404,
+    "initial_tail_clearance": 0.344,
+    "motif": "circle",
+    "motif_sign": -1,
+    "motif_level_deg": 31.26110918393298,
+    "motif_base_turn_deg": [
+     -31.261109183932984,
+     -31.261109183932984,
+     -31.261109183932984,
+     -31.261109183932984,
+     -31.261109183932984,
+     -31.261109183932984,
+     -31.261109183932984,
+     -31.261109183932984,
+     -31.261109183932984
+    ],
+    "total_heading_change_deg": -281.8066181333197
+   }
+  },
+  {
+   "scene_id": "circle-n10-0005",
+   "pool": "test",
+   "seed": 11505003,
+   "variant": {
+    "mirror": -1,
+    "reverse": false
+   },
+   "family": "circle",
+   "generator_version": "route-family-v4",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      0.5127827343943624,
+      0.22066284886417342,
+      0.020141426936134632
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.7238115447885883,
+      0.16656337295540147,
+      -0.5220536436866556
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.8764826225914093,
+      0.01267166917974058,
+      -1.056705942811199
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      0.930766821517804,
+      -0.1917261003765084,
+      -1.56570933418854
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      0.8688235149489354,
+      -0.42340217679028047,
+      -2.0984017471443064
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C06",
+     "pose": [
+      0.6913630914163205,
+      -0.5968996682106233,
+      -2.636569791015333
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C07",
+     "pose": [
+      0.4823383854474854,
+      -0.650822705062149,
+      3.141509483456307
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C08",
+     "pose": [
+      0.2606866875787133,
+      -0.5932862553981457,
+      2.6337257369230134
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C09",
+     "pose": [
+      0.09951451033350356,
+      -0.44301953570191943,
+      2.1486673675815826
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C10",
+     "pose": [
+      0.028444420048150565,
+      -0.2268182568180524,
+      1.6281143226394423
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.21785295983760689,
+     "relative_angle_deg": -31.06548921948349,
+     "arc_length": 0.22054449508429724
+    },
+    {
+     "stage": 3,
+     "chord": 0.21677434001387427,
+     "relative_angle_deg": -30.633320246802366,
+     "arc_length": 0.21937793024571378
+    },
+    {
+     "stage": 4,
+     "chord": 0.2114833857603236,
+     "relative_angle_deg": -29.163746083767283,
+     "arc_length": 0.2137837585574198
+    },
+    {
+     "stage": 5,
+     "chord": 0.23981404798544392,
+     "relative_angle_deg": -30.52102704100539,
+     "arc_length": 0.24267310521819432
+    },
+    {
+     "stage": 6,
+     "chord": 0.24818054204455076,
+     "relative_angle_deg": -30.83475758262115,
+     "arc_length": 0.25120100509174575
+    },
+    {
+     "stage": 7,
+     "chord": 0.21586806528212768,
+     "relative_angle_deg": -28.94044388076223,
+     "arc_length": 0.21818004360438853
+    },
+    {
+     "stage": 8,
+     "chord": 0.22899763799665665,
+     "relative_angle_deg": -29.093865581698477,
+     "arc_length": 0.23147650602389783
+    },
+    {
+     "stage": 9,
+     "chord": 0.22035552583546789,
+     "relative_angle_deg": -27.791797380761867,
+     "arc_length": 0.2225306762413987
+    },
+    {
+     "stage": 10,
+     "chord": 0.22758284365080744,
+     "relative_angle_deg": -29.8254924878685,
+     "arc_length": 0.23017285512253313
+    }
+   ],
+   "reach_margin": 0.07859485264951965,
+   "route_arc_length": 2.049940375189589,
+   "route_slack": 0.530059624810411,
+   "initial_head": [
+    0.42095527833253965,
+    0.2259713229573662,
+    -1.5468128133022674e-05
+   ],
+   "initial_tail": [
+    -2.579044721631571,
+    0.22597596339580625
+   ],
+   "cable_length": 3.0,
+   "cable_radius": 0.0025,
+   "initial_path": [
+    [
+     0.42095527833253965,
+     0.2259713229573662
+    ],
+    [
+     0.12095527836842912,
+     0.22597596339580592
+    ],
+    [
+     -2.579044721631571,
+     0.22597596339580625
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.07670191753036792,
+     "lateral": 0.007156808313605052,
+     "angle_deg": -1.154905015270625
+    },
+    "initial_tail_bend_deg": 0.0008862584589897728,
+    "initial_tail_clearance": 0.35,
+    "motif": "circle",
+    "motif_sign": 1,
+    "motif_level_deg": 29.286583983397765,
+    "motif_base_turn_deg": [
+     -29.286583983397765,
+     -29.286583983397765,
+     -29.286583983397765,
+     -29.286583983397765,
+     -29.286583983397765,
+     -29.286583983397765,
+     -29.286583983397765,
+     -29.286583983397765,
+     -29.286583983397765
+    ],
+    "total_heading_change_deg": -267.8699395047708
+   }
+  },
+  {
+   "scene_id": "spiral-n10-0002",
+   "pool": "test",
+   "seed": 12302000,
+   "variant": {
+    "mirror": 1,
+    "reverse": true
+   },
+   "family": "spiral",
+   "generator_version": "route-family-v4",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      0.5041095552078457,
+      0.726866706665879,
+      0.32140069224006584
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.7228553699740216,
+      0.6973588285481592,
+      -0.5895733536466956
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.8375094167382561,
+      0.5166757680053784,
+      -1.4211320399149763
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      0.7894629176635727,
+      0.28371690396888605,
+      -2.127245960517352
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      0.6154983362215526,
+      0.14032019741120683,
+      -2.7771882971627146
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C06",
+     "pose": [
+      0.37079699877615635,
+      0.11887743940913797,
+      2.9519983364420073
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C07",
+     "pose": [
+      0.17800373553572849,
+      0.20653773883018156,
+      2.4776998826869887
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C08",
+     "pose": [
+      0.012735380192231,
+      0.39381038006026814,
+      2.110018332988563
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C09",
+     "pose": [
+      -0.08127391055567984,
+      0.6037236759707254,
+      1.8737004073628167
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C10",
+     "pose": [
+      -0.1361315470063663,
+      0.8358981928298221,
+      1.7319369415958583
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.22072708567080823,
+     "relative_angle_deg": -52.19496807526842,
+     "arc_length": 0.2285482691725721
+    },
+    {
+     "stage": 3,
+     "chord": 0.2139904642887656,
+     "relative_angle_deg": -47.64480314061581,
+     "arc_length": 0.22028263031388992
+    },
+    {
+     "stage": 4,
+     "chord": 0.23786193139404732,
+     "relative_angle_deg": -40.457347505951844,
+     "arc_length": 0.24287630075062053
+    },
+    {
+     "stage": 5,
+     "chord": 0.22544686967861496,
+     "relative_angle_deg": -37.23895281665021,
+     "arc_length": 0.2294644100605018
+    },
+    {
+     "stage": 6,
+     "chord": 0.2456390368371871,
+     "relative_angle_deg": -31.741785851685442,
+     "arc_length": 0.24880864355500387
+    },
+    {
+     "stage": 7,
+     "chord": 0.21178661535961127,
+     "relative_angle_deg": -27.175299629743417,
+     "arc_length": 0.21378485606339037
+    },
+    {
+     "stage": 8,
+     "chord": 0.2497692363587583,
+     "relative_angle_deg": -21.06660100254941,
+     "arc_length": 0.25118173015615913
+    },
+    {
+     "stage": 9,
+     "chord": 0.23000290986619373,
+     "relative_angle_deg": -13.540019761641751,
+     "arc_length": 0.23053898206519186
+    },
+    {
+     "stage": 10,
+     "chord": 0.2385673208042348,
+     "relative_angle_deg": -8.122448277594044,
+     "arc_length": 0.23876720708243998
+    }
+   ],
+   "reach_margin": 0.044369820332615134,
+   "route_arc_length": 2.1042530292197696,
+   "route_slack": 0.4757469707802304,
+   "initial_head": [
+    0.40876540028021546,
+    0.6789765574363933,
+    0.25281833567094436
+   ],
+   "initial_tail": [
+    -0.117018497295266,
+    3.293662134230063
+   ],
+   "cable_length": 3.0,
+   "cable_radius": 0.0025,
+   "initial_path": [
+    [
+     0.40876540028021546,
+     0.6789765574363933
+    ],
+    [
+     0.11830200812341124,
+     0.6039364493823496
+    ],
+    [
+     -0.117018497295266,
+     3.293662134230063
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.09059024915518794,
+     "lateral": -0.01531905856871459,
+     "angle_deg": -3.9294795804719853
+    },
+    "initial_tail_bend_deg": 99.48542361746685,
+    "initial_tail_clearance": 0.157,
+    "motif": "spiral",
+    "motif_sign": 1,
+    "motif_level_deg": 9.322491939017663,
+    "motif_end_level_deg": 52.4239954563649,
+    "motif_base_turn_deg": [
+     -52.423995456364906,
+     -47.036307516696496,
+     -41.6486195770281,
+     -36.26093163735969,
+     -30.873243697691283,
+     -25.48555575802288,
+     -20.097867818354473,
+     -14.710179878686068,
+     -9.322491939017663
+    ],
+    "total_heading_change_deg": -279.18222606170036
+   }
+  },
+  {
+   "scene_id": "spiral-n10-0003",
+   "pool": "test",
+   "seed": 12303000,
+   "variant": {
+    "mirror": -1,
+    "reverse": true
+   },
+   "family": "spiral",
+   "generator_version": "route-family-v4",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      0.2406987562857773,
+      -0.3013286511313228,
+      -2.0979660814751853
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.21969534913481736,
+      -0.5320549063441107,
+      -1.225189585588475
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.37218723213538596,
+      -0.6949725966343371,
+      -0.41169232329835825
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      0.6184423759575319,
+      -0.7062765375416823,
+      0.3199499850834311
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      0.8002216294106979,
+      -0.5794213070020896,
+      0.8986174022328548
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C06",
+     "pose": [
+      0.8907701317013632,
+      -0.3754942869765415,
+      1.40722879597298
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C07",
+     "pose": [
+      0.8801706707329966,
+      -0.15351712195826905,
+      1.8297918362672032
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C08",
+     "pose": [
+      0.79517223438725,
+      0.04279353634947519,
+      2.1290201417131804
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C09",
+     "pose": [
+      0.6658891391638178,
+      0.21114110910171918,
+      2.3223577842080942
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C10",
+     "pose": [
+      0.5024349304667519,
+      0.3664917946137066,
+      2.4408571325879356
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.23168027096942356,
+     "relative_angle_deg": 50.00640967252556,
+     "arc_length": 0.23920031563789237
+    },
+    {
+     "stage": 3,
+     "chord": 0.223150057563428,
+     "relative_angle_deg": 46.60995977467062,
+     "arc_length": 0.22942408884597223
+    },
+    {
+     "stage": 4,
+     "chord": 0.24651445178508816,
+     "relative_angle_deg": 41.92001638348558,
+     "arc_length": 0.25209982881435433
+    },
+    {
+     "stage": 5,
+     "chord": 0.22166629536590254,
+     "relative_angle_deg": 33.155200744398215,
+     "arc_length": 0.22478953202145904
+    },
+    {
+     "stage": 6,
+     "chord": 0.22312610955148865,
+     "relative_angle_deg": 29.141286273575705,
+     "arc_length": 0.22554935884964986
+    },
+    {
+     "stage": 7,
+     "chord": 0.22223008428736488,
+     "relative_angle_deg": 24.21107878707554,
+     "arc_length": 0.22389212323311933
+    },
+    {
+     "stage": 8,
+     "chord": 0.21392196882611622,
+     "relative_angle_deg": 17.144519012905963,
+     "arc_length": 0.2147221435981593
+    },
+    {
+     "stage": 9,
+     "chord": 0.21226168745707066,
+     "relative_angle_deg": 11.077430935967717,
+     "arc_length": 0.2125926408967059
+    },
+    {
+     "stage": 10,
+     "chord": 0.22550191535733877,
+     "relative_angle_deg": 6.789512537215318,
+     "arc_length": 0.22563390772439462
+    }
+   ],
+   "reach_margin": 0.0841911268148765,
+   "route_arc_length": 2.047903939621707,
+   "route_slack": 0.5320960603782932,
+   "initial_head": [
+    0.28519362900527534,
+    -0.1905078035402719,
+    -2.2259782192735
+   ],
+   "initial_tail": [
+    -1.6003353226044847,
+    1.7828998766629924
+   ],
+   "cable_length": 3.0,
+   "cable_radius": 0.0025,
+   "initial_path": [
+    [
+     0.28519362900527534,
+     -0.1905078035402719
+    ],
+    [
+     0.4679846738167557,
+     0.047373330509335676
+    ],
+    [
+     -1.6003353226044847,
+     1.7828998766629924
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.10316008553709477,
+     "lateral": -0.01729879027532586,
+     "angle_deg": -7.33455522229055
+    },
+    "initial_tail_bend_deg": 87.53915725241804,
+    "initial_tail_clearance": 0.215,
+    "motif": "spiral",
+    "motif_sign": 1,
+    "motif_level_deg": 6.301673318501836,
+    "motif_end_level_deg": 51.167274202391255,
+    "motif_base_turn_deg": [
+     51.16727420239126,
+     45.55907409190508,
+     39.9508739814189,
+     34.34267387093272,
+     28.73447376044655,
+     23.126273649960368,
+     17.51807353947419,
+     11.909873428988014,
+     6.301673318501836
+    ],
+    "total_heading_change_deg": 260.0554141218202
+   }
+  },
+  {
+   "scene_id": "spiral-n10-0000",
+   "pool": "test",
+   "seed": 12300000,
+   "variant": {
+    "mirror": 1,
+    "reverse": false
+   },
+   "family": "spiral",
+   "generator_version": "route-family-v4",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      -0.057609967458886205,
+      -0.5601048860812498,
+      -0.4061855340917706
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.15572469164260866,
+      -0.6364182992574426,
+      -0.28088037548493183
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.3655432588025287,
+      -0.671860025436068,
+      -0.05379257875377563
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      0.6103476507373548,
+      -0.6404372939870483,
+      0.3091135281687265
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      0.7992266176828664,
+      -0.5310543672063215,
+      0.7407313471451689
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C06",
+     "pose": [
+      0.9239197869571384,
+      -0.32589763902838575,
+      1.3085989394174424
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C07",
+     "pose": [
+      0.9136772783275493,
+      -0.09785670462847684,
+      1.9227638189530438
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C08",
+     "pose": [
+      0.7645585619516324,
+      0.07470478695664151,
+      2.6441303158583613
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C09",
+     "pose": [
+      0.5357235066705396,
+      0.09348103947461894,
+      -2.807866463742582
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C10",
+     "pose": [
+      0.3612851272403096,
+      -0.08508838705500854,
+      -1.8811187365140296
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.22657319745404872,
+     "relative_angle_deg": 7.179456739389244,
+     "arc_length": 0.22672149505245576
+    },
+    {
+     "stage": 3,
+     "chord": 0.2127908529038843,
+     "relative_angle_deg": 13.011172331619981,
+     "arc_length": 0.21324876585081698
+    },
+    {
+     "stage": 4,
+     "chord": 0.24681284075650753,
+     "relative_angle_deg": 20.792988286182762,
+     "arc_length": 0.24817245560644655
+    },
+    {
+     "stage": 5,
+     "chord": 0.21826563821527548,
+     "relative_angle_deg": 24.72987938999172,
+     "arc_length": 0.2199691212925172
+    },
+    {
+     "stage": 6,
+     "chord": 0.2400784654656424,
+     "relative_angle_deg": 32.53641635945712,
+     "arc_length": 0.24333485594469553
+    },
+    {
+     "stage": 7,
+     "chord": 0.22827084076817777,
+     "relative_angle_deg": 35.18905552255058,
+     "arc_length": 0.23189834937982173
+    },
+    {
+     "stage": 8,
+     "chord": 0.22806547294950635,
+     "relative_angle_deg": 41.33125575481166,
+     "arc_length": 0.233086498783684
+    },
+    {
+     "stage": 9,
+     "chord": 0.22960407266448837,
+     "relative_angle_deg": 47.62359460994948,
+     "arc_length": 0.2363492082803167
+    },
+    {
+     "stage": 10,
+     "chord": 0.2496313047463497,
+     "relative_angle_deg": 53.09873344353726,
+     "arc_length": 0.2587935430557688
+    }
+   ],
+   "reach_margin": 0.09395242293777684,
+   "route_arc_length": 2.111574293246523,
+   "route_slack": 0.46842570675347694,
+   "initial_head": [
+    -0.14016453432845863,
+    -0.5239313567248417,
+    -0.29142716514789013
+   ],
+   "initial_tail": [
+    -3.0355147049267526,
+    0.261075916758711
+   ],
+   "cable_length": 3.0,
+   "cable_radius": 0.0025,
+   "initial_path": [
+    [
+     -0.14016453432845863,
+     -0.5239313567248417
+    ],
+    [
+     -0.4275149739462686,
+     -0.43773550501809577
+    ],
+    [
+     -3.0355147049267526,
+     0.261075916758711
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.07512993871647683,
+     "lateral": 0.000612277784793315,
+     "angle_deg": 6.575170204289524
+    },
+    "initial_tail_bend_deg": 1.6975465984361338,
+    "initial_tail_clearance": 0.348,
+    "motif": "spiral",
+    "motif_sign": 1,
+    "motif_level_deg": 8.65314346155219,
+    "motif_end_level_deg": 53.79704092972092,
+    "motif_base_turn_deg": [
+     8.65314346155219,
+     14.296130645073282,
+     19.939117828594373,
+     25.582105012115463,
+     31.225092195636552,
+     36.86807937915765,
+     42.511066562678735,
+     48.15405374619983,
+     53.79704092972092
+    ],
+    "total_heading_change_deg": 275.49255243748985
+   }
+  },
+  {
+   "scene_id": "spiral-n10-0001",
+   "pool": "test",
+   "seed": 12301000,
+   "variant": {
+    "mirror": -1,
+    "reverse": false
+   },
+   "family": "spiral",
+   "generator_version": "route-family-v4",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      0.2202703620136946,
+      -0.4006687087370926,
+      0.47864908275889606
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.4288228127775001,
+      -0.26472918930031786,
+      0.6766639006819757
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.5748090350842794,
+      -0.10497329789200882,
+      0.9841453489818921
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      0.6733286774769236,
+      0.11569632213785452,
+      1.3176388798915761
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      0.6776943575346495,
+      0.339722290434572,
+      1.784983938347155
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C06",
+     "pose": [
+      0.5671909064515572,
+      0.5613280463479897,
+      2.2817408943023505
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C07",
+     "pose": [
+      0.36421831764436613,
+      0.6821995321395216,
+      2.927226676392185
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C08",
+     "pose": [
+      0.1407507785605201,
+      0.6506743894164013,
+      -2.646931177059253
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C09",
+     "pose": [
+      -0.007597072039680991,
+      0.47464878081464856,
+      -1.8952165071894456
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C10",
+     "pose": [
+      0.0172074299340777,
+      0.2339873935007436,
+      -1.0409653414376603
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.2489451298264153,
+     "relative_angle_deg": 11.345413348043913,
+     "arc_length": 0.24935230817080975
+    },
+    {
+     "stage": 3,
+     "chord": 0.21641146444462642,
+     "relative_angle_deg": 17.617389266155232,
+     "arc_length": 0.2172663456828883
+    },
+    {
+     "stage": 4,
+     "chord": 0.24166340463814284,
+     "relative_angle_deg": 19.10777181604056,
+     "arc_length": 0.24278693577668434
+    },
+    {
+     "stage": 5,
+     "chord": 0.2240685021006931,
+     "relative_angle_deg": 26.77689942579942,
+     "arc_length": 0.2261206970812273
+    },
+    {
+     "stage": 6,
+     "chord": 0.2476290042689479,
+     "relative_angle_deg": 28.462077019998823,
+     "arc_length": 0.250193565595542
+    },
+    {
+     "stage": 7,
+     "chord": 0.2362367200173283,
+     "relative_angle_deg": 36.98361104944866,
+     "arc_length": 0.24038829889508553
+    },
+    {
+     "stage": 8,
+     "chord": 0.22568025090358118,
+     "relative_angle_deg": 40.62428065753016,
+     "arc_length": 0.23047774381691294
+    },
+    {
+     "stage": 9,
+     "chord": 0.2302001295857955,
+     "relative_angle_deg": 43.070077981609955,
+     "arc_length": 0.23571082245583055
+    },
+    {
+     "stage": 10,
+     "chord": 0.2419362863689934,
+     "relative_angle_deg": 48.94498644170783,
+     "arc_length": 0.24945225471305013
+    }
+   ],
+   "reach_margin": 0.06487458560530637,
+   "route_arc_length": 2.1417489721880307,
+   "route_slack": 0.43825102781196934,
+   "initial_head": [
+    0.14242528927431258,
+    -0.42892985624952745,
+    0.31859595376429706
+   ],
+   "initial_tail": [
+    -2.6796476313367856,
+    -1.446354287402463
+   ],
+   "cable_length": 3.0,
+   "cable_radius": 0.0025,
+   "initial_path": [
+    [
+     0.14242528927431258,
+     -0.42892985624952745
+    ],
+    [
+     -0.14247755521483252,
+     -0.5228999004231575
+    ],
+    [
+     -2.6796476313367856,
+     -1.446354287402463
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.06711321639006854,
+     "lateral": 0.01076882085453467,
+     "angle_deg": -9.17036878925348
+    },
+    "initial_tail_bend_deg": 1.745796479360694,
+    "initial_tail_clearance": 0.341,
+    "motif": "spiral",
+    "motif_sign": -1,
+    "motif_level_deg": 11.687004183101244,
+    "motif_end_level_deg": 49.18618842586917,
+    "motif_base_turn_deg": [
+     11.687004183101246,
+     16.374402213447233,
+     21.061800243793225,
+     25.749198274139218,
+     30.436596304485207,
+     35.123994334831195,
+     39.811392365177184,
+     44.49879039552318,
+     49.18618842586917
+    ],
+    "total_heading_change_deg": 272.93250700633456
+   }
+  },
+  {
+   "scene_id": "spiral-n10-0010",
+   "pool": "test",
+   "seed": 12310001,
+   "variant": {
+    "mirror": 1,
+    "reverse": true
+   },
+   "family": "spiral",
+   "generator_version": "route-family-v4",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      0.2891364511212601,
+      -0.23576757477610938,
+      -2.9184048124976405
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.1235873874261384,
+      -0.37535216102695423,
+      -1.9637594878523519
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.13425640747477985,
+      -0.6106755909890007,
+      -1.0872198428321411
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      0.31425393984943695,
+      -0.7675073231187466,
+      -0.34624056877849796
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      0.537269119166806,
+      -0.7719640390759307,
+      0.306278061834413
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C06",
+     "pose": [
+      0.7238055305659532,
+      -0.6512525022166344,
+      0.8424185527579064
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C07",
+     "pose": [
+      0.8409317645868997,
+      -0.4371950515228359,
+      1.297835349837558
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C08",
+     "pose": [
+      0.866757299642413,
+      -0.20357426600001577,
+      1.6235619770272658
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C09",
+     "pose": [
+      0.8269277798999637,
+      0.019634617462948284,
+      1.871194747832214
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C10",
+     "pose": [
+      0.7500575525247587,
+      0.22373637142545055,
+      1.9907905075218624
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.21654179552490785,
+     "relative_angle_deg": 54.697148034071354,
+     "arc_length": 0.22498844195602286
+    },
+    {
+     "stage": 3,
+     "chord": 0.23556516015298293,
+     "relative_angle_deg": 50.222022235553446,
+     "arc_length": 0.2432788893194239
+    },
+    {
+     "stage": 4,
+     "chord": 0.23873689254864255,
+     "relative_angle_deg": 42.45498510994134,
+     "arc_length": 0.24428724505917407
+    },
+    {
+     "stage": 5,
+     "chord": 0.22305970618442336,
+     "relative_angle_deg": 37.386563587775754,
+     "arc_length": 0.2270666779058259
+    },
+    {
+     "stage": 6,
+     "chord": 0.2221871011301177,
+     "relative_angle_deg": 30.718587355988195,
+     "arc_length": 0.2248707041013177
+    },
+    {
+     "stage": 7,
+     "chord": 0.24400644846695654,
+     "relative_angle_deg": 26.093460392029876,
+     "arc_length": 0.24612794226378834
+    },
+    {
+     "stage": 8,
+     "chord": 0.23504388885738567,
+     "relative_angle_deg": 18.662761013001457,
+     "arc_length": 0.23608618195593345
+    },
+    {
+     "stage": 9,
+     "chord": 0.22673463850875814,
+     "relative_angle_deg": 14.18831263625396,
+     "arc_length": 0.22731500213780545
+    },
+    {
+     "stage": 10,
+     "chord": 0.21809758785297356,
+     "relative_angle_deg": 6.852332277877674,
+     "arc_length": 0.21822762049649497
+    }
+   ],
+   "reach_margin": 0.06708997095780203,
+   "route_arc_length": 2.0922487051957868,
+   "route_slack": 0.4877512948042133,
+   "initial_head": [
+    0.3740565855586906,
+    -0.19442088053592002,
+    -3.077964535440752
+   ],
+   "initial_tail": [
+    0.2045994301006437,
+    2.4836356106079074
+   ],
+   "cable_length": 3.0,
+   "cable_radius": 0.0025,
+   "initial_path": [
+    [
+     0.3740565855586906,
+     -0.19442088053592002
+    ],
+    [
+     0.6734495098013555,
+     -0.1753453225250545
+    ],
+    [
+     0.2045994301006437,
+     2.4836356106079074
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.07696550149454054,
+     "lateral": -0.021524982980728274,
+     "angle_deg": -9.142098704917007
+    },
+    "initial_tail_bend_deg": 96.35437737170017,
+    "initial_tail_clearance": 0.103,
+    "motif": "spiral",
+    "motif_sign": -1,
+    "motif_level_deg": 6.131775971974743,
+    "motif_end_level_deg": 54.78613726736899,
+    "motif_base_turn_deg": [
+     54.78613726736899,
+     48.70434210544471,
+     42.622546943520426,
+     36.54075178159615,
+     30.458956619671874,
+     24.377161457747587,
+     18.295366295823307,
+     12.213571133899023,
+     6.131775971974743
+    ],
+    "total_heading_change_deg": 281.27617264249307
+   }
+  },
+  {
+   "scene_id": "serpentine-n10-0007",
+   "pool": "test",
+   "seed": 13107000,
+   "variant": {
+    "mirror": -1,
+    "reverse": true
+   },
+   "family": "serpentine",
+   "generator_version": "route-family-v4",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      0.7351905213389913,
+      0.7194734952974899,
+      -0.7020847699356487
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.8397546026861616,
+      0.5298480366916702,
+      -1.431635788075086
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.7926300678789976,
+      0.32185503776404545,
+      -2.155569425829137
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      0.7056993422067643,
+      0.11204137462305042,
+      -1.771609013668069
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      0.6992943333061151,
+      -0.11916684656229604,
+      -1.4253741548311423
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C06",
+     "pose": [
+      0.6453546347849283,
+      -0.3438989057639962,
+      -2.187342155533889
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C07",
+     "pose": [
+      0.44958117173352763,
+      -0.4701587721754239,
+      -2.9502397868672574
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C08",
+     "pose": [
+      0.25104776369191917,
+      -0.5485014499284757,
+      -2.5812482530077494
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C09",
+     "pose": [
+      0.06967918063160736,
+      -0.7171130606366622,
+      -2.2040095768621812
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C10",
+     "pose": [
+      -0.12773955618741298,
+      -0.8434878153694789,
+      -2.940357013907435
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.21654436418305856,
+     "relative_angle_deg": -41.80019427886192,
+     "arc_length": 0.22142224862932852
+    },
+    {
+     "stage": 3,
+     "chord": 0.21326464635212874,
+     "relative_angle_deg": -41.47834209085972,
+     "arc_length": 0.2179938165205058
+    },
+    {
+     "stage": 4,
+     "chord": 0.22710949849476575,
+     "relative_angle_deg": 21.999311116932766,
+     "arc_length": 0.22851059365734996
+    },
+    {
+     "stage": 5,
+     "chord": 0.23129692104027127,
+     "relative_angle_deg": 19.837796131663744,
+     "arc_length": 0.23245628776476893
+    },
+    {
+     "stage": 6,
+     "chord": 0.23111466744798562,
+     "relative_angle_deg": -43.657550564288734,
+     "arc_length": 0.23680181964658625
+    },
+    {
+     "stage": 7,
+     "chord": 0.23295665412554695,
+     "relative_angle_deg": -43.71081447592944,
+     "arc_length": 0.23870337011892323
+    },
+    {
+     "stage": 8,
+     "chord": 0.21343169695744427,
+     "relative_angle_deg": 21.14165756620842,
+     "arc_length": 0.214647345160949
+    },
+    {
+     "stage": 9,
+     "chord": 0.24763771559864273,
+     "relative_angle_deg": 21.61418401224354,
+     "arc_length": 0.24911221166069644
+    },
+    {
+     "stage": 10,
+     "chord": 0.23440293573459609,
+     "relative_angle_deg": -42.18960039796812,
+     "arc_length": 0.23978352337139264
+    }
+   ],
+   "reach_margin": 0.03516041924959179,
+   "route_arc_length": 2.0794312165305007,
+   "route_slack": 0.5005687834694994,
+   "initial_head": [
+    0.6631475021514766,
+    0.7936910886298534,
+    -0.6586466942382545
+   ],
+   "initial_tail": [
+    -1.6424188669904565,
+    2.7128317917291938
+   ],
+   "cable_length": 3.0,
+   "cable_radius": 0.0025,
+   "initial_path": [
+    [
+     0.6631475021514766,
+     0.7936910886298534
+    ],
+    [
+     0.42590112943078384,
+     0.9773052455755371
+    ],
+    [
+     -1.6424188669904565,
+     2.7128317917291938
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.08793518741393686,
+     "lateral": 0.010138785221041051,
+     "angle_deg": 2.4888184076304736
+    },
+    "initial_tail_bend_deg": 2.262324229904426,
+    "initial_tail_clearance": 0.361,
+    "motif": "serpentine",
+    "motif_sign": -1,
+    "motif_level_deg": 31.949739858700276,
+    "motif_half_period": 2,
+    "motif_phase": 1,
+    "motif_bias_deg": 11.520951367046525,
+    "motif_base_turn_deg": [
+     -43.470691225746805,
+     -43.470691225746805,
+     20.42878849165375,
+     20.42878849165375,
+     -43.470691225746805,
+     -43.470691225746805,
+     20.42878849165375,
+     20.42878849165375,
+     -43.470691225746805
+    ],
+    "total_heading_change_deg": -128.24355298085948
+   }
+  },
+  {
+   "scene_id": "serpentine-n10-0000",
+   "pool": "test",
+   "seed": 13100000,
+   "variant": {
+    "mirror": 1,
+    "reverse": false
+   },
+   "family": "serpentine",
+   "generator_version": "route-family-v4",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      0.5714565574978954,
+      -0.7117139415509256,
+      1.6299536274812194
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.5838074849088982,
+      -0.5015294041242786,
+      1.3942494122864613
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.6457624936675332,
+      -0.29174406803021224,
+      1.1730172789895619
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      0.6686390923931291,
+      -0.05501804249692266,
+      1.775898783488576
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      0.5479173868331215,
+      0.152734718011865,
+      2.4184822465036095
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C06",
+     "pose": [
+      0.38768419798995013,
+      0.33968753547676334,
+      2.1402884312343895
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C07",
+     "pose": [
+      0.2855982850130979,
+      0.5568967686140426,
+      1.8800076960745002
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C08",
+     "pose": [
+      0.16320811043711703,
+      0.7310078729400763,
+      2.4869817053469747
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C09",
+     "pose": [
+      -0.04833156836081176,
+      0.8082622620054204,
+      3.0959001184156723
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C10",
+     "pose": [
+      -0.2580766858294269,
+      0.8421624478754569,
+      2.866805373681159
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.21054710917313835,
+     "relative_angle_deg": -13.504856744102971,
+     "arc_length": 0.211035285741461
+    },
+    {
+     "stage": 3,
+     "chord": 0.21874256638885564,
+     "relative_angle_deg": -12.675667530587985,
+     "arc_length": 0.2191892898885333
+    },
+    {
+     "stage": 4,
+     "chord": 0.23782882485947665,
+     "relative_angle_deg": 34.54256575429086,
+     "arc_length": 0.2414691568357189
+    },
+    {
+     "stage": 5,
+     "chord": 0.24028095990389844,
+     "relative_angle_deg": 36.81732041566225,
+     "arc_length": 0.2444652631834411
+    },
+    {
+     "stage": 6,
+     "chord": 0.24622353820241277,
+     "relative_angle_deg": -15.939331501568386,
+     "arc_length": 0.24701932087378137
+    },
+    {
+     "stage": 7,
+     "chord": 0.24000288454183707,
+     "relative_angle_deg": -14.912987613223988,
+     "arc_length": 0.24068169431849992
+    },
+    {
+     "stage": 8,
+     "chord": 0.2128239448050197,
+     "relative_angle_deg": 34.77704900544728,
+     "arc_length": 0.21612639686323917
+    },
+    {
+     "stage": 9,
+     "chord": 0.22520496516682406,
+     "relative_angle_deg": 34.88845513664008,
+     "arc_length": 0.2287222069855061
+    },
+    {
+     "stage": 10,
+     "chord": 0.21246702545088303,
+     "relative_angle_deg": -13.126161981914539,
+     "arc_length": 0.212932371227851
+    }
+   ],
+   "reach_margin": 0.07765969502013426,
+   "route_arc_length": 2.061640985918032,
+   "route_slack": 0.5183590140819683,
+   "initial_head": [
+    0.6005793930985255,
+    -0.8162365005850325,
+    1.7152625091866316
+   ],
+   "initial_tail": [
+    1.1126187308408981,
+    -3.772092302963963
+   ],
+   "cable_length": 3.0,
+   "cable_radius": 0.0025,
+   "initial_path": [
+    [
+     0.6005793930985255,
+     -0.8162365005850325
+    ],
+    [
+     0.6437686511401872,
+     -1.113111369831001
+    ],
+    [
+     1.1126187308408981,
+     -3.772092302963963
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.09106154316534738,
+     "lateral": -0.022892224921244528,
+     "angle_deg": 4.887838876700922
+    },
+    "initial_tail_bend_deg": 1.7226974665864023,
+    "initial_tail_clearance": 0.366,
+    "motif": "serpentine",
+    "motif_sign": -1,
+    "motif_level_deg": 24.926578541731324,
+    "motif_half_period": 2,
+    "motif_phase": 0,
+    "motif_bias_deg": -10.667361527412151,
+    "motif_base_turn_deg": [
+     -14.259217014319173,
+     -14.259217014319173,
+     35.59394006914347,
+     35.59394006914347,
+     -14.259217014319173,
+     -14.259217014319173,
+     35.59394006914347,
+     35.59394006914347,
+     -14.259217014319173
+    ],
+    "total_heading_change_deg": 70.8663849406426
+   }
+  },
+  {
+   "scene_id": "serpentine-n10-0005",
+   "pool": "test",
+   "seed": 13105001,
+   "variant": {
+    "mirror": -1,
+    "reverse": false
+   },
+   "family": "serpentine",
+   "generator_version": "route-family-v4",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      0.45779535818564654,
+      -0.6901348401373495,
+      1.0451545341919282
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.5888759304904916,
+      -0.5091337037609496,
+      0.8428741505961499
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.6821731796995093,
+      -0.2876694294848582,
+      1.501296743185014
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      0.6224189302382962,
+      -0.05301204224568756,
+      2.1389865171935654
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      0.517328858873737,
+      0.15821484446127088,
+      1.9259329919023553
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C06",
+     "pose": [
+      0.46725376298387017,
+      0.36244456423606786,
+      1.6965527742884765
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C07",
+     "pose": [
+      0.3707826883192826,
+      0.5651579140906273,
+      2.333403000759107
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C08",
+     "pose": [
+      0.1777290082338588,
+      0.6662697695636499,
+      2.984849212033555
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C09",
+     "pose": [
+      -0.03434941994177804,
+      0.7283262489766966,
+      2.729007737007633
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C10",
+     "pose": [
+      -0.21896126888109846,
+      0.838811973279443,
+      2.475581545003031
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.2234804864083525,
+     "relative_angle_deg": -11.589812258325425,
+     "arc_length": 0.22386195119160973
+    },
+    {
+     "stage": 3,
+     "chord": 0.24031396441032174,
+     "relative_angle_deg": 37.724835691403584,
+     "arc_length": 0.24471036054925682
+    },
+    {
+     "stage": 4,
+     "chord": 0.24214594713640566,
+     "relative_angle_deg": 36.536932689341256,
+     "arc_length": 0.24629797903902453
+    },
+    {
+     "stage": 5,
+     "chord": 0.23592524402302184,
+     "relative_angle_deg": -12.207067809570077,
+     "arc_length": 0.23637204684001176
+    },
+    {
+     "stage": 6,
+     "chord": 0.21027908518840255,
+     "relative_angle_deg": -13.142518373067643,
+     "arc_length": 0.21074078919696315
+    },
+    {
+     "stage": 7,
+     "chord": 0.22449804109657048,
+     "relative_angle_deg": 36.488830158717796,
+     "arc_length": 0.2283372174134914
+    },
+    {
+     "stage": 8,
+     "chord": 0.21792964624328326,
+     "relative_angle_deg": 37.3251184858136,
+     "arc_length": 0.22183144500011637
+    },
+    {
+     "stage": 9,
+     "chord": 0.22097118892423656,
+     "relative_angle_deg": -14.65863674338698,
+     "arc_length": 0.2215749930312185
+    },
+    {
+     "stage": 10,
+     "chord": 0.2151479259567634,
+     "relative_angle_deg": -14.520251219935725,
+     "arc_length": 0.2157247496154656
+    }
+   ],
+   "reach_margin": 0.1950156987944861,
+   "route_arc_length": 2.049451531877158,
+   "route_slack": 0.5305484681228423,
+   "initial_head": [
+    0.39380955936586637,
+    -0.7526912363066547,
+    1.094397349400972
+   ],
+   "initial_tail": [
+    -0.8848343772290751,
+    -3.466317874940266
+   ],
+   "cable_length": 3.0,
+   "cable_radius": 0.0025,
+   "initial_path": [
+    [
+     0.39380955936586637,
+     -0.7526912363066547
+    ],
+    [
+     0.2562349294708127,
+     -1.019286849941311
+    ],
+    [
+     -0.8848343772290751,
+     -3.466317874940266
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.07121745627699907,
+     "lateral": 0.023959035569492297,
+     "angle_deg": 2.821405482820838
+    },
+    "initial_tail_bend_deg": 2.2956507690202708,
+    "initial_tail_clearance": 0.344,
+    "motif": "serpentine",
+    "motif_sign": 1,
+    "motif_level_deg": 24.736064959015913,
+    "motif_half_period": 2,
+    "motif_phase": 1,
+    "motif_bias_deg": -11.847635732246356,
+    "motif_base_turn_deg": [
+     -12.888429226769556,
+     36.583700691262266,
+     36.583700691262266,
+     -12.888429226769556,
+     -12.888429226769556,
+     36.583700691262266,
+     36.583700691262266,
+     -12.888429226769556,
+     -12.888429226769556
+    ],
+    "total_heading_change_deg": 81.95743062099038
+   }
+  },
+  {
+   "scene_id": "serpentine-n10-0010",
+   "pool": "test",
+   "seed": 13110000,
+   "variant": {
+    "mirror": 1,
+    "reverse": true
+   },
+   "family": "serpentine",
+   "generator_version": "route-family-v4",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      0.7194527932097987,
+      0.7279143012877731,
+      -1.0287566308840113
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.7722034221080272,
+      0.503415444617747,
+      -1.6512678431540309
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.6806608369559211,
+      0.28188864635537914,
+      -2.2740515669092662
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      0.5533722778202395,
+      0.07578177800954022,
+      -1.9740402345101238
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      0.49450560609674793,
+      -0.1543002911815865,
+      -1.6685076848887181
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C06",
+     "pose": [
+      0.5049518124789751,
+      -0.37323679792710523,
+      -1.3777304736679525
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C07",
+     "pose": [
+      0.4694121407426059,
+      -0.6143808865931202,
+      -2.0565142522157727
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C08",
+     "pose": [
+      0.31136964081591395,
+      -0.7626753871902094,
+      -2.7194955841550925
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C09",
+     "pose": [
+      0.06675135727425682,
+      -0.7820597914193173,
+      2.877652048701033
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C10",
+     "pose": [
+      -0.1427576640140395,
+      -0.755275300600782,
+      -3.1319607389854074
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.2306130210879419,
+     "relative_angle_deg": -35.66726516264463,
+     "arc_length": 0.23437917593000193
+    },
+    {
+     "stage": 3,
+     "chord": 0.23969598921280771,
+     "relative_angle_deg": -35.68287892061634,
+     "arc_length": 0.2436139456557871
+    },
+    {
+     "stage": 4,
+     "chord": 0.24224454269635648,
+     "relative_angle_deg": 17.189383152567316,
+     "arc_length": 0.2431554189897893
+    },
+    {
+     "stage": 5,
+     "chord": 0.2374932495947448,
+     "relative_angle_deg": 17.505725597177943,
+     "arc_length": 0.23841952206705433
+    },
+    {
+     "stage": 6,
+     "chord": 0.2191855771115213,
+     "relative_angle_deg": 16.660306981533953,
+     "arc_length": 0.2199596708229105
+    },
+    {
+     "stage": 7,
+     "chord": 0.24374892772213738,
+     "relative_angle_deg": -38.8914457127328,
+     "arc_length": 0.2484920305553148
+    },
+    {
+     "stage": 8,
+     "chord": 0.21672261231910836,
+     "relative_angle_deg": -37.986032216084915,
+     "arc_length": 0.22074322543522082
+    },
+    {
+     "stage": 9,
+     "chord": 0.24538512540531876,
+     "relative_angle_deg": -39.307063325704846,
+     "arc_length": 0.2502640923881516
+    },
+    {
+     "stage": 10,
+     "chord": 0.21121420158121,
+     "relative_angle_deg": 15.674550757717707,
+     "arc_length": 0.2118742954028412
+    }
+   ],
+   "reach_margin": 0.02607692132959505,
+   "route_arc_length": 2.1109013772470715,
+   "route_slack": 0.4690986227529286,
+   "initial_head": [
+    0.6774708604559139,
+    0.825514691907826,
+    -0.8557955140055395
+   ],
+   "initial_tail": [
+    -1.2547410948263447,
+    3.1203625008288003
+   ],
+   "cable_length": 3.0,
+   "cable_radius": 0.0025,
+   "initial_path": [
+    [
+     0.6774708604559139,
+     0.825514691907826
+    ],
+    [
+     0.48078545132731176,
+     1.0520425044075594
+    ],
+    [
+     -1.2547410948263447,
+     3.1203625008288003
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.09026800018477547,
+     "lateral": 0.014386349920557824,
+     "angle_deg": 9.90994201700537
+    },
+    "initial_tail_bend_deg": 0.9665289212536452,
+    "initial_tail_clearance": 0.361,
+    "motif": "serpentine",
+    "motif_sign": -1,
+    "motif_level_deg": 26.76980721306333,
+    "motif_half_period": 3,
+    "motif_phase": 2,
+    "motif_bias_deg": -10.697540450514706,
+    "motif_base_turn_deg": [
+     -37.46734766357804,
+     -37.46734766357804,
+     16.072266762548622,
+     16.072266762548622,
+     16.072266762548622,
+     -37.46734766357804,
+     -37.46734766357804,
+     -37.46734766357804,
+     16.072266762548622
+    ],
+    "total_heading_change_deg": -120.50471884878661
+   }
+  },
+  {
+   "scene_id": "serpentine-n10-0023",
+   "pool": "test",
+   "seed": 13123001,
+   "variant": {
+    "mirror": -1,
+    "reverse": true
+   },
+   "family": "serpentine",
+   "generator_version": "route-family-v4",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      0.813888421670121,
+      0.6454555799760568,
+      -0.8136890905823284
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.8994690301247905,
+      0.4412616374884588,
+      -1.5341537764671234
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.8189783137267268,
+      0.2190820101583384,
+      -2.3025797990698074
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      0.6925637607164417,
+      0.01586453877331162,
+      -1.9519853365205986
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      0.6450090914359083,
+      -0.20861426627556778,
+      -1.6071241669441143
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C06",
+     "pose": [
+      0.5556312978079514,
+      -0.4064976606661119,
+      -2.3829504776957426
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C07",
+     "pose": [
+      0.3387486618833811,
+      -0.490299271695702,
+      3.1203908037272132
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C08",
+     "pose": [
+      0.12007630725337115,
+      -0.5259213858219693,
+      -2.7974241725610094
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C09",
+     "pose": [
+      -0.0803157389423286,
+      -0.637508109615341,
+      -2.469599002210458
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C10",
+     "pose": [
+      -0.31139738028768743,
+      -0.7078705844921849,
+      3.0607442818147454
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.22140281545657894,
+     "relative_angle_deg": -41.279585789417325,
+     "arc_length": 0.22626479177645695
+    },
+    {
+     "stage": 3,
+     "chord": 0.23631026686715226,
+     "relative_angle_deg": -44.0275679631582,
+     "arc_length": 0.24222598586955216
+    },
+    {
+     "stage": 4,
+     "chord": 0.23932818448505885,
+     "relative_angle_deg": 20.087583024727063,
+     "arc_length": 0.2405583171224454
+    },
+    {
+     "stage": 5,
+     "chord": 0.2294606294913219,
+     "relative_angle_deg": 19.759089534677937,
+     "arc_length": 0.23060165174280414
+    },
+    {
+     "stage": 6,
+     "chord": 0.2171318211808792,
+     "relative_angle_deg": -44.45157324127339,
+     "arc_length": 0.22267450519416165
+    },
+    {
+     "stage": 7,
+     "chord": 0.23250975845487523,
+     "relative_angle_deg": -44.68177135434644,
+     "arc_length": 0.238507733269951
+    },
+    {
+     "stage": 8,
+     "chord": 0.22155480968432542,
+     "relative_angle_deg": 20.9341779193735,
+     "arc_length": 0.22279198184541882
+    },
+    {
+     "stage": 9,
+     "chord": 0.22936557960042234,
+     "relative_angle_deg": 18.782998679243835,
+     "arc_length": 0.23039588179767356
+    },
+    {
+     "stage": 10,
+     "chord": 0.24155662449549906,
+     "relative_angle_deg": -43.13467056683633,
+     "arc_length": 0.24735682525512842
+    }
+   ],
+   "reach_margin": 0.02674757665799099,
+   "route_arc_length": 2.1013776738735923,
+   "route_slack": 0.47862232612640776,
+   "initial_head": [
+    0.7506042216538383,
+    0.7352969417605155,
+    -0.8085202138059899
+   ],
+   "initial_tail": [
+    -1.3657549278902406,
+    2.861465072405388
+   ],
+   "cable_length": 3.0,
+   "cable_radius": 0.0025,
+   "initial_path": [
+    [
+     0.7506042216538383,
+     0.7352969417605155
+    ],
+    [
+     0.5434333813134379,
+     0.9522767632017092
+    ],
+    [
+     -1.3657549278902406,
+     2.861465072405388
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.09376399253605144,
+     "lateral": 0.015708411332932347,
+     "angle_deg": 0.2961548241073793
+    },
+    "initial_tail_bend_deg": 1.3247959020981774,
+    "initial_tail_clearance": 0.367,
+    "motif": "serpentine",
+    "motif_sign": -1,
+    "motif_level_deg": 31.76873762597482,
+    "motif_half_period": 2,
+    "motif_phase": 1,
+    "motif_bias_deg": 11.033437369957067,
+    "motif_base_turn_deg": [
+     -42.802174995931885,
+     -42.802174995931885,
+     20.73530025601775,
+     20.73530025601775,
+     -42.802174995931885,
+     -42.802174995931885,
+     20.73530025601775,
+     20.73530025601775,
+     -42.802174995931885
+    ],
+    "total_heading_change_deg": -138.01131975700932
+   }
+  },
+  {
+   "scene_id": "zigzag-n10-0004",
+   "pool": "test",
+   "seed": 13904000,
+   "variant": {
+    "mirror": 1,
+    "reverse": false
+   },
+   "family": "zigzag",
+   "generator_version": "route-family-v4",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      0.6005336174790452,
+      -0.7286558580753707,
+      2.206142181517947
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.5857094578126144,
+      -0.49291148506331595,
+      1.0610497941175172
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.687359649445969,
+      -0.28367748336485754,
+      1.176063074938483
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      0.6254288685493786,
+      -0.048238018957281414,
+      2.4799627143843157
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      0.4444414104688664,
+      0.07888797179302309,
+      2.5785498571365615
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C06",
+     "pose": [
+      0.3490682544120538,
+      0.2769844244896923,
+      1.4604352467160826
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C07",
+     "pose": [
+      0.36282806460379197,
+      0.5233888310738758,
+      1.5695885080281275
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C08",
+     "pose": [
+      0.21076500148667182,
+      0.7128451581825982,
+      2.924687509633392
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C09",
+     "pose": [
+      -0.014130125093884005,
+      0.7514422849250707,
+      3.0185639342816293
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C10",
+     "pose": [
+      -0.18344836795815345,
+      0.888781693060135,
+      1.9016376669875221
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.23621000215203133,
+     "relative_angle_deg": -65.60896095060409,
+     "arc_length": 0.24962650956020876
+    },
+    {
+     "stage": 3,
+     "chord": 0.23261906397767185,
+     "relative_angle_deg": 6.589775578994279,
+     "arc_length": 0.23274732586651942
+    },
+    {
+     "stage": 4,
+     "chord": 0.2434484812501154,
+     "relative_angle_deg": 74.70794624887597,
+     "arc_length": 0.2615895674813063
+    },
+    {
+     "stage": 5,
+     "chord": 0.22117295835316683,
+     "relative_angle_deg": 5.648627193957446,
+     "arc_length": 0.22126255349777507
+    },
+    {
+     "stage": 6,
+     "chord": 0.21985959944301006,
+     "relative_angle_deg": -64.0632481890077,
+     "arc_length": 0.2317440947070753
+    },
+    {
+     "stage": 7,
+     "chord": 0.24678829785995987,
+     "relative_angle_deg": 6.254021193268787,
+     "arc_length": 0.24691085473921345
+    },
+    {
+     "stage": 8,
+     "chord": 0.2429338902789985,
+     "relative_angle_deg": 77.64145361437322,
+     "arc_length": 0.262567381838786
+    },
+    {
+     "stage": 9,
+     "chord": 0.22818316360428242,
+     "relative_angle_deg": 5.378722928121892,
+     "arc_length": 0.22826697384333378
+    },
+    {
+     "stage": 10,
+     "chord": 0.21801555080666493,
+     "relative_angle_deg": -63.99516114325321,
+     "arc_length": 0.22977439084482632
+    }
+   ],
+   "reach_margin": 0.05449825111766238,
+   "route_arc_length": 2.1644896523790442,
+   "route_slack": 0.41551034762095584,
+   "initial_head": [
+    0.6754818560591765,
+    -0.7932082128184813,
+    2.1038463403984125
+   ],
+   "initial_tail": [
+    2.177930623772962,
+    -3.389855155888535
+   ],
+   "cable_length": 3.0,
+   "cable_radius": 0.0025,
+   "initial_path": [
+    [
+     0.6754818560591765,
+     -0.7932082128184813
+    ],
+    [
+     0.827930623772962,
+     -1.0515865656705503
+    ],
+    [
+     2.177930623772962,
+     -3.389855155888535
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.08143450314473873,
+     "lateral": -0.022014349237986938,
+     "angle_deg": -5.861119957890198
+    },
+    "initial_tail_bend_deg": 0.5415160488725117,
+    "initial_tail_clearance": 0.353,
+    "motif": "zigzag",
+    "motif_sign": -1,
+    "motif_level_deg": 70.976592412988,
+    "motif_bias_deg": -5.682966960942855,
+    "motif_side_stages": 2,
+    "motif_phase": 0,
+    "motif_base_turn_deg": [
+     -65.29362545204516,
+     5.682966960942855,
+     76.65955937393085,
+     5.682966960942855,
+     -65.29362545204516,
+     5.682966960942855,
+     76.65955937393085,
+     5.682966960942855,
+     -65.29362545204516
+    ],
+    "total_heading_change_deg": -17.446823525273405
+   }
+  },
+  {
+   "scene_id": "zigzag-n10-0013",
+   "pool": "test",
+   "seed": 13913000,
+   "variant": {
+    "mirror": -1,
+    "reverse": false
+   },
+   "family": "zigzag",
+   "generator_version": "route-family-v4",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      0.5574343859967852,
+      -0.734781272916355,
+      0.820474146833504
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.6921461845201089,
+      -0.5704721203372389,
+      0.9476412038772697
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.6835191099686961,
+      -0.35774686351700763,
+      2.275017042649978
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      0.5297613661279008,
+      -0.19490133764749018,
+      2.379979685267587
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      0.4749286388794123,
+      0.03248467242570974,
+      1.2348653841464952
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C06",
+     "pose": [
+      0.5353405633344167,
+      0.24817957110628253,
+      1.3605606624041169
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C07",
+     "pose": [
+      0.43742926594753917,
+      0.4346781269511688,
+      2.7479222580613447
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C08",
+     "pose": [
+      0.2228586545688691,
+      0.5124203602290787,
+      2.8400554420323694
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C09",
+     "pose": [
+      0.0767364973662732,
+      0.6911538493471916,
+      1.6722296326647594
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C10",
+     "pose": [
+      0.04646986938716646,
+      0.9182434567257312,
+      1.7343623638972803
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.21247297777048213,
+     "relative_angle_deg": 7.286135661707164,
+     "arc_length": 0.21261621192405342
+    },
+    {
+     "stage": 3,
+     "chord": 0.2129001204897475,
+     "relative_angle_deg": 76.0530333893138,
+     "arc_length": 0.22937216000376123
+    },
+    {
+     "stage": 4,
+     "chord": 0.22396452640257855,
+     "relative_angle_deg": 6.013916428529003,
+     "arc_length": 0.224067369957125
+    },
+    {
+     "stage": 5,
+     "chord": 0.23390388101636217,
+     "relative_angle_deg": -65.61021651431145,
+     "arc_length": 0.2471899314640912
+    },
+    {
+     "stage": 6,
+     "chord": 0.2239952899799005,
+     "relative_angle_deg": 7.201808948884224,
+     "arc_length": 0.224142815018828
+    },
+    {
+     "stage": 7,
+     "chord": 0.21063792034723886,
+     "relative_angle_deg": 79.4899640896946,
+     "arc_length": 0.22852980317366361
+    },
+    {
+     "stage": 8,
+     "chord": 0.22822007383762985,
+     "relative_angle_deg": 5.27884259464208,
+     "arc_length": 0.22830081263829624
+    },
+    {
+     "stage": 9,
+     "chord": 0.23086217740867548,
+     "relative_angle_deg": -66.9114900832135,
+     "arc_length": 0.24452236867418659
+    },
+    {
+     "stage": 10,
+     "chord": 0.2290977052450873,
+     "relative_angle_deg": 3.5599432692441173,
+     "arc_length": 0.2291345604889775
+    }
+   ],
+   "reach_margin": 0.13685814610492586,
+   "route_arc_length": 2.0678760333429826,
+   "route_slack": 0.5121239666570174,
+   "initial_head": [
+    0.4958398818722138,
+    -0.8049861954949449,
+    0.9202245857776337
+   ],
+   "initial_tail": [
+    -1.2345089344430207,
+    -3.25541801264371
+   ],
+   "cable_length": 3.0,
+   "cable_radius": 0.0025,
+   "initial_path": [
+    [
+     0.4958398818722138,
+     -0.8049861954949449
+    ],
+    [
+     0.31414744370480474,
+     -1.043707493063432
+    ],
+    [
+     -1.2345089344430207,
+     -3.25541801264371
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.07835245924473591,
+     "lateral": -0.002816459759621859,
+     "angle_deg": 5.715279156076033
+    },
+    "initial_tail_bend_deg": 2.275015030767128,
+    "initial_tail_clearance": 0.351,
+    "motif": "zigzag",
+    "motif_sign": 1,
+    "motif_level_deg": 72.21221693484904,
+    "motif_bias_deg": -5.537207262052752,
+    "motif_side_stages": 2,
+    "motif_phase": 1,
+    "motif_base_turn_deg": [
+     5.537207262052752,
+     77.74942419690178,
+     5.537207262052752,
+     -66.67500967279629,
+     5.537207262052752,
+     77.74942419690178,
+     5.537207262052752,
+     -66.67500967279629,
+     5.537207262052752
+    ],
+    "total_heading_change_deg": 52.361937784490046
+   }
+  },
+  {
+   "scene_id": "zigzag-n10-0006",
+   "pool": "test",
+   "seed": 13906001,
+   "variant": {
+    "mirror": 1,
+    "reverse": true
+   },
+   "family": "zigzag",
+   "generator_version": "route-family-v4",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      0.3871155824337863,
+      0.7313525246854489,
+      -1.6120650065111626
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.4888050212111166,
+      0.5417202801257759,
+      -0.5450839552693711
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.6805317970152711,
+      0.3979653659424778,
+      -0.7416500692714756
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      0.708588861921001,
+      0.16607366025879955,
+      -2.15912892538784
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      0.5719774581956412,
+      -0.008125845150566358,
+      -2.3125577837079927
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C06",
+     "pose": [
+      0.5245252363431354,
+      -0.21576729997997568,
+      -1.2783777321281882
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C07",
+     "pose": [
+      0.5723597607435376,
+      -0.4492444062826968,
+      -1.4590502336265088
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C08",
+     "pose": [
+      0.44076648455937517,
+      -0.6521950378780196,
+      -2.8330422568048146
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C09",
+     "pose": [
+      0.21044257360252822,
+      -0.7028251715180891,
+      -3.0173830876300496
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C10",
+     "pose": [
+      0.024541457457101734,
+      -0.8466975634958911,
+      -1.948533606112937
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.2151769739902205,
+     "relative_angle_deg": 61.13351105658647,
+     "arc_length": 0.22573336766411736
+    },
+    {
+     "stage": 3,
+     "chord": 0.23963437130784043,
+     "relative_angle_deg": -11.26240872760798,
+     "arc_length": 0.24002060025720814
+    },
+    {
+     "stage": 4,
+     "chord": 0.23358288048572823,
+     "relative_angle_deg": -81.21555600449936,
+     "arc_length": 0.25434809490428606
+    },
+    {
+     "stage": 5,
+     "chord": 0.22137782931603825,
+     "relative_angle_deg": -8.790826037255412,
+     "arc_length": 0.2215951170731994
+    },
+    {
+     "stage": 6,
+     "chord": 0.21299457064069274,
+     "relative_angle_deg": 59.25415221214458,
+     "arc_length": 0.2227910693004173
+    },
+    {
+     "stage": 7,
+     "chord": 0.23832687824100918,
+     "relative_angle_deg": -10.351771809924813,
+     "arc_length": 0.23865133702605107
+    },
+    {
+     "stage": 8,
+     "chord": 0.2418796171689993,
+     "relative_angle_deg": -78.72394401275811,
+     "arc_length": 0.26200843147679936
+    },
+    {
+     "stage": 9,
+     "chord": 0.23582305737749407,
+     "relative_angle_deg": -10.561951598221073,
+     "arc_length": 0.23615728990936827
+    },
+    {
+     "stage": 10,
+     "chord": 0.23507124485468156,
+     "relative_angle_deg": 61.24056422567684,
+     "arc_length": 0.2466454432687921
+    }
+   ],
+   "reach_margin": 0.16011600191377928,
+   "route_arc_length": 2.147950750880239,
+   "route_slack": 0.43204924911976095,
+   "initial_head": [
+    0.4100533616942115,
+    0.8420218523224349,
+    -1.5772900499404778
+   ],
+   "initial_tail": [
+    0.4120014649464061,
+    3.8420155270786185
+   ],
+   "cable_length": 3.0,
+   "cable_radius": 0.0025,
+   "initial_path": [
+    [
+     0.4100533616942115,
+     0.8420218523224349
+    ],
+    [
+     0.41200146494640594,
+     1.1420155270786183
+    ],
+    [
+     0.4120014649464061,
+     3.8420155270786185
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.0965214435203832,
+     "lateral": 0.018352368570637913,
+     "angle_deg": 1.9924582442509653
+    },
+    "initial_tail_bend_deg": 0.37206292956821146,
+    "initial_tail_clearance": 0.37,
+    "motif": "zigzag",
+    "motif_sign": -1,
+    "motif_level_deg": 70.8306546749643,
+    "motif_bias_deg": -9.638402577805202,
+    "motif_side_stages": 2,
+    "motif_phase": 0,
+    "motif_base_turn_deg": [
+     61.1922520971591,
+     -9.638402577805202,
+     -80.46905725276949,
+     -9.638402577805202,
+     61.1922520971591,
+     -9.638402577805202,
+     -80.46905725276949,
+     -9.638402577805202,
+     61.1922520971591
+    ],
+    "total_heading_change_deg": -19.27823069585885
+   }
+  },
+  {
+   "scene_id": "zigzag-n10-0003",
+   "pool": "test",
+   "seed": 13903000,
+   "variant": {
+    "mirror": -1,
+    "reverse": true
+   },
+   "family": "zigzag",
+   "generator_version": "route-family-v4",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      0.6413751933013989,
+      -0.7277443059734576,
+      2.2769708958390638
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.49866669455446994,
+      -0.568430386263092,
+      2.3255671718509134
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.4452351774753481,
+      -0.36061473382608233,
+      1.3193440992472567
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      0.4957269133317242,
+      -0.11751405867718434,
+      1.4126740699747415
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      0.4079924907645622,
+      0.07627761263457167,
+      2.5791547908376034
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C06",
+     "pose": [
+      0.2069057284255172,
+      0.19711891720291153,
+      2.6218080875616545
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C07",
+     "pose": [
+      0.09232412477673785,
+      0.37882595636200644,
+      1.6449943808196021
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C08",
+     "pose": [
+      0.06336622248149743,
+      0.6200373005476871,
+      1.7355586315130793
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C09",
+     "pose": [
+      -0.10124333072952124,
+      0.7969867715867311,
+      2.904605331998849
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C10",
+     "pose": [
+      -0.3150661380280007,
+      0.8417034881347385,
+      2.9662628075272774
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.21388464327315104,
+     "relative_angle_deg": 2.784361515531831,
+     "arc_length": 0.2139056909543551
+    },
+    {
+     "stage": 3,
+     "chord": 0.21457463134116406,
+     "relative_angle_deg": -57.652335308875344,
+     "arc_length": 0.22390150759396316
+    },
+    {
+     "stage": 4,
+     "chord": 0.24828885123508887,
+     "relative_angle_deg": 5.347413424764398,
+     "arc_length": 0.2483789872977
+    },
+    {
+     "stage": 5,
+     "chord": 0.21272644587121045,
+     "relative_angle_deg": 66.83442218881986,
+     "arc_length": 0.22528337310624977
+    },
+    {
+     "stage": 6,
+     "chord": 0.2346028705659371,
+     "relative_angle_deg": 2.4438538846073117,
+     "arc_length": 0.23462065542112878
+    },
+    {
+     "stage": 7,
+     "chord": 0.21481711285344754,
+     "relative_angle_deg": -55.967302766849286,
+     "arc_length": 0.22360137731005117
+    },
+    {
+     "stage": 8,
+     "chord": 0.24294335279896753,
+     "relative_angle_deg": 5.188949339500981,
+     "arc_length": 0.24302639737613577
+    },
+    {
+     "stage": 9,
+     "chord": 0.24167627171348174,
+     "relative_angle_deg": 66.98144199152905,
+     "arc_length": 0.25600748401161577
+    },
+    {
+     "stage": 10,
+     "chord": 0.2184485698278602,
+     "relative_angle_deg": 3.5327131232101077,
+     "arc_length": 0.21848317632160807
+    }
+   ],
+   "reach_margin": 0.031093812709452884,
+   "route_arc_length": 2.0872086493928075,
+   "route_slack": 0.4927913506071926,
+   "initial_head": [
+    0.7166722783521438,
+    -0.7833799793500353,
+    2.360575076312079
+   ],
+   "initial_tail": [
+    2.838919846230752,
+    -2.9037690278821766
+   ],
+   "cable_length": 3.0,
+   "cable_radius": 0.0025,
+   "initial_path": [
+    [
+     0.7166722783521438,
+     -0.7833799793500353
+    ],
+    [
+     0.929731537027074,
+     -0.9945807186784977
+    ],
+    [
+     2.838919846230752,
+     -2.9037690278821766
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.07619277750589121,
+     "lateral": -0.021186233737154822,
+     "angle_deg": 4.790166690753825
+    },
+    "initial_tail_bend_deg": 0.25098909645431744,
+    "initial_tail_clearance": 0.351,
+    "motif": "zigzag",
+    "motif_sign": -1,
+    "motif_level_deg": 61.16194206426891,
+    "motif_bias_deg": -4.314510611658686,
+    "motif_side_stages": 2,
+    "motif_phase": 1,
+    "motif_base_turn_deg": [
+     4.314510611658686,
+     -56.84743145261022,
+     4.314510611658686,
+     65.47645267592759,
+     4.314510611658686,
+     -56.84743145261022,
+     4.314510611658686,
+     65.47645267592759,
+     4.314510611658686
+    ],
+    "total_heading_change_deg": 39.49351739223891
+   }
+  },
+  {
+   "scene_id": "zigzag-n10-0008",
+   "pool": "test",
+   "seed": 13908000,
+   "variant": {
+    "mirror": 1,
+    "reverse": false
+   },
+   "family": "zigzag",
+   "generator_version": "route-family-v4",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      0.8322602118081109,
+      -0.6523239675985271,
+      0.764572189438316
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.8454277113215919,
+      -0.4391044504103346,
+      2.25366591684035
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.6862301943987444,
+      -0.27901269684345703,
+      2.453121658244714
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      0.6170818410392596,
+      -0.05878136033998371,
+      1.296937227621596
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      0.6577985078853299,
+      0.1713609018807657,
+      1.4944402782652908
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C06",
+     "pose": [
+      0.5127859765510754,
+      0.35365573511103965,
+      2.991114180990526
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C07",
+     "pose": [
+      0.2925728933175813,
+      0.36818924452862034,
+      -3.1229180060154436
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C08",
+     "pose": [
+      0.07903071038217147,
+      0.49620858951654756,
+      2.042808906528024
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C09",
+     "pose": [
+      -0.04758050420627857,
+      0.6943271723669584,
+      2.236086979934605
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C10",
+     "pose": [
+      -0.27984479672353746,
+      0.7325955904832049,
+      -2.562677559547791
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.2136257136989914,
+     "relative_angle_deg": 85.31878587954087,
+     "arc_length": 0.23471854227083244
+    },
+    {
+     "stage": 3,
+     "chord": 0.22577249379523218,
+     "relative_angle_deg": 11.427972182122808,
+     "arc_length": 0.22614717079323665
+    },
+    {
+     "stage": 4,
+     "chord": 0.23083183565191845,
+     "relative_angle_deg": -66.2444882134408,
+     "arc_length": 0.24420837668980852
+    },
+    {
+     "stage": 5,
+     "chord": 0.2337162977182765,
+     "relative_angle_deg": 11.316091242842267,
+     "arc_length": 0.2340965919203034
+    },
+    {
+     "stage": 6,
+     "chord": 0.23293784678841165,
+     "relative_angle_deg": 85.7530979335295,
+     "arc_length": 0.25618845137722873
+    },
+    {
+     "stage": 7,
+     "chord": 0.22069214966371753,
+     "relative_angle_deg": 9.691759877417448,
+     "arc_length": 0.2209554783833728
+    },
+    {
+     "stage": 8,
+     "chord": 0.2489763373976691,
+     "relative_angle_deg": -64.02564979411397,
+     "arc_length": 0.2624183505742201
+    },
+    {
+     "stage": 9,
+     "chord": 0.23511991096080664,
+     "relative_angle_deg": 11.074017878616784,
+     "arc_length": 0.23548627829279778
+    },
+    {
+     "stage": 10,
+     "chord": 0.23539578034379177,
+     "relative_angle_deg": 85.05104501061861,
+     "arc_length": 0.25848260765827386
+    }
+   ],
+   "reach_margin": 0.03495302494930064,
+   "route_arc_length": 2.172701847960074,
+   "route_slack": 0.4072981520399259,
+   "initial_head": [
+    0.7632538347609944,
+    -0.7000431672865501,
+    0.8636919933243288
+   ],
+   "initial_tail": [
+    -1.1671632348572425,
+    -2.9964370198678116
+   ],
+   "cable_length": 3.0,
+   "cable_radius": 0.0025,
+   "initial_path": [
+    [
+     0.7632538347609944,
+     -0.7000431672865501
+    ],
+    [
+     0.5683633112964142,
+     -0.928117023446571
+    ],
+    [
+     -1.1671632348572425,
+     -2.9964370198678116
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.06783300467769332,
+     "lateral": 0.013330244862697287,
+     "angle_deg": 5.679146428832922
+    },
+    "initial_tail_bend_deg": 0.5140939832747339,
+    "initial_tail_clearance": 0.34,
+    "motif": "zigzag",
+    "motif_sign": 1,
+    "motif_level_deg": 75.66619988397687,
+    "motif_bias_deg": 9.644626280388415,
+    "motif_side_stages": 2,
+    "motif_phase": 0,
+    "motif_base_turn_deg": [
+     85.3108261643653,
+     9.644626280388415,
+     -66.02157360358845,
+     9.644626280388415,
+     85.3108261643653,
+     9.644626280388415,
+     -66.02157360358845,
+     9.644626280388415,
+     85.3108261643653
+    ],
+    "total_heading_change_deg": 169.36263199713352
+   }
+  },
+  {
+   "scene_id": "square-n10-0009",
+   "pool": "test",
+   "seed": 14709000,
+   "variant": {
+    "mirror": -1,
+    "reverse": false
+   },
+   "family": "square",
+   "generator_version": "route-family-v4",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      0.433138477314946,
+      -0.6068276808772519,
+      1.0726271868874209
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.5427345279223317,
+      -0.3997893524062901,
+      1.0952611420758283
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.6459428282157031,
+      -0.19286366516713904,
+      1.121005453022346
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      0.7477917139787498,
+      0.019970663113255127,
+      1.1279283409542256
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      0.6783369271528623,
+      0.23991805464648752,
+      2.6254031685587638
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C06",
+     "pose": [
+      0.4826386781401796,
+      0.3484498807395072,
+      2.645065035927698
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C07",
+     "pose": [
+      0.2838074799876187,
+      0.4557444926545089,
+      2.6484319660846127
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C08",
+     "pose": [
+      0.08984354723302901,
+      0.5569510866967651,
+      2.6729137767204953
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C09",
+     "pose": [
+      -0.13261533348698645,
+      0.49044550564127687,
+      -2.0919149813641695
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C10",
+     "pose": [
+      -0.25522257714738966,
+      0.27824943158171034,
+      -2.097552176047336
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.23425661946845072,
+     "relative_angle_deg": 1.296830105983975,
+     "arc_length": 0.2342616199061727
+    },
+    {
+     "stage": 3,
+     "chord": 0.23123622832255697,
+     "relative_angle_deg": 1.4750403637079188,
+     "arc_length": 0.23124261412641972
+    },
+    {
+     "stage": 4,
+     "chord": 0.23594839865051154,
+     "relative_angle_deg": 0.39665226053874353,
+     "arc_length": 0.23594886982416938
+    },
+    {
+     "stage": 5,
+     "chord": 0.2306530347845059,
+     "relative_angle_deg": 85.79898754882058,
+     "arc_length": 0.2537019307789301
+    },
+    {
+     "stage": 6,
+     "chord": 0.22377882371152874,
+     "relative_angle_deg": 1.1265420175859198,
+     "arc_length": 0.223782428353758
+    },
+    {
+     "stage": 7,
+     "chord": 0.22593357232773917,
+     "relative_angle_deg": 0.19291088790653832,
+     "arc_length": 0.22593367904579043
+    },
+    {
+     "stage": 8,
+     "chord": 0.21878021365576236,
+     "relative_angle_deg": 1.402704424274564,
+     "arc_length": 0.21878567741383648
+    },
+    {
+     "stage": 9,
+     "chord": 0.23218730784160055,
+     "relative_angle_deg": 86.99542205918716,
+     "arc_length": 0.25608746887246686
+    },
+    {
+     "stage": 10,
+     "chord": 0.24507082658752863,
+     "relative_angle_deg": -0.32298746363903297,
+     "arc_length": 0.2450711510816577
+    }
+   ],
+   "reach_margin": 0.11513585518520303,
+   "route_arc_length": 2.1248154394032013,
+   "route_slack": 0.4551845605967988,
+   "initial_head": [
+    0.412584765754405,
+    -0.6869515454623587,
+    1.174501407023893
+   ],
+   "initial_tail": [
+    -0.8442854626497421,
+    -3.4107318189380607
+   ],
+   "cable_length": 3.0,
+   "cable_radius": 0.0025,
+   "initial_path": [
+    [
+     0.412584765754405,
+     -0.6869515454623587
+    ],
+    [
+     0.2967838440501457,
+     -0.9637007939391052
+    ],
+    [
+     -0.8442854626497421,
+     -3.4107318189380607
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.06520645152702581,
+     "lateral": -0.02022903528123153,
+     "angle_deg": 5.836962855006522
+    },
+    "initial_tail_bend_deg": 2.293973654645906,
+    "initial_tail_clearance": 0.34,
+    "motif": "square",
+    "motif_sign": -1,
+    "motif_level_deg": 86.14601093504427,
+    "motif_side_stages": 4,
+    "motif_phase": 1,
+    "motif_base_turn_deg": [
+     0.0,
+     0.0,
+     0.0,
+     86.14601093504427,
+     0.0,
+     0.0,
+     0.0,
+     86.14601093504427,
+     0.0
+    ],
+    "total_heading_change_deg": 178.36210220436638
+   }
+  },
+  {
+   "scene_id": "square-n10-0002",
+   "pool": "test",
+   "seed": 14702000,
+   "variant": {
+    "mirror": 1,
+    "reverse": true
+   },
+   "family": "square",
+   "generator_version": "route-family-v4",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      0.0451919354441655,
+      -0.32610499259601017,
+      -0.35980960148286556
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.27435633644237123,
+      -0.4149618788698914,
+      -0.37998144680053514
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.4930036662066845,
+      -0.3243750874754782,
+      1.1655365533228155
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      0.5802031746586171,
+      -0.12455491775304955,
+      1.153099450207824
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      0.6749162275441414,
+      0.08784349779372727,
+      1.1495788041233892
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C06",
+     "pose": [
+      0.596060575461443,
+      0.2984862701574662,
+      2.708427963940786
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C07",
+     "pose": [
+      0.3934980786238434,
+      0.3883074513918068,
+      2.740012680396262
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C08",
+     "pose": [
+      0.19430208950013766,
+      0.4733446740270894,
+      2.736211037276483
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C09",
+     "pose": [
+      -0.013393287950643637,
+      0.3937018380316948,
+      -2.003877418954051
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C10",
+     "pose": [
+      -0.10190096232316764,
+      0.19535702147002948,
+      -1.9771462227856462
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.2457882603444597,
+     "relative_angle_deg": -1.1557616016931982,
+     "arc_length": 0.24579242756328842
+    },
+    {
+     "stage": 3,
+     "chord": 0.2366698577939305,
+     "relative_angle_deg": 88.55165856856743,
+     "arc_length": 0.2619757596406936
+    },
+    {
+     "stage": 4,
+     "chord": 0.21801801416891878,
+     "relative_angle_deg": -0.7125935178580204,
+     "arc_length": 0.21801941931529348
+    },
+    {
+     "stage": 5,
+     "chord": 0.23255891579055274,
+     "relative_angle_deg": -0.2017181617973734,
+     "arc_length": 0.2325590358970906
+    },
+    {
+     "stage": 6,
+     "chord": 0.22491907748003395,
+     "relative_angle_deg": 89.3154777550512,
+     "arc_length": 0.2494165356282873
+    },
+    {
+     "stage": 7,
+     "chord": 0.22158386611713135,
+     "relative_angle_deg": 1.8096709500161696,
+     "arc_length": 0.22159307683533103
+    },
+    {
+     "stage": 8,
+     "chord": 0.2165880220983933,
+     "relative_angle_deg": -0.21781810597828,
+     "arc_length": 0.2165881525249613
+    },
+    {
+     "stage": 9,
+     "chord": 0.22244179270049916,
+     "relative_angle_deg": 88.41293693930854,
+     "arc_length": 0.24614641940926218
+    },
+    {
+     "stage": 10,
+     "chord": 0.21719639656245082,
+     "relative_angle_deg": 1.531584721785879,
+     "arc_length": 0.21720286332941993
+    }
+   ],
+   "reach_margin": 0.028933397865157195,
+   "route_arc_length": 2.1092936901436277,
+   "route_slack": 0.4707063098563724,
+   "initial_head": [
+    -0.06136720956453237,
+    -0.2816036645828274,
+    -0.28962845068797627
+   ],
+   "initial_tail": [
+    -2.9568719569611694,
+    0.5028866083507701
+   ],
+   "cable_length": 3.0,
+   "cable_radius": 0.0025,
+   "initial_path": [
+    [
+     -0.06136720956453237,
+     -0.2816036645828274
+    ],
+    [
+     -0.34887222598068546,
+     -0.19592481342603657
+    ],
+    [
+     -2.9568719569611694,
+     0.5028866083507701
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.10040425180710995,
+     "lateral": 0.004132583303788195,
+     "angle_deg": 4.021083741918348
+    },
+    "initial_tail_bend_deg": 1.594487851333916,
+    "initial_tail_clearance": 0.373,
+    "motif": "square",
+    "motif_sign": -1,
+    "motif_level_deg": 89.2989259009424,
+    "motif_side_stages": 3,
+    "motif_phase": 2,
+    "motif_base_turn_deg": [
+     0.0,
+     89.2989259009424,
+     0.0,
+     0.0,
+     89.2989259009424,
+     0.0,
+     0.0,
+     89.2989259009424,
+     0.0
+    ],
+    "total_heading_change_deg": 267.33343754740235
+   }
+  },
+  {
+   "scene_id": "square-n10-0003",
+   "pool": "test",
+   "seed": 14703000,
+   "variant": {
+    "mirror": -1,
+    "reverse": true
+   },
+   "family": "square",
+   "generator_version": "route-family-v4",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      -0.0686236294697545,
+      0.5325560355646767,
+      -0.5009790379772934
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.1411787780279875,
+      0.41331023687231083,
+      -0.5326986437748396
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.3253237867252921,
+      0.30468301491680994,
+      -0.5332218683946337
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      0.5132067209608733,
+      0.19053191705399986,
+      -0.5587050351030705
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      0.5610628957699688,
+      -0.0362209030904066,
+      -2.166892420354925
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C06",
+     "pose": [
+      0.42089642689277756,
+      -0.23716102763639874,
+      -2.192864371170864
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C07",
+     "pose": [
+      0.27607298517377726,
+      -0.43749237083693115,
+      -2.20061461024107
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C08",
+     "pose": [
+      0.13503917457092968,
+      -0.6319829036908018,
+      -2.195784319922801
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C09",
+     "pose": [
+      -0.09595306320264849,
+      -0.6701026771081764,
+      2.522888587012643
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C10",
+     "pose": [
+      -0.2818128344353436,
+      -0.5394764797196429,
+      2.5350628910950643
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.24132262781933408,
+     "relative_angle_deg": -1.8173995400180938,
+     "arc_length": 0.24133274489764464
+    },
+    {
+     "stage": 3,
+     "chord": 0.21379723472931086,
+     "relative_angle_deg": -0.029978562451541905,
+     "arc_length": 0.21379723716806032
+    },
+    {
+     "stage": 4,
+     "chord": 0.2198419207527458,
+     "relative_angle_deg": -1.4600779010217122,
+     "arc_length": 0.21984786934614228
+    },
+    {
+     "stage": 5,
+     "chord": 0.23174782611882308,
+     "relative_angle_deg": -92.14234984111063,
+     "arc_length": 0.25874257489602864
+    },
+    {
+     "stage": 6,
+     "chord": 0.24499708702362047,
+     "relative_angle_deg": -1.4880831674746628,
+     "arc_length": 0.24500397302914753
+    },
+    {
+     "stage": 7,
+     "chord": 0.24719724177236724,
+     "relative_angle_deg": -0.4440559889401991,
+     "arc_length": 0.2471978604484661
+    },
+    {
+     "stage": 8,
+     "chord": 0.24024384092613574,
+     "relative_angle_deg": 0.27675524905972215,
+     "arc_length": 0.24024407448039128
+    },
+    {
+     "stage": 9,
+     "chord": 0.23411649031419648,
+     "relative_angle_deg": -89.63995752987158,
+     "arc_length": 0.25981537668759863
+    },
+    {
+     "stage": 10,
+     "chord": 0.22717186887213364,
+     "relative_angle_deg": 0.6975362424316329,
+     "arc_length": 0.22717327179397553
+    }
+   ],
+   "reach_margin": 0.20128600670765492,
+   "route_arc_length": 2.1531549827474548,
+   "route_slack": 0.4268450172525453,
+   "initial_head": [
+    -0.17346608187383317,
+    0.5690274161686081,
+    -0.5449836698038624
+   ],
+   "initial_tail": [
+    -2.7682753990525004,
+    2.0745486539803117
+   ],
+   "cable_length": 3.0,
+   "cable_radius": 0.0025,
+   "initial_path": [
+    [
+     -0.17346608187383317,
+     0.5690274161686081
+    ],
+    [
+     -0.4300068088345158,
+     0.7245486539803117
+    ],
+    [
+     -2.7682753990525004,
+     2.0745486539803117
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.09447529200528945,
+     "lateral": -0.018364690839078508,
+     "angle_deg": -2.521279682689446
+    },
+    "initial_tail_bend_deg": 1.2252641833125675,
+    "initial_tail_clearance": 0.367,
+    "motif": "square",
+    "motif_sign": -1,
+    "motif_level_deg": 90.84106971130315,
+    "motif_side_stages": 4,
+    "motif_phase": 3,
+    "motif_base_turn_deg": [
+     -0.0,
+     -0.0,
+     -0.0,
+     -90.84106971130315,
+     -0.0,
+     -0.0,
+     -0.0,
+     -90.84106971130315,
+     -0.0
+    ],
+    "total_heading_change_deg": -186.04761103939708
+   }
+  },
+  {
+   "scene_id": "square-n10-0000",
+   "pool": "test",
+   "seed": 14700000,
+   "variant": {
+    "mirror": 1,
+    "reverse": false
+   },
+   "family": "square",
+   "generator_version": "route-family-v4",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      -0.12902346147686541,
+      0.4861034295925877,
+      0.6426728851872525
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.05665498727649568,
+      0.6210406228811911,
+      0.6142031738948743
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.25308560796927115,
+      0.7549261725059176,
+      0.5823258433399525
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      0.4906842423848524,
+      0.7126241277267764,
+      -0.9347133171807211
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      0.6248438018295651,
+      0.5242653300924152,
+      -0.9690718215579359
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C06",
+     "pose": [
+      0.761848010134661,
+      0.3216215573629735,
+      -0.9835328806153356
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C07",
+     "pose": [
+      0.8967259180026571,
+      0.11690405167055407,
+      -0.9929182276012423
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C08",
+     "pose": [
+      0.8583743628033194,
+      -0.09622765274399614,
+      -2.504749850967018
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C09",
+     "pose": [
+      0.6787106790485516,
+      -0.2262151254746354,
+      -2.5257810533431195
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C10",
+     "pose": [
+      0.5025978380004442,
+      -0.34937115915400374,
+      -2.5368897608431773
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.22953111437027543,
+     "relative_angle_deg": -1.6311943010092105,
+     "arc_length": 0.22953886624448055
+    },
+    {
+     "stage": 3,
+     "chord": 0.23771901300498482,
+     "relative_angle_deg": -1.8264365029404424,
+     "arc_length": 0.23772907836794663
+    },
+    {
+     "stage": 4,
+     "chord": 0.24133498310159163,
+     "relative_angle_deg": -86.91994125390401,
+     "arc_length": 0.26613061143007083
+    },
+    {
+     "stage": 5,
+     "chord": 0.23125272763074958,
+     "relative_angle_deg": -1.9685972911961713,
+     "arc_length": 0.23126410283169688
+    },
+    {
+     "stage": 6,
+     "chord": 0.24461122566089993,
+     "relative_angle_deg": -0.828557651278435,
+     "arc_length": 0.24461335707576543
+    },
+    {
+     "stage": 7,
+     "chord": 0.2451556794524113,
+     "relative_angle_deg": -0.5377407715582793,
+     "arc_length": 0.2451565792244648
+    },
+    {
+     "stage": 8,
+     "chord": 0.2165547626187405,
+     "relative_angle_deg": -86.62157135327081,
+     "arc_length": 0.23864114677561496
+    },
+    {
+     "stage": 9,
+     "chord": 0.22175613255833956,
+     "relative_angle_deg": -1.204999134236122,
+     "arc_length": 0.22176021949780259
+    },
+    {
+     "stage": 10,
+     "chord": 0.2149026324028388,
+     "relative_angle_deg": -0.6364820555986338,
+     "arc_length": 0.21490373739480378
+    }
+   ],
+   "reach_margin": 0.1318339918831506,
+   "route_arc_length": 2.1297376988426464,
+   "route_slack": 0.45026230115735366,
+   "initial_head": [
+    -0.23223215977185035,
+    0.43494202055806974,
+    0.5934618268482641
+   ],
+   "initial_tail": [
+    -2.692645582850315,
+    -1.2814846344315476
+   ],
+   "cable_length": 3.0,
+   "cable_radius": 0.0025,
+   "initial_path": [
+    [
+     -0.23223215977185035,
+     0.43494202055806974
+    ],
+    [
+     -0.48093506327003677,
+     0.26717174371627694
+    ],
+    [
+     -2.692645582850315,
+     -1.2814846344315476
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.09828115466663506,
+     "lateral": 0.020902276802692785,
+     "angle_deg": -2.8195859481961243
+    },
+    "initial_tail_bend_deg": 0.9971420194707814,
+    "initial_tail_clearance": 0.373,
+    "motif": "square",
+    "motif_sign": -1,
+    "motif_level_deg": 86.04287684540728,
+    "motif_side_stages": 4,
+    "motif_phase": 2,
+    "motif_base_turn_deg": [
+     -0.0,
+     -0.0,
+     -86.04287684540728,
+     -0.0,
+     -0.0,
+     -0.0,
+     -86.04287684540728,
+     -0.0,
+     -0.0
+    ],
+    "total_heading_change_deg": -182.17552031499213
+   }
+  },
+  {
+   "scene_id": "square-n10-0013",
+   "pool": "test",
+   "seed": 14713000,
+   "variant": {
+    "mirror": -1,
+    "reverse": false
+   },
+   "family": "square",
+   "generator_version": "route-family-v4",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      0.17907740479540077,
+      0.36367402558172296,
+      -0.1703703045324403
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.4208682693846898,
+      0.3213785813902554,
+      -0.17597690600281757
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.6579096547756319,
+      0.27567858880563356,
+      -0.20493617752368332
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      0.7770113121544598,
+      0.09603708631950059,
+      -1.7657418821432627
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      0.727675652531813,
+      -0.14151083215679477,
+      -1.7854028587423887
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C06",
+     "pose": [
+      0.6840608086088396,
+      -0.3543865288357108,
+      -1.760364517611725
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C07",
+     "pose": [
+      0.4759612140330437,
+      -0.4886917499535864,
+      2.906618557194683
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C08",
+     "pose": [
+      0.23332895238770288,
+      -0.4326994712637528,
+      2.9229673453496288
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C09",
+     "pose": [
+      0.013707731300709514,
+      -0.38006277654827075,
+      2.889751441400051
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C10",
+     "pose": [
+      -0.10065430943774509,
+      -0.178450791768144,
+      1.283804406843073
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.24546227163902287,
+     "relative_angle_deg": -0.3212346016644599,
+     "arc_length": 0.24546259313332383
+    },
+    {
+     "stage": 3,
+     "chord": 0.2414065196101622,
+     "relative_angle_deg": -1.6592440359190082,
+     "arc_length": 0.24141495535902185
+    },
+    {
+     "stage": 4,
+     "chord": 0.21553717592531235,
+     "relative_angle_deg": -89.42757951464452,
+     "arc_length": 0.23907619949830589
+    },
+    {
+     "stage": 5,
+     "chord": 0.24261702512977595,
+     "relative_angle_deg": -1.1264909802353957,
+     "arc_length": 0.2426209328647392
+    },
+    {
+     "stage": 6,
+     "chord": 0.2172977607960082,
+     "relative_angle_deg": 1.4345912727958425,
+     "arc_length": 0.21730343706613378
+    },
+    {
+     "stage": 7,
+     "chord": 0.24767586414935963,
+     "relative_angle_deg": -92.60156675460505,
+     "arc_length": 0.2768376521489646
+    },
+    {
+     "stage": 8,
+     "chord": 0.24900913570391975,
+     "relative_angle_deg": 0.9367165614318528,
+     "arc_length": 0.24901190888710034
+    },
+    {
+     "stage": 9,
+     "chord": 0.2258408784571847,
+     "relative_angle_deg": -1.90313110902272,
+     "arc_length": 0.22585126084961638
+    },
+    {
+     "stage": 10,
+     "chord": 0.23178884522091656,
+     "relative_angle_deg": -92.01398720166502,
+     "arc_length": 0.2587071778668999
+    }
+   ],
+   "reach_margin": 0.05488039215861246,
+   "route_arc_length": 2.1962861176741058,
+   "route_slack": 0.3837138823258943,
+   "initial_head": [
+    0.06729531424482556,
+    0.37794123335656093,
+    -0.05478149560608214
+   ],
+   "initial_tail": [
+    -2.9219803313284336,
+    0.6296879686933912
+   ],
+   "cable_length": 3.0,
+   "cable_radius": 0.0025,
+   "initial_path": [
+    [
+     0.06729531424482556,
+     0.37794123335656093
+    ],
+    [
+     -0.23225464648072014,
+     0.394367463274714
+    ],
+    [
+     -2.9219803313284336,
+     0.6296879686933912
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.0975826816846966,
+     "lateral": -0.004891704225489891,
+     "angle_deg": 6.622750910424408
+    },
+    "initial_tail_bend_deg": 1.8612515063570239,
+    "initial_tail_clearance": 0.371,
+    "motif": "square",
+    "motif_sign": 1,
+    "motif_level_deg": 91.23432206304652,
+    "motif_side_stages": 3,
+    "motif_phase": 1,
+    "motif_base_turn_deg": [
+     -0.0,
+     -0.0,
+     -91.23432206304652,
+     -0.0,
+     -0.0,
+     -91.23432206304652,
+     -0.0,
+     -0.0,
+     -91.23432206304652
+    ],
+    "total_heading_change_deg": -276.6819263635285
+   }
+  }
+ ]
+}
