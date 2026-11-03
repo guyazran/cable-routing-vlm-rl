@@ -6,3 +6,6 @@ analysis/*/
 checkpoints/*/
 slurm-*.out
 assets/robots/
+
+# Self-contained demo page (21 MB of base64 media; trips secret scanning). The same page is in reports/robot_demo/site/.
+reports/robot_demo/showcase.html
