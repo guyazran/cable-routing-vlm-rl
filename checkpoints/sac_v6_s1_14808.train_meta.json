@@ -1,0 +1,37 @@
+{
+ "config_hash": "95f654b8b1b52a6b",
+ "family": "primary10",
+ "route_stage_prob": 0.5,
+ "success": "absorbing terminal state: reward r / (1 - 0.95)",
+ "stages": "manifests/shapes_train.json",
+ "stages_sha256": "8fa99489ee679934",
+ "n_stages": 5280,
+ "warmup": "guided: 3000 steps of the heuristic policy + N(0, 0.05) action noise",
+ "seed": 1,
+ "env_steps": 20000,
+ "n_envs": 24,
+ "step_semantics": "1 env step = 1 seven-parameter pick-and-place primitive (+ release and settling)",
+ "sac": {
+  "learning_rate": 0.0003,
+  "buffer_size": 100000,
+  "learning_starts": 1000,
+  "batch_size": 256,
+  "gamma": 0.95,
+  "gradient_steps": 1,
+  "net_arch": [
+   256,
+   256
+  ]
+ },
+ "started": 1793704121.984575,
+ "guided_warmup": {
+  "steps": 3000,
+  "noise_std": 0.05,
+  "behavior": "HeuristicInsertPolicy"
+ },
+ "resumed_at_steps": [
+  7920,
+  9888,
+  10872
+ ]
+}
