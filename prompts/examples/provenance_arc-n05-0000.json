@@ -1,0 +1,113 @@
+[
+ {
+  "scene": "arc-n05-0000",
+  "steps": [
+   {
+    "skill": "Insert(C01)",
+    "collided": false,
+    "routing": {
+     "sequence": [
+      "C01+"
+     ],
+     "valid_prefix": 1,
+     "complete": false,
+     "partial": {},
+     "errors": [],
+     "anomalies": {}
+    }
+   },
+   {
+    "skill": "Pull(C01)",
+    "collided": false,
+    "routing": {
+     "sequence": [
+      "C01+"
+     ],
+     "valid_prefix": 1,
+     "complete": false,
+     "partial": {},
+     "errors": [],
+     "anomalies": {}
+    }
+   },
+   {
+    "skill": "Flatten(C02)",
+    "collided": false,
+    "routing": {
+     "sequence": [
+      "C01+"
+     ],
+     "valid_prefix": 1,
+     "complete": false,
+     "partial": {},
+     "errors": [],
+     "anomalies": {}
+    }
+   },
+   {
+    "skill": "Insert(C02) stepwise",
+    "collided": false,
+    "routing": {
+     "sequence": [
+      "C01+",
+      "C02+"
+     ],
+     "valid_prefix": 2,
+     "complete": true,
+     "partial": {},
+     "errors": [],
+     "anomalies": {}
+    }
+   }
+  ],
+  "c02_head": {
+   "signed_dist": -0.0946460176961318,
+   "rope_in": false
+  },
+  "insert_trace": [
+   {
+    "t": 0,
+    "head_local": [
+     -0.07598556765130716,
+     -0.04458731500859311,
+     0.004999653429817785
+    ],
+    "rel_yaw_deg": -74.26078163892868,
+    "rope_in": false
+   },
+   {
+    "t": 1,
+    "head_local": [
+     -0.03750000381289117,
+     7.658522970877338e-08,
+     0.004999997124724926
+    ],
+    "rel_yaw_deg": -7.169549863377201,
+    "rope_in": false
+   }
+  ],
+  "accepted": true,
+  "crop_bounds": [
+   {
+    "x": [
+     0.007863972141879505,
+     0.2478639721418795
+    ],
+    "y": [
+     -0.670388646352179,
+     -0.430388646352179
+    ]
+   },
+   {
+    "x": [
+     0.007863972141879505,
+     0.2478639721418795
+    ],
+    "y": [
+     -0.670388646352179,
+     -0.430388646352179
+    ]
+   }
+  ]
+ }
+]

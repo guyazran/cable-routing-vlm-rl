@@ -1,0 +1,16 @@
+{
+  "_comment": "Fixed in-context examples (protocol Section 6). Both images are crops centred on C02 of the DEVELOPMENT scene arc-n05-0000 (train split), rendered 2026-11-03 by scripts/dev/render_examples.py (Insert(C01), Pull(C01), Flatten(C02), then Insert(C02) primitive by primitive; provenance in examples/provenance_arc-n05-0000.json). Paths are relative to prompts/. Flatten has a verbal example only, as in the paper.",
+  "image_examples": [
+    {
+      "image": "examples/insert_example.png",
+      "text": "Example 1 - zoomed view of clip C02. The head lies about 4 cm in front of C02's entry side and points along its arrow. No cable passes under C02's bridge yet. Correct decision: {\"skill\": \"Insert\", \"target_clip\": \"C02\", \"done\": false}"
+    },
+    {
+      "image": "examples/pull_example.png",
+      "text": "Example 2 - zoomed view of clip C02, the second clip of the route C01 -> C02 -> C03. The cable now goes under C02's bridge: one segment enters on the entry side, another comes out on the exit side, and the head lies a few centimetres beyond the exit. Correct decision: {\"skill\": \"Pull\", \"target_clip\": \"C03\", \"done\": false}"
+    }
+  ],
+  "verbal_examples": [
+    "Example 3 (no image) - after three consecutive Insert commands on C04, the head still lies beside C04, bent and parallel to its long axis, and no cable passes under C04's bridge. Correct decision: {\"skill\": \"Flatten\", \"target_clip\": \"C04\", \"done\": false}"
+  ]
+}
