@@ -1,0 +1,23 @@
+# Pinned software and model versions (protocol Section 4). Update together with
+# the install scripts; record the hashes in every run manifest.
+host:
+  os: Ubuntu 22.04.5 LTS (glibc 2.35)
+  driver: 595.58.03 (CUDA 13.2)
+  gpus: 4x NVIDIA L40S 48 GB (no NVLink)
+simulator:
+  isaac_sim: 6.2.0 (Kit 110.4.0, PhysX/omni.physx 110.4.4)
+  install: ~/opt/isaacsim/6.2.0 (standalone zip, md5 dde88af0b6423dd3135727385a344fb3)
+  bundled_python: "3.12"
+cable_env:
+  python: "3.12"
+  numpy: 2.3.1
+  scipy: 1.17.0
+  torch: 2.11.0+cu128
+  gymnasium: 1.4.0
+  stable_baselines3: 2.9.2
+vlm_serving:
+  engine: vllm 0.32.0 (uv tool, Python 3.12)
+  main_model: Qwen/Qwen3.8-27B
+  main_revision: 1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0
+  dev_model: Qwen/Qwen3.5-9B
+  dev_revision: c202236235762e1c871ad0ccb60c8ee5ba337b9a

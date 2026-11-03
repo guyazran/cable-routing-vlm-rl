@@ -1,0 +1,36 @@
+# Project environment. Create with scripts/install/create_cable_env.sh, which also
+# installs the conda activation hooks that expose the user-global Isaac Sim 6.2
+# install (~/opt/isaacsim/6.2.0) to this interpreter.
+#
+# Python 3.12 matches Kit's bundled interpreter. numpy / scipy / torch match the
+# builds Isaac Sim 6.2 bundles (numpy 2.3.1 from omni.kit.pip_archive, scipy 1.17.0
+# from omni.pip.compute, torch 2.11.0+cu128 from omni.isaac.ml_archive), so the
+# extension binaries and this environment agree on the ABI.
+#
+# The VLM server (vLLM) is NOT installed here: it lives in its own user-global
+# tool environment (scripts/install/install_vllm.sh), as the protocol requires
+# separate simulator and VLM environments.
+name: cable
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - libstdcxx-ng>=13
+  - ffmpeg>=7  # video encoding for demo / episode recordings
+  - pip:
+      - numpy==2.3.1
+      - scipy==1.17.0
+      - --extra-index-url https://download.pytorch.org/whl/cu128
+      - torch==2.11.0
+      - gymnasium==1.4.0
+      - stable-baselines3==2.9.2
+      - tensorboard
+      - pyyaml
+      - pillow
+      - matplotlib
+      - pandas
+      - statsmodels
+      - tqdm
+      - openai
+      - pytest

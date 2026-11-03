@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cablerouting"
+version = "0.1.0"
+description = "Horizon check for hierarchical VLM + RL cable routing (reconstruction of arXiv:2510.19268)"
+requires-python = ">=3.12,<3.13"
+# numpy/scipy/torch versions must match the ABI Isaac Sim 6.2 bundles; see environment.yml.
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "isaac: needs the Isaac Sim runtime (run inside the cable env on a GPU node)",
+    "vllm: needs a running planner server",
+]
+addopts = "-m 'not isaac and not vllm'"
