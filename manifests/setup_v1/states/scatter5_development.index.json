@@ -1,0 +1,80 @@
+{
+ "manifest_sha256": "472ebf3279715086",
+ "settle_steps": 480,
+ "config_hash": "95f654b8b1b52a6b",
+ "physics_hash": "afc9d60dd932e624",
+ "check_limits": {
+  "max_displacement_m": 0.02,
+  "max_height_radii": 3.0,
+  "min_clip_clearance_m": 0.0
+ },
+ "all_checks_passed": true,
+ "states": {
+  "scatter5-dev-0000": "5b5fd2f0f3043a17",
+  "scatter5-dev-0001": "a83cba5b5c6512db",
+  "scatter5-dev-0002": "3db734f32343d43d",
+  "scatter5-dev-0003": "c37e78834fcb5100",
+  "scatter5-dev-0004": "a0fa2bb458cddc36",
+  "scatter5-dev-0005": "e61a2a90bec3f613",
+  "scatter5-dev-0006": "9a2813f3c343ae5e",
+  "scatter5-dev-0007": "4fa9eec7b91cc53a"
+ },
+ "checks": {
+  "scatter5-dev-0000": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.08642
+  },
+  "scatter5-dev-0001": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.044419
+  },
+  "scatter5-dev-0002": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.054805
+  },
+  "scatter5-dev-0003": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.051958
+  },
+  "scatter5-dev-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.070785
+  },
+  "scatter5-dev-0005": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.059214
+  },
+  "scatter5-dev-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.083418
+  },
+  "scatter5-dev-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.045929
+  }
+ }
+}

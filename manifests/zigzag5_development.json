@@ -1,0 +1,1283 @@
+{
+ "family": {
+  "name": "zigzag5",
+  "n_clips": 5,
+  "clip_scale": 1.0,
+  "stage_length": [
+   0.24,
+   0.34
+  ],
+  "turn_deg": [
+   60.0,
+   120.0
+  ],
+  "sign_persistence": [
+   0.0,
+   0.25
+  ],
+  "stage_tries": 60,
+  "max_backtracks": 40,
+  "reach_radius": [
+   0.25,
+   0.74
+  ],
+  "max_bearing_deg": 150.0,
+  "min_reach_margin": 0.02,
+  "base_clearance": 0.2,
+  "stage_shape": "arc",
+  "bearing_deg": [
+   0.0,
+   0.0
+  ],
+  "min_path_radius": 0.0,
+  "min_clip_separation": 0.12,
+  "path_clearance": 0.05,
+  "view_x": [
+   -0.25,
+   0.8
+  ],
+  "view_y": [
+   -0.7,
+   0.7
+  ],
+  "view_margin": 0.0,
+  "insertion_region": 0.16,
+  "cable_length": 2.4,
+  "cable_radius": 0.005,
+  "head_allowance": 0.12,
+  "tail_reserve": 0.3,
+  "initial_head_axial": [
+   0.06,
+   0.11
+  ],
+  "initial_head_lateral": [
+   -0.025,
+   0.025
+  ],
+  "initial_angle_deg": 10.0,
+  "initial_lead": 0.3,
+  "initial_max_bend_deg": 100.0,
+  "initial_clip_clearance": 0.04
+ },
+ "generator_version": "route-family-v3",
+ "config_hash": "16fb33f2f4278952",
+ "scenes": [
+  {
+   "scene_id": "zigzag5-dev-0000",
+   "pool": "development",
+   "seed": 1,
+   "variant": {
+    "mirror": 1,
+    "reverse": false
+   },
+   "family": "zigzag5",
+   "generator_version": "route-family-v3",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      0.541188764108547,
+      0.053400638506989506,
+      -1.0698271771715926
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.41989172396334434,
+      -0.24628617500719457,
+      -2.8409475806389706
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.2406891719193613,
+      -0.4440371486593815,
+      -1.7731084648926365
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      0.052107685346147764,
+      -0.5981989747538771,
+      -3.1394574240759456
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      -0.11385895453878375,
+      -0.40258900242408047,
+      1.4050598903833675
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.3233035077791026,
+     "relative_angle_deg": -101.4777241281883,
+     "arc_length": 0.3697739216731294
+    },
+    {
+     "stage": 3,
+     "chord": 0.266868885858701,
+     "relative_angle_deg": 61.182674531246775,
+     "arc_length": 0.2799830255502149
+    },
+    {
+     "stage": 4,
+     "chord": 0.24357513358910962,
+     "relative_angle_deg": -78.2860287032964,
+     "arc_length": 0.26360735512119027
+    },
+    {
+     "stage": 5,
+     "chord": 0.2565310640635132,
+     "relative_angle_deg": -99.61833795735421,
+     "arc_length": 0.2919379190219093
+    }
+   ],
+   "reach_margin": 0.027419452835360514,
+   "route_arc_length": 1.205302221366444,
+   "route_slack": 0.7746977786335558,
+   "initial_head": [
+    0.5227659754174789,
+    0.12932274007318734,
+    -0.9206822305938056
+   ],
+   "initial_tail": [
+    -0.8633277104998778,
+    2.0883464562493717
+   ],
+   "cable_length": 2.4,
+   "cable_radius": 0.005,
+   "initial_path": [
+    [
+     0.5227659754174789,
+     0.12932274007318734
+    ],
+    [
+     0.3411828058373192,
+     0.36812716324248906
+    ],
+    [
+     -0.8633277104998778,
+     2.0883464562493717
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.0679406250247056,
+     "lateral": 0.02030459911610087,
+     "angle_deg": 8.54537597461131
+    },
+    "initial_tail_bend_deg": 2.2487939142844864,
+    "initial_tail_clearance": 0.343,
+    "sign_persistence": 0.12795540617506418,
+    "total_heading_change_deg": -218.19941625759213
+   }
+  },
+  {
+   "scene_id": "zigzag5-dev-0001",
+   "pool": "development",
+   "seed": 1002,
+   "variant": {
+    "mirror": -1,
+    "reverse": false
+   },
+   "family": "zigzag5",
+   "generator_version": "route-family-v3",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      0.1250488045544943,
+      -0.3466572438954676,
+      0.6943427502046329
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.36248949471608877,
+      -0.30981128171357203,
+      -0.3864392975030624
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.595303169638664,
+      -0.24451799787839285,
+      0.933296660800508
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      0.5218695357793148,
+      -0.004448167525466978,
+      2.801989219305579
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      0.3754436695075295,
+      0.20738626310723227,
+      1.549232129350087
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.24028255507531956,
+     "relative_angle_deg": -61.92424990715773,
+     "arc_length": 0.2523882802403232
+    },
+    {
+     "stage": 3,
+     "chord": 0.24179623682955825,
+     "relative_angle_deg": 75.61530048244778,
+     "arc_length": 0.26027785867436826
+    },
+    {
+     "stage": 4,
+     "chord": 0.251049839728034,
+     "relative_angle_deg": 107.06819680984422,
+     "arc_length": 0.2916741587032722
+    },
+    {
+     "stage": 5,
+     "chord": 0.2575157477027815,
+     "relative_angle_deg": -71.7776940095405,
+     "arc_length": 0.27515916740839624
+    }
+   ],
+   "reach_margin": 0.02021554974976303,
+   "route_arc_length": 1.0794994650263599,
+   "route_slack": 0.9005005349736399,
+   "initial_head": [
+    0.048805994748734705,
+    -0.3876838083780223,
+    0.6511975726172938
+   ],
+   "initial_tail": [
+    -1.9100208402153565,
+    -1.7740361266231939
+   ],
+   "cable_length": 2.4,
+   "cable_radius": 0.005,
+   "initial_path": [
+    [
+     0.048805994748734705,
+     -0.3876838083780223
+    ],
+    [
+     -0.18980154720847348,
+     -0.569525610285997
+    ],
+    [
+     -1.9100208402153565,
+     -1.7740361266231939
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.07734274825314169,
+     "lateral": 0.01725842139862374,
+     "angle_deg": -2.4720365820969636
+    },
+    "initial_tail_bend_deg": 2.310872540134922,
+    "initial_tail_clearance": 0.356,
+    "sign_persistence": 0.09520528987077898,
+    "total_heading_change_deg": 48.981553375593776
+   }
+  },
+  {
+   "scene_id": "zigzag5-dev-0002",
+   "pool": "development",
+   "seed": 2008,
+   "variant": {
+    "mirror": 1,
+    "reverse": true
+   },
+   "family": "zigzag5",
+   "generator_version": "route-family-v3",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      0.3907395930413519,
+      -0.44900575283660343,
+      0.20154496704602076
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.47828198466518357,
+      -0.19410455226309054,
+      2.278416219324699
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.43656149132925803,
+      0.11645195774444239,
+      1.1302595021229243
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      0.3113939003535258,
+      0.4314859946948597,
+      2.7677114504573863
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      0.0174110172223923,
+      0.37729486642987453,
+      -2.403135416550499
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.26951492052396386,
+     "relative_angle_deg": 118.99595734761834,
+     "arc_length": 0.32482618323082046
+    },
+    {
+     "stage": 3,
+     "chord": 0.31334636661728166,
+     "relative_angle_deg": -65.78453411525729,
+     "arc_length": 0.3312433156972692
+    },
+    {
+     "stage": 4,
+     "chord": 0.3389887465210978,
+     "relative_angle_deg": 93.8190857950384,
+     "arc_length": 0.38004653781501957
+    },
+    {
+     "stage": 5,
+     "chord": 0.2989358024003244,
+     "relative_angle_deg": 63.7322980120037,
+     "arc_length": 0.3149220437406408
+    }
+   ],
+   "reach_margin": 0.038277457821794036,
+   "route_arc_length": 1.35103808048375,
+   "route_slack": 0.6289619195162499,
+   "initial_head": [
+    0.32077324739824903,
+    -0.44810393115069946,
+    0.2951110015990799
+   ],
+   "initial_tail": [
+    -1.9947019469602698,
+    -1.0788777423360143
+   ],
+   "cable_length": 2.4,
+   "cable_radius": 0.005,
+   "initial_path": [
+    [
+     0.32077324739824903,
+     -0.44810393115069946
+    ],
+    [
+     0.03374228824677378,
+     -0.5353577476207207
+    ],
+    [
+     -1.9947019469602698,
+     -1.0788777423360143
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.06086959020101933,
+     "lateral": 0.014889658852639716,
+     "angle_deg": 5.360938885665508
+    },
+    "initial_tail_bend_deg": 1.9086148795058082,
+    "initial_tail_clearance": 0.337,
+    "sign_persistence": 0.22378937758466938,
+    "total_heading_change_deg": 210.76280703940313
+   }
+  },
+  {
+   "scene_id": "zigzag5-dev-0003",
+   "pool": "development",
+   "seed": 3000,
+   "variant": {
+    "mirror": -1,
+    "reverse": true
+   },
+   "family": "zigzag5",
+   "generator_version": "route-family-v3",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      0.4315682596752882,
+      -0.2950107947644854,
+      2.1455158263482277
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.48012695553277385,
+      -0.009254836745677564,
+      0.6594313174944588
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.5753818562371731,
+      0.2642708359278422,
+      1.8119341421563924
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      0.28226544877369625,
+      0.4154480798660537,
+      -2.764283526587067
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      0.0432058088928326,
+      0.45699896601519285,
+      2.420102505023687
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.28985240120900574,
+     "relative_angle_deg": -85.14637035709278,
+     "arc_length": 0.3183482430962735
+    },
+    {
+     "stage": 3,
+     "chord": 0.2896373417218616,
+     "relative_angle_deg": 66.03354773003473,
+     "arc_length": 0.30631063083183846
+    },
+    {
+     "stage": 4,
+     "chord": 0.32980568128679727,
+     "relative_angle_deg": 97.80204144780315,
+     "arc_length": 0.37353119977735066
+    },
+    {
+     "stage": 5,
+     "chord": 0.24264374617893397,
+     "relative_angle_deg": -62.95656102212645,
+     "arc_length": 0.2552943109114673
+    }
+   ],
+   "reach_margin": 0.02931977184238599,
+   "route_arc_length": 1.25348438461693,
+   "route_slack": 0.7265156153830701,
+   "initial_head": [
+    0.4930810309875203,
+    -0.3845293216833256,
+    2.2145218432219416
+   ],
+   "initial_tail": [
+    1.8776454006240768,
+    -2.344708215273416
+   ],
+   "cable_length": 2.4,
+   "cable_radius": 0.005,
+   "initial_path": [
+    [
+     0.4930810309875203,
+     -0.3845293216833256
+    ],
+    [
+     0.6731348842868801,
+     -0.6244889222665334
+    ],
+    [
+     1.8776454006240768,
+     -2.344708215273416
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.10107521551234358,
+     "lateral": -0.0029682103493908936,
+     "angle_deg": 3.953753527872386
+    },
+    "initial_tail_bend_deg": 1.8827552561490635,
+    "initial_tail_clearance": 0.379,
+    "sign_persistence": 0.10912885923001112,
+    "total_heading_change_deg": 15.732657798618641
+   }
+  },
+  {
+   "scene_id": "zigzag5-dev-0004",
+   "pool": "development",
+   "seed": 4004,
+   "variant": {
+    "mirror": 1,
+    "reverse": false
+   },
+   "family": "zigzag5",
+   "generator_version": "route-family-v3",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      0.4935309739011089,
+      0.20329929166807903,
+      -2.146615393827929
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.5117500925642604,
+      -0.07083742173050828,
+      -0.862252495365377
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.5431813886311734,
+      -0.31307909772830367,
+      -2.021278294991648
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      0.24028708383585057,
+      -0.4623068028971602,
+      2.9368152417390174
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      0.016952551794844395,
+      -0.5983948454300152,
+      -1.8422885215764824
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.27474146741589844,
+     "relative_angle_deg": 73.58857344509373,
+     "arc_length": 0.29457503087434056
+    },
+    {
+     "stage": 3,
+     "chord": 0.24427229880333715,
+     "relative_angle_deg": -66.40728666536077,
+     "arc_length": 0.2585001842393558
+    },
+    {
+     "stage": 4,
+     "chord": 0.3376593962373994,
+     "relative_angle_deg": -75.92216591424128,
+     "arc_length": 0.36368940669979266
+    },
+    {
+     "stage": 5,
+     "chord": 0.2615306263564544,
+     "relative_angle_deg": 86.17752450693315,
+     "arc_length": 0.2879123093309567
+    }
+   ],
+   "reach_margin": 0.022344406286113894,
+   "route_arc_length": 1.2046769311444456,
+   "route_slack": 0.7753230688555541,
+   "initial_head": [
+    0.5388132701017135,
+    0.30783481715972744,
+    -2.2265005423270905
+   ],
+   "initial_tail": [
+    2.071582521114954,
+    2.1543137733373072
+   ],
+   "cable_length": 2.4,
+   "cable_radius": 0.005,
+   "initial_path": [
+    [
+     0.5388132701017135,
+     0.30783481715972744
+    ],
+    [
+     0.7217285407732213,
+     0.5456204427874534
+    ],
+    [
+     2.071582521114954,
+     2.1543137733373072
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.10483601970804272,
+     "lateral": -0.01894151829100829,
+     "angle_deg": -4.57708185477779
+    },
+    "initial_tail_bend_deg": 2.4309158410688125,
+    "initial_tail_clearance": 0.381,
+    "sign_persistence": 0.20083360750993956,
+    "total_heading_change_deg": 17.436645372424863
+   }
+  },
+  {
+   "scene_id": "zigzag5-dev-0005",
+   "pool": "development",
+   "seed": 5003,
+   "variant": {
+    "mirror": -1,
+    "reverse": false
+   },
+   "family": "zigzag5",
+   "generator_version": "route-family-v3",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      0.4661839849552678,
+      -0.004272225819122233,
+      2.3963746190884363
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.4050453647801832,
+      0.25649952502562023,
+      1.205804362735722
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.3089603947886143,
+      0.544720052174279,
+      2.5793609748738957
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      -0.0006912693680035664,
+      0.5351376235620227,
+      -2.5174890547525415
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      -0.09938195514592361,
+      0.2665698912797003,
+      -1.3284097414888825
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.2678429332940216,
+     "relative_angle_deg": -68.21465090281902,
+     "arc_length": 0.28434128638314016
+    },
+    {
+     "stage": 3,
+     "chord": 0.30381473586403185,
+     "relative_angle_deg": 78.69899679780514,
+     "arc_length": 0.3290807422123189
+    },
+    {
+     "stage": 4,
+     "chord": 0.3097998967931911,
+     "relative_angle_deg": 67.97200449127655,
+     "arc_length": 0.3287414070738496
+    },
+    {
+     "stage": 5,
+     "chord": 0.2861266822276198,
+     "relative_angle_deg": 68.12922615632195,
+     "arc_length": 0.3037052649766021
+    }
+   ],
+   "reach_margin": 0.02096109317738748,
+   "route_arc_length": 1.2458687006459108,
+   "route_slack": 0.7341312993540889,
+   "initial_head": [
+    0.5351782914603518,
+    -0.09616324427813137,
+    2.249007229117777
+   ],
+   "initial_tail": [
+    2.0732525312641217,
+    -1.9384655085784808
+   ],
+   "cable_length": 2.4,
+   "cable_radius": 0.005,
+   "initial_path": [
+    [
+     0.5351782914603518,
+     -0.09616324427813137
+    ],
+    [
+     0.7233985509223892,
+     -0.32977217802862663
+    ],
+    [
+     2.0732525312641217,
+     -1.9384655085784808
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.10552092647290728,
+     "lateral": 0.020747139146328288,
+     "angle_deg": -8.443529483177324
+    },
+    "initial_tail_bend_deg": 1.1413776771396387,
+    "initial_tail_clearance": 0.385,
+    "sign_persistence": 0.09839804442957056,
+    "total_heading_change_deg": 146.58557654258462
+   }
+  },
+  {
+   "scene_id": "zigzag5-dev-0006",
+   "pool": "development",
+   "seed": 6005,
+   "variant": {
+    "mirror": 1,
+    "reverse": true
+   },
+   "family": "zigzag5",
+   "generator_version": "route-family-v3",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      0.3607311448946764,
+      -0.2888411718873388,
+      0.030443751396801666
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.6191425276894937,
+      -0.09190202825869934,
+      1.2719754727817953
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.48516874221158746,
+      0.1558251653768407,
+      2.861140301487527
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      0.31825141564544646,
+      0.33626253880288226,
+      1.7734421861281469
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      0.09085834041426244,
+      0.579357342009116,
+      2.872224979807833
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.3249022453771465,
+     "relative_angle_deg": 71.13452776697216,
+     "arc_length": 0.34674691199165897
+    },
+    {
+     "stage": 3,
+     "chord": 0.28163404918763,
+     "relative_angle_deg": 91.05243763546885,
+     "arc_length": 0.31360779385348514
+    },
+    {
+     "stage": 4,
+     "chord": 0.2458028470886302,
+     "relative_angle_deg": -62.320511394426234,
+     "arc_length": 0.25835133421978745
+    },
+    {
+     "stage": 5,
+     "chord": 0.332870386200053,
+     "relative_angle_deg": 62.955616679439935,
+     "arc_length": 0.35022450114206094
+    }
+   ],
+   "reach_margin": 0.03585179653087733,
+   "route_arc_length": 1.2689305412069924,
+   "route_slack": 0.7110694587930075,
+   "initial_head": [
+    0.27407876333073,
+    -0.3116513664496747,
+    0.07776878382739794
+   ],
+   "initial_tail": [
+    -2.1170233622354115,
+    -0.5179855512615436
+   ],
+   "cable_length": 2.4,
+   "cable_radius": 0.005,
+   "initial_path": [
+    [
+     0.27407876333073,
+     -0.3116513664496747
+    ],
+    [
+     -0.025014496242745654,
+     -0.33495849149146184
+    ],
+    [
+     -2.1170233622354115,
+     -0.5179855512615436
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.07980654962755715,
+     "lateral": -0.020162008798884096,
+     "angle_deg": 2.7115246235929025
+    },
+    "initial_tail_bend_deg": 0.5441769088248144,
+    "initial_tail_clearance": 0.359,
+    "sign_persistence": 0.17042838387412215,
+    "total_heading_change_deg": 162.8220706874547
+   }
+  },
+  {
+   "scene_id": "zigzag5-dev-0007",
+   "pool": "development",
+   "seed": 7010,
+   "variant": {
+    "mirror": -1,
+    "reverse": true
+   },
+   "family": "zigzag5",
+   "generator_version": "route-family-v3",
+   "clips": [
+    {
+     "clip_id": "C01",
+     "pose": [
+      0.33332983068195043,
+      0.5194689194560068,
+      -0.3066738337887598
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C02",
+     "pose": [
+      0.4217932721792595,
+      0.2570228420944069,
+      -2.184694188713328
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C03",
+     "pose": [
+      0.42039766251955357,
+      -0.005074838621282718,
+      -0.9675479026443599
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C04",
+     "pose": [
+      0.3805729543458256,
+      -0.30128344260313145,
+      -2.4413382445805274
+     ],
+     "scale": 1.0
+    },
+    {
+     "clip_id": "C05",
+     "pose": [
+      0.06745630288576954,
+      -0.3286304098843731,
+      2.61557203376619
+     ],
+     "scale": 1.0
+    }
+   ],
+   "stages": [
+    {
+     "stage": 2,
+     "chord": 0.2769543717005361,
+     "relative_angle_deg": -107.60264017683866,
+     "arc_length": 0.3222693664087254
+    },
+    {
+     "stage": 3,
+     "chord": 0.2621013963390234,
+     "relative_angle_deg": 69.73734524177462,
+     "arc_length": 0.2790075354564309
+    },
+    {
+     "stage": 4,
+     "chord": 0.29887379352161053,
+     "relative_angle_deg": -84.44196648008486,
+     "arc_length": 0.3277400704734212
+    },
+    {
+     "stage": 5,
+     "chord": 0.31430859682967555,
+     "relative_angle_deg": -70.26038367440677,
+     "arc_length": 0.33490135038170377
+    }
+   ],
+   "reach_margin": 0.023839133398009527,
+   "route_arc_length": 1.2639183227202813,
+   "route_slack": 0.7160816772797187,
+   "initial_head": [
+    0.25842219132591154,
+    0.5468851964571203,
+    -0.22651850588758826
+   ],
+   "initial_tail": [
+    -2.0623583023827727,
+    1.157781091650714
+   ],
+   "cable_length": 2.4,
+   "cable_radius": 0.005,
+   "initial_path": [
+    [
+     0.25842219132591154,
+     0.5468851964571203
+    ],
+    [
+     -0.03391406717572948,
+     0.6142610969354199
+    ],
+    [
+     -2.0623583023827727,
+     1.157781091650714
+    ]
+   ],
+   "extras": {
+    "initial_head_offset": {
+     "axial": 0.07218935344238912,
+     "lateral": 0.0035232976641434988,
+     "angle_deg": 4.592561994224329
+    },
+    "initial_tail_bend_deg": 2.0214456310319115,
+    "initial_tail_clearance": 0.349,
+    "sign_persistence": 0.0473181561046436,
+    "total_heading_change_deg": -192.56764508955567
+   }
+  }
+ ],
+ "rejected": [
+  {
+   "pool": "development",
+   "index": 0,
+   "attempt": 0,
+   "seed": 0,
+   "reason": "dead end at stage 4"
+  },
+  {
+   "pool": "development",
+   "index": 1,
+   "attempt": 0,
+   "seed": 1000,
+   "reason": "dead end at stage 2"
+  },
+  {
+   "pool": "development",
+   "index": 1,
+   "attempt": 1,
+   "seed": 1001,
+   "reason": "dead end at stage 2"
+  },
+  {
+   "pool": "development",
+   "index": 2,
+   "attempt": 0,
+   "seed": 2000,
+   "reason": "initial cable lead passes too close to the robot base"
+  },
+  {
+   "pool": "development",
+   "index": 2,
+   "attempt": 1,
+   "seed": 2001,
+   "reason": "dead end at stage 2"
+  },
+  {
+   "pool": "development",
+   "index": 2,
+   "attempt": 2,
+   "seed": 2002,
+   "reason": "dead end at stage 2"
+  },
+  {
+   "pool": "development",
+   "index": 2,
+   "attempt": 3,
+   "seed": 2003,
+   "reason": "dead end at stage 2"
+  },
+  {
+   "pool": "development",
+   "index": 2,
+   "attempt": 4,
+   "seed": 2004,
+   "reason": "dead end at stage 2"
+  },
+  {
+   "pool": "development",
+   "index": 2,
+   "attempt": 5,
+   "seed": 2005,
+   "reason": "dead end at stage 3"
+  },
+  {
+   "pool": "development",
+   "index": 2,
+   "attempt": 6,
+   "seed": 2006,
+   "reason": "dead end at stage 2"
+  },
+  {
+   "pool": "development",
+   "index": 2,
+   "attempt": 7,
+   "seed": 2007,
+   "reason": "dead end at stage 2"
+  },
+  {
+   "pool": "development",
+   "index": 4,
+   "attempt": 0,
+   "seed": 4000,
+   "reason": "dead end at stage 2"
+  },
+  {
+   "pool": "development",
+   "index": 4,
+   "attempt": 1,
+   "seed": 4001,
+   "reason": "dead end at stage 4"
+  },
+  {
+   "pool": "development",
+   "index": 4,
+   "attempt": 2,
+   "seed": 4002,
+   "reason": "dead end at stage 4"
+  },
+  {
+   "pool": "development",
+   "index": 4,
+   "attempt": 3,
+   "seed": 4003,
+   "reason": "dead end at stage 2"
+  },
+  {
+   "pool": "development",
+   "index": 5,
+   "attempt": 0,
+   "seed": 5000,
+   "reason": "dead end at stage 2"
+  },
+  {
+   "pool": "development",
+   "index": 5,
+   "attempt": 1,
+   "seed": 5001,
+   "reason": "dead end at stage 4"
+  },
+  {
+   "pool": "development",
+   "index": 5,
+   "attempt": 2,
+   "seed": 5002,
+   "reason": "dead end at stage 3"
+  },
+  {
+   "pool": "development",
+   "index": 6,
+   "attempt": 0,
+   "seed": 6000,
+   "reason": "dead end at stage 2"
+  },
+  {
+   "pool": "development",
+   "index": 6,
+   "attempt": 1,
+   "seed": 6001,
+   "reason": "dead end at stage 4"
+  },
+  {
+   "pool": "development",
+   "index": 6,
+   "attempt": 2,
+   "seed": 6002,
+   "reason": "dead end at stage 5"
+  },
+  {
+   "pool": "development",
+   "index": 6,
+   "attempt": 3,
+   "seed": 6003,
+   "reason": "dead end at stage 2"
+  },
+  {
+   "pool": "development",
+   "index": 6,
+   "attempt": 4,
+   "seed": 6004,
+   "reason": "dead end at stage 2"
+  },
+  {
+   "pool": "development",
+   "index": 7,
+   "attempt": 0,
+   "seed": 7000,
+   "reason": "dead end at stage 2"
+  },
+  {
+   "pool": "development",
+   "index": 7,
+   "attempt": 1,
+   "seed": 7001,
+   "reason": "dead end at stage 2"
+  },
+  {
+   "pool": "development",
+   "index": 7,
+   "attempt": 2,
+   "seed": 7002,
+   "reason": "dead end at stage 2"
+  },
+  {
+   "pool": "development",
+   "index": 7,
+   "attempt": 3,
+   "seed": 7003,
+   "reason": "dead end at stage 2"
+  },
+  {
+   "pool": "development",
+   "index": 7,
+   "attempt": 4,
+   "seed": 7004,
+   "reason": "dead end at stage 2"
+  },
+  {
+   "pool": "development",
+   "index": 7,
+   "attempt": 5,
+   "seed": 7005,
+   "reason": "dead end at stage 2"
+  },
+  {
+   "pool": "development",
+   "index": 7,
+   "attempt": 6,
+   "seed": 7006,
+   "reason": "dead end at stage 2"
+  },
+  {
+   "pool": "development",
+   "index": 7,
+   "attempt": 7,
+   "seed": 7007,
+   "reason": "dead end at stage 2"
+  },
+  {
+   "pool": "development",
+   "index": 7,
+   "attempt": 8,
+   "seed": 7008,
+   "reason": "dead end at stage 2"
+  },
+  {
+   "pool": "development",
+   "index": 7,
+   "attempt": 9,
+   "seed": 7009,
+   "reason": "dead end at stage 3"
+  }
+ ]
+}

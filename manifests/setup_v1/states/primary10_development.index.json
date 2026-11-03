@@ -1,0 +1,176 @@
+{
+ "manifest_sha256": "ea66a5e505ee8ce4",
+ "settle_steps": 480,
+ "config_hash": "95f654b8b1b52a6b",
+ "physics_hash": "afc9d60dd932e624",
+ "check_limits": {
+  "max_displacement_m": 0.02,
+  "max_height_radii": 3.0,
+  "min_clip_clearance_m": 0.0
+ },
+ "all_checks_passed": true,
+ "states": {
+  "primary10-dev-0000": "ab5a31a7fde82f90",
+  "primary10-dev-0001": "4c8a73007679b8ed",
+  "primary10-dev-0002": "356d5b96f8c75e90",
+  "primary10-dev-0003": "fb93a49d56fa955c",
+  "primary10-dev-0004": "f8f5c54537f0c5a6",
+  "primary10-dev-0005": "e8d47a439768a4b2",
+  "primary10-dev-0006": "0e2bfde0c52f8cc1",
+  "primary10-dev-0007": "4df1705bdfe145a4",
+  "primary10-dev-0008": "2c19c0c50626a262",
+  "primary10-dev-0009": "66c76de27e2780c4",
+  "primary10-dev-0010": "dcde4d14c1e4010f",
+  "primary10-dev-0011": "13d53c7474450728",
+  "primary10-dev-0012": "0c4005822e343a53",
+  "primary10-dev-0013": "98731929d1430559",
+  "primary10-dev-0014": "c085772c5c5a473b",
+  "primary10-dev-0015": "2c66439e3159799a",
+  "primary10-dev-0016": "822301d8794ba89b",
+  "primary10-dev-0017": "936ee656c8f43207",
+  "primary10-dev-0018": "9a5754ed314738a5",
+  "primary10-dev-0019": "d33d7c9712b65e9f"
+ },
+ "checks": {
+  "primary10-dev-0000": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.064937
+  },
+  "primary10-dev-0001": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.067062
+  },
+  "primary10-dev-0002": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.069526
+  },
+  "primary10-dev-0003": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.046107
+  },
+  "primary10-dev-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.066312
+  },
+  "primary10-dev-0005": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.07445
+  },
+  "primary10-dev-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.076743
+  },
+  "primary10-dev-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.043778
+  },
+  "primary10-dev-0008": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.059287
+  },
+  "primary10-dev-0009": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.054723
+  },
+  "primary10-dev-0010": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.069915
+  },
+  "primary10-dev-0011": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.082535
+  },
+  "primary10-dev-0012": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.071988
+  },
+  "primary10-dev-0013": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.087369
+  },
+  "primary10-dev-0014": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.082319
+  },
+  "primary10-dev-0015": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.043282
+  },
+  "primary10-dev-0016": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.0,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.073659
+  },
+  "primary10-dev-0017": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.063876
+  },
+  "primary10-dev-0018": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.065886
+  },
+  "primary10-dev-0019": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.068931
+  }
+ }
+}

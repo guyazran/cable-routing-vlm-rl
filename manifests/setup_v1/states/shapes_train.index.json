@@ -1,0 +1,7696 @@
+{
+ "manifest_sha256": "8fa99489ee679934",
+ "settle_steps": 480,
+ "config_hash": "95f654b8b1b52a6b",
+ "physics_hash": "afc9d60dd932e624",
+ "check_limits": {
+  "max_displacement_m": 0.02,
+  "max_height_radii": 3.0,
+  "min_clip_clearance_m": 0.0
+ },
+ "all_checks_passed": true,
+ "states": {
+  "arc-n03-0001": "b2873f7c790e04b4",
+  "arc-n03-0003": "5c38259db4000b0e",
+  "arc-n03-0004": "b724beb9fe652d80",
+  "arc-n03-0005": "63e51a48a9a2873a",
+  "arc-n03-0007": "582d591cb0f3c7ee",
+  "arc-n03-0008": "ffd7962983d2fe16",
+  "arc-n03-0009": "1603e6fe9058b6c9",
+  "arc-n03-0011": "cd721e84a3b2a76f",
+  "arc-n03-0012": "0c68d20c422185cf",
+  "arc-n03-0014": "96b80fc2d136313d",
+  "arc-n03-0016": "b2823253f16dd2ee",
+  "arc-n03-0022": "ad181d5d6cf323eb",
+  "arc-n03-0026": "0a7bd986db30c1f3",
+  "arc-n03-0031": "bc70bff3995b0105",
+  "arc-n03-0032": "fc2d8e8ce7782ef3",
+  "arc-n03-0033": "b51348836b5899db",
+  "arc-n03-0034": "747f70fca95e9e5c",
+  "arc-n03-0035": "16119ae613f6e58e",
+  "arc-n03-0037": "3dd11a2d4b234fc1",
+  "arc-n03-0038": "43e8b9aacf3a015e",
+  "arc-n04-0000": "abef0ae11ca4629c",
+  "arc-n04-0001": "9ef4bc602ce6f9c1",
+  "arc-n04-0003": "af438029332cf43b",
+  "arc-n04-0004": "47565c37eafd3316",
+  "arc-n04-0006": "97cff8862acd85e4",
+  "arc-n04-0008": "87d8690fc896c47a",
+  "arc-n04-0012": "4afc8a51ff1c4eff",
+  "arc-n04-0015": "3064c790e77bb7f6",
+  "arc-n04-0017": "15502b0624dbd53b",
+  "arc-n04-0018": "48dac4bb58e302c8",
+  "arc-n04-0019": "50677b5affb1ffea",
+  "arc-n04-0025": "c164b00df74549f2",
+  "arc-n04-0026": "4bad2dfc1ae17e36",
+  "arc-n04-0030": "66f78ec464736bc0",
+  "arc-n04-0031": "8b2d7639b4ee1a88",
+  "arc-n04-0033": "cb92058b31846537",
+  "arc-n04-0036": "7183077c01dd0261",
+  "arc-n04-0037": "dad7513eb2285ce2",
+  "arc-n04-0038": "bcc02d24a6dfccb6",
+  "arc-n04-0039": "f23ce3de9be8e410",
+  "arc-n05-0000": "6ea8c873b576ce3d",
+  "arc-n05-0001": "e14be22ee1ef7491",
+  "arc-n05-0004": "7637c14a674b6121",
+  "arc-n05-0005": "207c597a42b4abd5",
+  "arc-n05-0006": "fb18b8e29d9e1046",
+  "arc-n05-0009": "8ca7703b12ae3013",
+  "arc-n05-0010": "a50979c497d6f5f5",
+  "arc-n05-0011": "e4739c28ed863162",
+  "arc-n05-0012": "648ffa989f72862e",
+  "arc-n05-0014": "0c259360176c265c",
+  "arc-n05-0021": "7a2187aa46070421",
+  "arc-n05-0023": "cab993031162827d",
+  "arc-n05-0025": "4e8ce27a5cdb0ca9",
+  "arc-n05-0026": "db8f602ef02640e0",
+  "arc-n05-0031": "80f0e8fb6b96d5ad",
+  "arc-n05-0032": "da264fa8e905fb40",
+  "arc-n05-0034": "420315629ada468c",
+  "arc-n05-0035": "232a6274d630f2ab",
+  "arc-n05-0036": "1ab9a628f9d7f3f3",
+  "arc-n05-0039": "9bc85986de791656",
+  "arc-n06-0001": "d6abb180bba70e74",
+  "arc-n06-0005": "8c4929b3a79dc6fb",
+  "arc-n06-0008": "89867b0c701801ad",
+  "arc-n06-0011": "b3de1e2232c93000",
+  "arc-n06-0014": "eb030a55cef82079",
+  "arc-n06-0015": "3f179a5e78c7dd6b",
+  "arc-n06-0016": "59f6762f29e8fc56",
+  "arc-n06-0017": "cc17852c0ee37454",
+  "arc-n06-0019": "10deb5ae9abe0259",
+  "arc-n06-0020": "6a10a0e09ae3a6a6",
+  "arc-n06-0021": "6eef8a6a03afc113",
+  "arc-n06-0022": "ff17d329f67c7038",
+  "arc-n06-0023": "bd6aeb3fe157381b",
+  "arc-n06-0026": "00842e29d7bd881c",
+  "arc-n06-0030": "3aaa70eda41d1262",
+  "arc-n06-0031": "2761cf45c1c24da2",
+  "arc-n06-0032": "e3d2a7527a436137",
+  "arc-n06-0036": "a0ffef2f972329f6",
+  "arc-n06-0037": "ce221deb819d88e2",
+  "arc-n06-0038": "4a8116bc529dd242",
+  "arc-n07-0000": "5931cfc74f58391f",
+  "arc-n07-0004": "2f4270c62e5f9673",
+  "arc-n07-0006": "e748d38f4dc8c250",
+  "arc-n07-0010": "45d2aaaac2e9ca1f",
+  "arc-n07-0012": "daf78fc61ffea3eb",
+  "arc-n07-0013": "2a1de250cb1520a7",
+  "arc-n07-0014": "b6735efb952dc0e6",
+  "arc-n07-0015": "a88dcf1a77c06b59",
+  "arc-n07-0020": "ae1dc7329904547f",
+  "arc-n07-0021": "e6db92e675730c78",
+  "arc-n07-0027": "cce4a7893ebbf2f9",
+  "arc-n07-0028": "e927928073964a3e",
+  "arc-n07-0029": "6fb7cc600dcb71d9",
+  "arc-n07-0030": "84c9581706b05b5e",
+  "arc-n07-0031": "4183c3584de05fef",
+  "arc-n07-0033": "4848dce0d85a76f5",
+  "arc-n07-0035": "93f8226865564ed0",
+  "arc-n07-0037": "a553a561163a2370",
+  "arc-n07-0038": "ef2bf1e95a495558",
+  "arc-n07-0039": "9a1ee5d7ea81abcb",
+  "arc-n08-0003": "b9b5b4b078ea9562",
+  "arc-n08-0004": "1804d483755de735",
+  "arc-n08-0006": "fb95c75d84604eaf",
+  "arc-n08-0010": "aee23356e10dd9c3",
+  "arc-n08-0011": "11f4e9aa9a4615f8",
+  "arc-n08-0016": "ffd3b7b69e067540",
+  "arc-n08-0017": "3c3f6e36b46e82e6",
+  "arc-n08-0018": "7a0a502b21730dd8",
+  "arc-n08-0021": "d4c24e80a879c99e",
+  "arc-n08-0023": "e391d341129b0b48",
+  "arc-n08-0024": "0cbddab5058058e5",
+  "arc-n08-0025": "9ea1a013de378b85",
+  "arc-n08-0026": "e47f62040268d1c5",
+  "arc-n08-0031": "945ad735994892d2",
+  "arc-n08-0032": "7c818f1c0ac0aa45",
+  "arc-n08-0033": "ec44c2bea3301ab0",
+  "arc-n08-0034": "de0ebb2559d06977",
+  "arc-n08-0036": "f57233dbbe32dd17",
+  "arc-n08-0037": "a9955bb7bece056f",
+  "arc-n08-0039": "6073243afae34111",
+  "arc-n09-0001": "87dfa186fb1286ee",
+  "arc-n09-0002": "fb4223d09bac9704",
+  "arc-n09-0004": "7503e5a1b880acef",
+  "arc-n09-0006": "d4205a329e9227d1",
+  "arc-n09-0008": "496accad9dbc5827",
+  "arc-n09-0011": "ac953cd6a3b8a532",
+  "arc-n09-0014": "fc6ebcc7e7a3d646",
+  "arc-n09-0016": "e13936a5a3685fd9",
+  "arc-n09-0017": "e687351e92f1e20e",
+  "arc-n09-0020": "64eb2df7af92d745",
+  "arc-n09-0021": "4c968eb78422b518",
+  "arc-n09-0023": "f55be266b8f6f126",
+  "arc-n09-0024": "7f1c1805bdc1c6ef",
+  "arc-n09-0025": "0cbdfee23456f38d",
+  "arc-n09-0026": "84fc36727952aeb9",
+  "arc-n09-0027": "afc18060af772e6c",
+  "arc-n09-0031": "a2117fb50fb10432",
+  "arc-n09-0035": "2e571b7ad7ed6b8b",
+  "arc-n09-0037": "b744b758f5b668a8",
+  "arc-n09-0038": "b29d4a617224e62d",
+  "arc-n10-0000": "c53dca1be5296b79",
+  "arc-n10-0001": "6beed61eb9fcce26",
+  "arc-n10-0006": "70dc775883b6c9f5",
+  "arc-n10-0007": "2edf73f28040a8a5",
+  "arc-n10-0008": "1fe3375541c61bd3",
+  "arc-n10-0009": "f3e9b2d656f5aca2",
+  "arc-n10-0010": "19cfa01a3f454565",
+  "arc-n10-0012": "92ae86a8963c24fd",
+  "arc-n10-0013": "9d42c8a14b7dbcd1",
+  "arc-n10-0017": "387bb1e988042c18",
+  "arc-n10-0019": "cd7209032e94d03f",
+  "arc-n10-0020": "d20c08968e5fadad",
+  "arc-n10-0021": "6c7f725723c5307e",
+  "arc-n10-0023": "98576c3eaaeea993",
+  "arc-n10-0027": "72bb54e2383e801a",
+  "arc-n10-0028": "ca86d48aad3c614d",
+  "arc-n10-0030": "1566bc5b55f86492",
+  "arc-n10-0034": "834e74e286689077",
+  "arc-n10-0035": "aefb7da65a5a66ca",
+  "arc-n10-0038": "9c8e14bd6dabdf2a",
+  "circle-n03-0001": "f89d936c73772215",
+  "circle-n03-0003": "8d15e17d0d9ed293",
+  "circle-n03-0006": "72b753d3b66b9f3b",
+  "circle-n03-0009": "c1e0422c6792fa3f",
+  "circle-n03-0010": "d62aa297ca0496b2",
+  "circle-n03-0011": "54aa4ce34407c43d",
+  "circle-n03-0013": "5267b365584b5bef",
+  "circle-n03-0015": "b1278c0530f895ac",
+  "circle-n03-0016": "a1ebf7489de48057",
+  "circle-n03-0018": "43be0e1ad5fbce51",
+  "circle-n03-0019": "8ba0075015074a7c",
+  "circle-n03-0020": "946a99a0198d59f9",
+  "circle-n03-0023": "50f0681a4da3ae83",
+  "circle-n03-0024": "a4904a8e6c1a012f",
+  "circle-n03-0025": "b04e972f980ca95e",
+  "circle-n03-0028": "3b895ca0667547e5",
+  "circle-n03-0029": "4fd914de621f51c1",
+  "circle-n03-0030": "1ad2ffaad79281bb",
+  "circle-n03-0036": "c9b9212d4590662e",
+  "circle-n03-0038": "5b11a840fc8d8e11",
+  "circle-n04-0001": "3a0babe8890bf4fe",
+  "circle-n04-0003": "ee846df1e090d527",
+  "circle-n04-0007": "a4ea5c838df65b7f",
+  "circle-n04-0008": "5299c104b50ad7f5",
+  "circle-n04-0013": "aed4d76573d10123",
+  "circle-n04-0015": "90ed8e3715e408cf",
+  "circle-n04-0016": "549e7ff94dfe7b57",
+  "circle-n04-0017": "479e8b2b22adbe3d",
+  "circle-n04-0018": "c88401ad65483910",
+  "circle-n04-0019": "34d038e112eb3389",
+  "circle-n04-0022": "1dc387a00ca1884f",
+  "circle-n04-0024": "a08470fb6a95f190",
+  "circle-n04-0029": "758caa1e521d4e3d",
+  "circle-n04-0030": "e4205d58a602e308",
+  "circle-n04-0031": "7bd7d50cb5318e58",
+  "circle-n04-0032": "563e8303310ca6f7",
+  "circle-n04-0034": "ee22896cc32fb239",
+  "circle-n04-0036": "d4d8faf58b1b86c9",
+  "circle-n04-0037": "a3f90e7bf48594b7",
+  "circle-n04-0038": "5b50c65bd3e4b326",
+  "circle-n05-0006": "cafb0f5d852fb1b3",
+  "circle-n05-0007": "2096e9b42b44d6d2",
+  "circle-n05-0008": "c7d784c86424bb10",
+  "circle-n05-0009": "1541fcc216838f2d",
+  "circle-n05-0011": "9d828f14e232ece9",
+  "circle-n05-0012": "42fdcf1f09c74bf8",
+  "circle-n05-0013": "93eb46ee98395e04",
+  "circle-n05-0014": "c8df9b96be0e197e",
+  "circle-n05-0016": "0dd9e310bc820a7f",
+  "circle-n05-0018": "5e23213ebb99c6b1",
+  "circle-n05-0019": "428c924817641229",
+  "circle-n05-0021": "9f689a34129192a1",
+  "circle-n05-0027": "8ce2768ee6dadb6e",
+  "circle-n05-0028": "409e40458235a21a",
+  "circle-n05-0029": "f5b1a1eec3a94382",
+  "circle-n05-0030": "e981f73ad28eae26",
+  "circle-n05-0032": "4d730f080c9bc2c8",
+  "circle-n05-0033": "122f8543d51bf738",
+  "circle-n05-0034": "012c75d485702afa",
+  "circle-n05-0039": "4bf93330b64affda",
+  "circle-n06-0001": "b64729f67ea4a132",
+  "circle-n06-0002": "ff1faa39a0813f73",
+  "circle-n06-0003": "d2e78cee27c61164",
+  "circle-n06-0004": "480a75aea1953cdb",
+  "circle-n06-0006": "6b207854a09e683b",
+  "circle-n06-0011": "2276b5b4c70070d9",
+  "circle-n06-0012": "8bb766bdad0a9296",
+  "circle-n06-0014": "9c20af74d581c3ca",
+  "circle-n06-0020": "b4b2d3553daa421f",
+  "circle-n06-0024": "7b0ef8da65bac54a",
+  "circle-n06-0025": "c19e8801fe1323c0",
+  "circle-n06-0028": "1bc76250ac4f599d",
+  "circle-n06-0029": "5e79fd88a1c45a98",
+  "circle-n06-0030": "6cbd97492a3e997f",
+  "circle-n06-0031": "01a3feb8aed29834",
+  "circle-n06-0033": "44b7389451f28ee5",
+  "circle-n06-0034": "c903aa9d1d5473d3",
+  "circle-n06-0035": "03196994156305f5",
+  "circle-n06-0037": "fee340f8a0e8308c",
+  "circle-n06-0039": "a5971f4c133784ef",
+  "circle-n07-0000": "a94f74d9a55b0a1c",
+  "circle-n07-0003": "63192551ed090e79",
+  "circle-n07-0004": "1726fd15c7d37b0f",
+  "circle-n07-0006": "190bbf15384e2e41",
+  "circle-n07-0009": "fbff06f20fdb9a79",
+  "circle-n07-0013": "b02a029199e8c98c",
+  "circle-n07-0014": "c8aac990b713849e",
+  "circle-n07-0016": "3b8bf8a5f0b59c73",
+  "circle-n07-0018": "38e427834572f203",
+  "circle-n07-0019": "2c6dafd000ae79ea",
+  "circle-n07-0023": "f59b0232fdfcf557",
+  "circle-n07-0024": "ddae9fd987381b2e",
+  "circle-n07-0025": "9d26c2d69228eff2",
+  "circle-n07-0027": "8fce986ec34cf3e7",
+  "circle-n07-0030": "5da3760bcf07ba29",
+  "circle-n07-0031": "39822c9e72583cc6",
+  "circle-n07-0033": "44d0eb4493618829",
+  "circle-n07-0036": "abd433eba0dd2892",
+  "circle-n07-0037": "970ed58de8b19c62",
+  "circle-n07-0038": "3a419f1ae7239de2",
+  "circle-n08-0001": "2ed2fa472da176dd",
+  "circle-n08-0002": "169bf2361ff932ef",
+  "circle-n08-0003": "1cf9dc26b6acfffd",
+  "circle-n08-0004": "fe37576a80563b23",
+  "circle-n08-0009": "6117e5bdc103b530",
+  "circle-n08-0010": "e5c801d43ae1dc20",
+  "circle-n08-0011": "c2a3d1bda7a92e48",
+  "circle-n08-0012": "a486233063775d37",
+  "circle-n08-0014": "f8058253e65ba839",
+  "circle-n08-0015": "d35574c53b175c52",
+  "circle-n08-0016": "d42df585537474bf",
+  "circle-n08-0017": "50e4f2985b9a1ba1",
+  "circle-n08-0018": "0d45e6ebc43edde8",
+  "circle-n08-0023": "21427946d07426bc",
+  "circle-n08-0024": "bb4a8a06efdd7e9b",
+  "circle-n08-0025": "f1f9d5246a1b1b8a",
+  "circle-n08-0030": "d468ccf9496afca0",
+  "circle-n08-0032": "1369205842d097f4",
+  "circle-n08-0033": "b32e7e4d5a45a3a0",
+  "circle-n08-0035": "c06dfc348973198a",
+  "circle-n09-0000": "db3720eb3897896e",
+  "circle-n09-0001": "06a595421dc8049b",
+  "circle-n09-0002": "de9d5dcfc88ab182",
+  "circle-n09-0003": "d87f33701119778d",
+  "circle-n09-0004": "de2e1d70eb7f54e2",
+  "circle-n09-0007": "6383d844437fec6c",
+  "circle-n09-0014": "3d076d7dc6a0dd17",
+  "circle-n09-0015": "0052ad1825ca0503",
+  "circle-n09-0017": "fabc2bd2b8792710",
+  "circle-n09-0019": "0c3cc132e517ffa0",
+  "circle-n09-0020": "72b8c5aba44a7548",
+  "circle-n09-0021": "fe4fb8f700f73588",
+  "circle-n09-0022": "15678f6fd6be9799",
+  "circle-n09-0023": "f2c4ed69fb6f4c94",
+  "circle-n09-0025": "6ca451b85dc5bd53",
+  "circle-n09-0026": "fa1be9d9c6ab5def",
+  "circle-n09-0028": "f42217a6f5cc1a4a",
+  "circle-n09-0034": "7c90e6faaae1e5b0",
+  "circle-n09-0036": "970aeb070f416ebe",
+  "circle-n09-0037": "f1aa22b67156c8c5",
+  "circle-n10-0000": "c9edc4076cf7cb12",
+  "circle-n10-0006": "481de575d1a2ba5e",
+  "circle-n10-0007": "030683f64127b17c",
+  "circle-n10-0009": "e4cb340c526a10db",
+  "circle-n10-0011": "79495ecbc8642836",
+  "circle-n10-0012": "15e48e14f4ba711a",
+  "circle-n10-0013": "73e6d5d341922312",
+  "circle-n10-0015": "70cefd5b79308353",
+  "circle-n10-0016": "4863d59b028e6730",
+  "circle-n10-0018": "fe366d08ffb97c89",
+  "circle-n10-0019": "be6bb710e7e6388a",
+  "circle-n10-0020": "40cad7d07ff574bf",
+  "circle-n10-0022": "4faa158dac21c6cd",
+  "circle-n10-0024": "c2874daaede6f19d",
+  "circle-n10-0025": "91e2b1f1daad0353",
+  "circle-n10-0026": "1b85c6d132d2c20d",
+  "circle-n10-0027": "b481fde78e39bc69",
+  "circle-n10-0029": "f6e521f3d950bfd6",
+  "circle-n10-0033": "453bec9fd493f9d4",
+  "circle-n10-0034": "5d2ef2a020f5294c",
+  "spiral-n03-0007": "ffe6f9c559496115",
+  "spiral-n03-0010": "380240c9f12c313b",
+  "spiral-n03-0012": "84f92a377d79641d",
+  "spiral-n03-0016": "35cea71faabf6e85",
+  "spiral-n03-0018": "431834dab8958a5c",
+  "spiral-n03-0020": "f91c53f8b4af3850",
+  "spiral-n03-0021": "bd9a84ded0233838",
+  "spiral-n03-0022": "ae06ec46e89a7994",
+  "spiral-n03-0023": "ce2446f60afbcd8d",
+  "spiral-n03-0024": "3d3671fd5816c5f6",
+  "spiral-n03-0025": "a352e30b4d87baa1",
+  "spiral-n03-0027": "a43cac399306e661",
+  "spiral-n03-0028": "3c40cd62740afce9",
+  "spiral-n03-0029": "4d2a4e98a374e804",
+  "spiral-n03-0030": "e077c2a3d0f6afe3",
+  "spiral-n03-0031": "60eeecb65257306e",
+  "spiral-n03-0033": "f7a79708e1972361",
+  "spiral-n03-0037": "c7b808f3562a64b4",
+  "spiral-n03-0038": "01e6f5f78c1ae45c",
+  "spiral-n03-0039": "b57ef930f3efe0b3",
+  "spiral-n04-0002": "e62a44e966741c7d",
+  "spiral-n04-0003": "08879f1c2a42817a",
+  "spiral-n04-0005": "0f29c5916a861144",
+  "spiral-n04-0008": "06417296f636d24e",
+  "spiral-n04-0012": "190dc443a0d4bb8f",
+  "spiral-n04-0014": "35d8c6ce92dc1304",
+  "spiral-n04-0015": "f350d6a668e345c2",
+  "spiral-n04-0016": "4939c6ea4dbe0096",
+  "spiral-n04-0019": "4f3f42867c1fb057",
+  "spiral-n04-0020": "9d7fefac7d7c0f60",
+  "spiral-n04-0022": "aab721f29a7e79a9",
+  "spiral-n04-0024": "fd2ba81de3e257bc",
+  "spiral-n04-0025": "06cebdf09854a94c",
+  "spiral-n04-0026": "30439ce5a2b829eb",
+  "spiral-n04-0029": "282dae4e443f80e9",
+  "spiral-n04-0030": "eb52d00f4debafb5",
+  "spiral-n04-0031": "da7ad4a8997ddc47",
+  "spiral-n04-0033": "6984b7472bd70211",
+  "spiral-n04-0035": "089c2e55d9d37c6b",
+  "spiral-n04-0037": "982bde805a154303",
+  "spiral-n05-0002": "88b33316679d166d",
+  "spiral-n05-0003": "a67867db6e284db2",
+  "spiral-n05-0004": "9181bd9f9bb629fa",
+  "spiral-n05-0006": "2c3e019c18bbe74f",
+  "spiral-n05-0008": "951e2b78da9ce944",
+  "spiral-n05-0009": "f91056db05851f64",
+  "spiral-n05-0011": "265abeb52a005199",
+  "spiral-n05-0014": "2fb1dc96877f4bfa",
+  "spiral-n05-0017": "6f9d9584aa7e0a9c",
+  "spiral-n05-0020": "4426ef8b8a7070d9",
+  "spiral-n05-0024": "f5eb9d7049540856",
+  "spiral-n05-0026": "9f0332d971e179b3",
+  "spiral-n05-0027": "e9d0b5435170d7b5",
+  "spiral-n05-0029": "f9621ec6ac6975b7",
+  "spiral-n05-0030": "cd719e9e78edeffc",
+  "spiral-n05-0032": "f5118124ca2be17b",
+  "spiral-n05-0033": "4396a9a1f436cfb3",
+  "spiral-n05-0035": "6606820a3d3a4f30",
+  "spiral-n05-0037": "ce3d855d6fc53b00",
+  "spiral-n05-0039": "a18e64928d9f9c6c",
+  "spiral-n06-0004": "613c8914ad084ab4",
+  "spiral-n06-0005": "3b433ea1dc79ec35",
+  "spiral-n06-0006": "6f08a4d7f62d7fa5",
+  "spiral-n06-0007": "02155bc902eac3d0",
+  "spiral-n06-0012": "2c251749c3680d7a",
+  "spiral-n06-0013": "324b3793042bd602",
+  "spiral-n06-0014": "6b5dae59f34a02c0",
+  "spiral-n06-0015": "72f7850911ee9fe1",
+  "spiral-n06-0016": "e73f36deddf1893a",
+  "spiral-n06-0018": "6b78c37be1aba186",
+  "spiral-n06-0019": "7bad6df5f1c5e105",
+  "spiral-n06-0020": "c3403795cfa4cd02",
+  "spiral-n06-0021": "c5800ece58793051",
+  "spiral-n06-0023": "2690b1d49abb6ba4",
+  "spiral-n06-0028": "8ff777e0c5b28214",
+  "spiral-n06-0029": "ad7465718f91ea2a",
+  "spiral-n06-0030": "f8b62ec080dfdb7c",
+  "spiral-n06-0035": "ac2ebd88e4ef7125",
+  "spiral-n06-0037": "13751e513c7acb46",
+  "spiral-n06-0038": "6e2d4300092b233d",
+  "spiral-n07-0000": "3e5799c4cce4a024",
+  "spiral-n07-0001": "cb097cbdc0296d77",
+  "spiral-n07-0002": "c58ff48634473307",
+  "spiral-n07-0003": "e7b8e71035b98da1",
+  "spiral-n07-0008": "9a81cac0c132e463",
+  "spiral-n07-0009": "6f619f748f29e790",
+  "spiral-n07-0010": "83bfeb464c63e08d",
+  "spiral-n07-0012": "9c8f3d8dd56b2015",
+  "spiral-n07-0014": "58898d795d3051da",
+  "spiral-n07-0015": "8addb16e8e674598",
+  "spiral-n07-0016": "2a2cfab39b2f7322",
+  "spiral-n07-0021": "fde4cc68df33465e",
+  "spiral-n07-0023": "a9a64e79bc54a110",
+  "spiral-n07-0025": "44678e2bcf8ed9dc",
+  "spiral-n07-0026": "ad1de8fabb86f918",
+  "spiral-n07-0027": "35022dbd652820f9",
+  "spiral-n07-0029": "4ecf31cc562f9b70",
+  "spiral-n07-0032": "d01c91213e18243d",
+  "spiral-n07-0034": "efec26c30d079d85",
+  "spiral-n07-0039": "49a41d840fe451ea",
+  "spiral-n08-0000": "a34ebbc0664da128",
+  "spiral-n08-0002": "b729b4f9412b8d1f",
+  "spiral-n08-0005": "9c8023668ec14e21",
+  "spiral-n08-0007": "1282f88814439b67",
+  "spiral-n08-0008": "d13da9a30ed62b18",
+  "spiral-n08-0013": "4e35fe102eebd4e3",
+  "spiral-n08-0014": "47e3cf04013c26fb",
+  "spiral-n08-0015": "50e09bf6373aacf7",
+  "spiral-n08-0017": "3393fd6a4de9158e",
+  "spiral-n08-0018": "e9075ba671e23d99",
+  "spiral-n08-0020": "26be62c806aaa683",
+  "spiral-n08-0022": "6c5171c0918b5289",
+  "spiral-n08-0023": "3b9dbfb896998a9e",
+  "spiral-n08-0024": "3b222e7aefa9398a",
+  "spiral-n08-0029": "61efdcb052d4677f",
+  "spiral-n08-0031": "187afb0cbaf3d529",
+  "spiral-n08-0032": "97ccaf11d7c7b229",
+  "spiral-n08-0033": "90738674bab95e12",
+  "spiral-n08-0035": "e8af7d3b6ea00b4e",
+  "spiral-n08-0038": "4a94810b0901e16a",
+  "spiral-n09-0000": "c2e6914b12847bcd",
+  "spiral-n09-0001": "f5cdd0c79482a81e",
+  "spiral-n09-0002": "7013c2c3494d361c",
+  "spiral-n09-0003": "371b71d7b27a0057",
+  "spiral-n09-0004": "46e453e18c0da445",
+  "spiral-n09-0007": "4c6bb0a52855c577",
+  "spiral-n09-0008": "017530807c88da99",
+  "spiral-n09-0009": "c6e35bdba433df51",
+  "spiral-n09-0010": "2bd159041fa1caac",
+  "spiral-n09-0015": "3515201b6c234c71",
+  "spiral-n09-0016": "dff92b674c7bbaee",
+  "spiral-n09-0017": "ead499bedef94d55",
+  "spiral-n09-0018": "5c8c26ade3fcf0c4",
+  "spiral-n09-0019": "c0d17daf7d760877",
+  "spiral-n09-0021": "39e4de2336d00cdf",
+  "spiral-n09-0022": "f348657e9f2b4daf",
+  "spiral-n09-0026": "970697dcbce37fdb",
+  "spiral-n09-0032": "d33be79d807b617e",
+  "spiral-n09-0037": "ae9c035a87a67300",
+  "spiral-n09-0039": "3b4d600bfef7c0f0",
+  "spiral-n10-0006": "dd1fdabf87ac9314",
+  "spiral-n10-0008": "4e06f07eca091734",
+  "spiral-n10-0009": "0044a9eeec8d34c1",
+  "spiral-n10-0013": "6fed1a64ced677af",
+  "spiral-n10-0015": "cd61334f02fe5a2d",
+  "spiral-n10-0016": "1a581f20af3aa56b",
+  "spiral-n10-0017": "6172db423d07cfc7",
+  "spiral-n10-0023": "ff356b573ef0d661",
+  "spiral-n10-0026": "7bc5f2fcc334c627",
+  "spiral-n10-0027": "7fb6bb831e803895",
+  "spiral-n10-0028": "8dece30710ec9fab",
+  "spiral-n10-0029": "dcd129be8649464a",
+  "spiral-n10-0030": "82a8b032824776a8",
+  "spiral-n10-0031": "f6ba7c7174f701ee",
+  "spiral-n10-0032": "94f882bb5c8471f8",
+  "spiral-n10-0033": "ff5961d3c62e32cc",
+  "spiral-n10-0034": "fe8d213cb49c1e6c",
+  "spiral-n10-0036": "69ee0af14d9ee8cb",
+  "spiral-n10-0038": "3433099ce1ecc42f",
+  "spiral-n10-0039": "3e6ef5d0a7383118",
+  "serpentine-n03-0000": "0bfbbcbd22b3edc2",
+  "serpentine-n03-0003": "0bfaacf1e81cb1d8",
+  "serpentine-n03-0004": "e3a27db78bf0a94d",
+  "serpentine-n03-0005": "11d526f342d2fd91",
+  "serpentine-n03-0008": "3166eb7b6d14fe0e",
+  "serpentine-n03-0010": "32a89fd64ef6fb7d",
+  "serpentine-n03-0013": "1c60ceb83a5b15f8",
+  "serpentine-n03-0015": "62237ef0992c5bd1",
+  "serpentine-n03-0018": "106a3ddff4c36beb",
+  "serpentine-n03-0023": "1b81278702caf5b3",
+  "serpentine-n03-0025": "b409ddc4990afbfb",
+  "serpentine-n03-0026": "8d9cdc7dc18ebb47",
+  "serpentine-n03-0027": "494009298c2a9a0d",
+  "serpentine-n03-0029": "e2c57d0584570b9d",
+  "serpentine-n03-0031": "161878577039db9c",
+  "serpentine-n03-0032": "cbe1ee6ea08b2b48",
+  "serpentine-n03-0034": "c9d4d0d675412e48",
+  "serpentine-n03-0036": "f2f3731222e97038",
+  "serpentine-n03-0037": "2b39b5d766a5c1ee",
+  "serpentine-n03-0038": "d95272bf496b5011",
+  "serpentine-n04-0003": "ff76c721a0ea8bdb",
+  "serpentine-n04-0008": "f621de22e24d3397",
+  "serpentine-n04-0010": "ac885c734b426366",
+  "serpentine-n04-0011": "836f7811bb465251",
+  "serpentine-n04-0013": "5bc72a40bcc61587",
+  "serpentine-n04-0017": "72395b6a3872bd6e",
+  "serpentine-n04-0018": "fb01fa96366c6f03",
+  "serpentine-n04-0022": "7e2f2cc50c54f1b6",
+  "serpentine-n04-0024": "b37799e1aabe7d92",
+  "serpentine-n04-0025": "eb919a024e99eff3",
+  "serpentine-n04-0027": "2b459145432f5359",
+  "serpentine-n04-0028": "5e655feb0fa38bc7",
+  "serpentine-n04-0030": "3da68683bccd9848",
+  "serpentine-n04-0031": "6a73ab31ac246e98",
+  "serpentine-n04-0032": "5a66076c933eacc4",
+  "serpentine-n04-0033": "dd2dc350acc0f7e4",
+  "serpentine-n04-0034": "71eacec808d2d0e4",
+  "serpentine-n04-0035": "0892f327c320a156",
+  "serpentine-n04-0036": "b21f68e886e66383",
+  "serpentine-n04-0037": "4d581f85680cbdfa",
+  "serpentine-n05-0004": "19fd6fe126b15e93",
+  "serpentine-n05-0007": "efaed1ee2bd874fa",
+  "serpentine-n05-0009": "3c3773ac8434f869",
+  "serpentine-n05-0010": "e897ae0473ce9a6a",
+  "serpentine-n05-0011": "0a9e3bfb3e9d9e54",
+  "serpentine-n05-0013": "8ba20ac5386f76ab",
+  "serpentine-n05-0014": "bcc0989f32c17bec",
+  "serpentine-n05-0015": "32758d2fbda38669",
+  "serpentine-n05-0019": "b81efa15e4a46f40",
+  "serpentine-n05-0020": "d5d77a12ac68d437",
+  "serpentine-n05-0021": "b08f00083335a8c0",
+  "serpentine-n05-0024": "c9fcf0c6affe6353",
+  "serpentine-n05-0025": "c24d0470e482ce24",
+  "serpentine-n05-0026": "881f3dad2a76a8e7",
+  "serpentine-n05-0028": "d2291e6c445326fc",
+  "serpentine-n05-0030": "c29d603fd3ef2a76",
+  "serpentine-n05-0031": "b3cf78163c144c11",
+  "serpentine-n05-0036": "5ad9328911c2d32b",
+  "serpentine-n05-0037": "4945604538fbdb2b",
+  "serpentine-n05-0038": "0f25441f88162f0e",
+  "serpentine-n06-0003": "2b6b4801d8a65af5",
+  "serpentine-n06-0005": "af30bcd494ccc78b",
+  "serpentine-n06-0006": "c07ad90f91aae1fd",
+  "serpentine-n06-0009": "3d0861c72610899d",
+  "serpentine-n06-0016": "6992d5ba2651a048",
+  "serpentine-n06-0019": "63203bf2397342cb",
+  "serpentine-n06-0020": "4926e0aceb5aca64",
+  "serpentine-n06-0021": "d5e40e9a33871685",
+  "serpentine-n06-0022": "895d52c92c14cb4c",
+  "serpentine-n06-0025": "efeab946498e27c2",
+  "serpentine-n06-0027": "3e880bb948596d75",
+  "serpentine-n06-0028": "cb90486e37dc86f7",
+  "serpentine-n06-0029": "367af35999814372",
+  "serpentine-n06-0030": "86ad68b01bf75800",
+  "serpentine-n06-0031": "a0b14eea9299f57d",
+  "serpentine-n06-0032": "1ff803c513208b51",
+  "serpentine-n06-0034": "301bab064ca6bba3",
+  "serpentine-n06-0035": "1fe18b28c7033e3f",
+  "serpentine-n06-0036": "374c8c9da064f078",
+  "serpentine-n06-0038": "91c40ad54a7ba7ad",
+  "serpentine-n07-0000": "de6d1360f6df5b94",
+  "serpentine-n07-0002": "fe63f547f30d985d",
+  "serpentine-n07-0009": "7d27ed1586413bba",
+  "serpentine-n07-0010": "d3575995531bb1ea",
+  "serpentine-n07-0011": "ddb1012ac600e1f7",
+  "serpentine-n07-0013": "e63f6337f22ee2ad",
+  "serpentine-n07-0015": "c1ba8b9317ad78bf",
+  "serpentine-n07-0016": "4133e88be44731d3",
+  "serpentine-n07-0017": "7559d2d82cb19dea",
+  "serpentine-n07-0019": "dc12bb731974475f",
+  "serpentine-n07-0027": "7c6ff4a9fc2a9fb8",
+  "serpentine-n07-0028": "6b861c24d27b24d3",
+  "serpentine-n07-0030": "d3c754f8afe07451",
+  "serpentine-n07-0032": "b61f88e1be4ccee7",
+  "serpentine-n07-0033": "230c4c73c7bff92c",
+  "serpentine-n07-0034": "94382f8551e86c76",
+  "serpentine-n07-0035": "faaa4f7c938d335f",
+  "serpentine-n07-0036": "81ffed4ff8550f9a",
+  "serpentine-n07-0037": "bf60222bba7d21b8",
+  "serpentine-n07-0038": "5d5853c3ed1b7c9e",
+  "serpentine-n08-0001": "adf0646be67bf1c8",
+  "serpentine-n08-0004": "e8efdcacb2bd72fd",
+  "serpentine-n08-0006": "d10f5389a487dd08",
+  "serpentine-n08-0007": "9a30860d49a1030e",
+  "serpentine-n08-0008": "f91d78580c1040ff",
+  "serpentine-n08-0010": "b7018c0f0e8b29a2",
+  "serpentine-n08-0011": "bbf11b5c23b369b7",
+  "serpentine-n08-0014": "3a3f92858dc06237",
+  "serpentine-n08-0015": "2183666a1a49e276",
+  "serpentine-n08-0016": "d9d12653cb13d849",
+  "serpentine-n08-0017": "9e5906a2d93bbce5",
+  "serpentine-n08-0018": "e07c0e1752b38f18",
+  "serpentine-n08-0023": "8e7be4354eca6bf6",
+  "serpentine-n08-0025": "61df370fcaa8d953",
+  "serpentine-n08-0028": "08ca32e99d5e0d4d",
+  "serpentine-n08-0029": "a5fce5be7534240a",
+  "serpentine-n08-0032": "9d3b52c65666c44b",
+  "serpentine-n08-0033": "6a124d137049fbbd",
+  "serpentine-n08-0034": "f3106922324b21ed",
+  "serpentine-n08-0035": "8aff79930f8641c8",
+  "serpentine-n09-0001": "859f5ced7c40b5e7",
+  "serpentine-n09-0004": "c23828e1578753ec",
+  "serpentine-n09-0005": "faf01ce04fa555ed",
+  "serpentine-n09-0008": "aeee16d2f371592b",
+  "serpentine-n09-0011": "27f43b22b6e22f8c",
+  "serpentine-n09-0013": "0a1c420268300213",
+  "serpentine-n09-0014": "a35e6dd5aba92efe",
+  "serpentine-n09-0015": "7d1cdf5903f19e23",
+  "serpentine-n09-0016": "ab0977854fdbac16",
+  "serpentine-n09-0017": "b55775ef42eb845f",
+  "serpentine-n09-0018": "129ac7baae061228",
+  "serpentine-n09-0019": "06d7de9cab6cd59e",
+  "serpentine-n09-0021": "08da81c180e98b32",
+  "serpentine-n09-0024": "5021f5eb68e801a2",
+  "serpentine-n09-0027": "a54779f81e8ba2a2",
+  "serpentine-n09-0030": "5897998665c34587",
+  "serpentine-n09-0034": "4cb23c4d21644901",
+  "serpentine-n09-0035": "b09d48a637d5ff8d",
+  "serpentine-n09-0036": "57e2e1f7e57161a5",
+  "serpentine-n09-0038": "1f44f842c05e4b5e",
+  "serpentine-n10-0001": "8666837d57f302b2",
+  "serpentine-n10-0002": "f30aaa43f89a3744",
+  "serpentine-n10-0003": "0180f343b48138c2",
+  "serpentine-n10-0006": "36da07d36729c0b6",
+  "serpentine-n10-0011": "0ce1fb6eb5e11b8e",
+  "serpentine-n10-0014": "db564c432041b18c",
+  "serpentine-n10-0015": "3a314598b3d87354",
+  "serpentine-n10-0016": "451795c6d60ce3a6",
+  "serpentine-n10-0017": "0c7cd6504f3620e2",
+  "serpentine-n10-0019": "08da3fc0e0d39201",
+  "serpentine-n10-0020": "fab0048f172eca00",
+  "serpentine-n10-0024": "0f5dd6f7b885b3b1",
+  "serpentine-n10-0025": "507c6444808c3264",
+  "serpentine-n10-0028": "aec22293191d4b1f",
+  "serpentine-n10-0029": "8cc9809c44d5d6e6",
+  "serpentine-n10-0031": "5809811fabeb30ca",
+  "serpentine-n10-0032": "8052efe84d683d93",
+  "serpentine-n10-0034": "3ee8cc701181e08e",
+  "serpentine-n10-0037": "ac5b0ef008fd74fd",
+  "serpentine-n10-0038": "9d6d19ca6505fab4",
+  "zigzag-n03-0004": "e2d1676bf3442218",
+  "zigzag-n03-0013": "9e8ec91afc6e24ce",
+  "zigzag-n03-0014": "2c28f0f3164d2d08",
+  "zigzag-n03-0016": "f8eda7cea5ac9132",
+  "zigzag-n03-0018": "d40bb22db2b0ef95",
+  "zigzag-n03-0019": "b010e0f736e8ad13",
+  "zigzag-n03-0020": "90a0ef8f98f388a0",
+  "zigzag-n03-0021": "1f3e7eb630976d6d",
+  "zigzag-n03-0023": "4f8f98fba595e334",
+  "zigzag-n03-0024": "0229e55f15eeb8bf",
+  "zigzag-n03-0025": "30b670a8ba992e92",
+  "zigzag-n03-0026": "85ef5edee710d229",
+  "zigzag-n03-0027": "28b09219932f34d6",
+  "zigzag-n03-0028": "a914830c6112d7ae",
+  "zigzag-n03-0029": "ea9e6b35e05466a6",
+  "zigzag-n03-0030": "bbf2efcb3eda25dc",
+  "zigzag-n03-0031": "1557833f25e9ef15",
+  "zigzag-n03-0037": "9ea7ff2ef2d6ab94",
+  "zigzag-n03-0038": "5b225495da2dd0c2",
+  "zigzag-n03-0039": "81a0836a4a7601c0",
+  "zigzag-n04-0000": "3c2b33020f5f924b",
+  "zigzag-n04-0002": "3120efff75cb2cb4",
+  "zigzag-n04-0003": "87caa092b988de6e",
+  "zigzag-n04-0005": "238fd1ad03adbc93",
+  "zigzag-n04-0009": "5acf730a33444936",
+  "zigzag-n04-0011": "11f9ff6300d50390",
+  "zigzag-n04-0013": "8105570ad491a44a",
+  "zigzag-n04-0014": "8857ef9f64f1f413",
+  "zigzag-n04-0016": "0dc0e9185bdfd47d",
+  "zigzag-n04-0019": "e0668e460bbb22e6",
+  "zigzag-n04-0020": "9f5d4a3a831ff9e4",
+  "zigzag-n04-0021": "cea2430f2c2597a3",
+  "zigzag-n04-0022": "33f8a2b1547efa73",
+  "zigzag-n04-0023": "01e5a1c6ab00d79b",
+  "zigzag-n04-0028": "1bf519f335583c09",
+  "zigzag-n04-0030": "b50b332640a4eb67",
+  "zigzag-n04-0033": "d8057ad891aaf785",
+  "zigzag-n04-0036": "366e66334cf973c2",
+  "zigzag-n04-0038": "6ffa9c04eee3c9bc",
+  "zigzag-n04-0039": "5acc495a56cd6480",
+  "zigzag-n05-0000": "fc503264c7d2a4b4",
+  "zigzag-n05-0003": "f6ea2f4a802f8379",
+  "zigzag-n05-0006": "5d507b8e1c1d388f",
+  "zigzag-n05-0007": "46e9daf083ce096d",
+  "zigzag-n05-0011": "acb41bd7a449b487",
+  "zigzag-n05-0013": "d2311866a76a66d3",
+  "zigzag-n05-0014": "95e84312057e6b0b",
+  "zigzag-n05-0016": "a1a251ee3010ad5c",
+  "zigzag-n05-0017": "ecfd848dd358df73",
+  "zigzag-n05-0018": "8ea811f398274a72",
+  "zigzag-n05-0020": "a3062437f6b86524",
+  "zigzag-n05-0021": "0ffab27f71a4be47",
+  "zigzag-n05-0022": "dce7ece63af942c6",
+  "zigzag-n05-0024": "f435d9d44312d9f3",
+  "zigzag-n05-0026": "7eb9522effd29bf5",
+  "zigzag-n05-0027": "feaa58d9fca9eb90",
+  "zigzag-n05-0028": "2c70609754a13170",
+  "zigzag-n05-0029": "e99c3311d82b22c7",
+  "zigzag-n05-0031": "8746c3dd12f61e9b",
+  "zigzag-n05-0037": "e1ab127c961eb3fc",
+  "zigzag-n06-0001": "fc4527be11ecaae5",
+  "zigzag-n06-0002": "6be07c7ddbb23e98",
+  "zigzag-n06-0007": "50e7f35da87a463a",
+  "zigzag-n06-0008": "e99637b60b82e4fc",
+  "zigzag-n06-0010": "7b7402361e4a5936",
+  "zigzag-n06-0011": "48052af9a39b67c3",
+  "zigzag-n06-0012": "556f46af5067995f",
+  "zigzag-n06-0017": "ae7a690ec41fd05f",
+  "zigzag-n06-0019": "2a5ddbf2bc675332",
+  "zigzag-n06-0020": "65c425da668af2f7",
+  "zigzag-n06-0021": "a91318ae866c030b",
+  "zigzag-n06-0023": "588208df45e382ef",
+  "zigzag-n06-0026": "b296be14de120ff2",
+  "zigzag-n06-0027": "198e2db4e4349ea5",
+  "zigzag-n06-0028": "07b0cfcf57860f58",
+  "zigzag-n06-0033": "f725d1a8375d68cc",
+  "zigzag-n06-0034": "ce1f27df40813ea7",
+  "zigzag-n06-0036": "e733187b0a7d351a",
+  "zigzag-n06-0037": "03393e3a915012b5",
+  "zigzag-n06-0038": "1661bfe9c21f8f13",
+  "zigzag-n07-0000": "5b8e0c8d1fcd5a7c",
+  "zigzag-n07-0001": "b82d4ce3bf3bd413",
+  "zigzag-n07-0002": "4cdd604641f1d13e",
+  "zigzag-n07-0004": "19f91091f5ff49de",
+  "zigzag-n07-0005": "ba84870195d5291c",
+  "zigzag-n07-0007": "f25d31c0a331bf32",
+  "zigzag-n07-0009": "89986c271f421734",
+  "zigzag-n07-0014": "15c2ea7efe82b904",
+  "zigzag-n07-0015": "6961cbdaaf956845",
+  "zigzag-n07-0016": "5322df016d795d06",
+  "zigzag-n07-0018": "06257b1a56d87294",
+  "zigzag-n07-0019": "fc931c2ccb4ea3ec",
+  "zigzag-n07-0024": "32dc1abcfa08a42a",
+  "zigzag-n07-0026": "764f7b519677c73f",
+  "zigzag-n07-0027": "e4a5932b3d570306",
+  "zigzag-n07-0028": "127e53033ffa2560",
+  "zigzag-n07-0029": "e85aaddcdbd943e2",
+  "zigzag-n07-0031": "e818f897af0a0323",
+  "zigzag-n07-0034": "54471f884d6f684e",
+  "zigzag-n07-0037": "54867116f4a77ebe",
+  "zigzag-n08-0004": "5d61effd17b4e3cf",
+  "zigzag-n08-0007": "7264ec5a85784793",
+  "zigzag-n08-0009": "014e5996495b08fd",
+  "zigzag-n08-0010": "eac6532b0d95022d",
+  "zigzag-n08-0012": "b6b514a529879f53",
+  "zigzag-n08-0014": "b215dba61235137b",
+  "zigzag-n08-0017": "07d9c30e0929bde2",
+  "zigzag-n08-0018": "e8b1a938819ae07b",
+  "zigzag-n08-0020": "47bde1e800d80651",
+  "zigzag-n08-0022": "f97a42f3a8276273",
+  "zigzag-n08-0023": "fa6b0f2fead4e1dd",
+  "zigzag-n08-0024": "f2d0381462bb49c1",
+  "zigzag-n08-0027": "78f74b0ce32da933",
+  "zigzag-n08-0028": "604d5fb96a9b1598",
+  "zigzag-n08-0029": "0f5848e9480a41db",
+  "zigzag-n08-0030": "6c454b66cddac0ed",
+  "zigzag-n08-0031": "69716a72ae8b5df6",
+  "zigzag-n08-0033": "74dfbf60cd22cbeb",
+  "zigzag-n08-0037": "fbd87bd8c9ddf64e",
+  "zigzag-n08-0039": "69b2ee376c5f55ad",
+  "zigzag-n09-0000": "44831b8c70545f64",
+  "zigzag-n09-0001": "0e8014866e1c7558",
+  "zigzag-n09-0002": "84f22ba3253a8377",
+  "zigzag-n09-0003": "92212b4078e7223e",
+  "zigzag-n09-0007": "c4eaa37f7f94cc28",
+  "zigzag-n09-0008": "96d4b2e3820804c9",
+  "zigzag-n09-0009": "9528322fcbc39396",
+  "zigzag-n09-0010": "a1b57b9992f05f03",
+  "zigzag-n09-0011": "0ecf149804a81ccd",
+  "zigzag-n09-0013": "f7d1459e18e5782e",
+  "zigzag-n09-0017": "23db10ed11627dbf",
+  "zigzag-n09-0019": "5ab0a68536f8821c",
+  "zigzag-n09-0020": "43924da97c784420",
+  "zigzag-n09-0022": "79e631db495bcc78",
+  "zigzag-n09-0025": "6d9551853b9ed70e",
+  "zigzag-n09-0026": "a28b0058d0f0fe27",
+  "zigzag-n09-0028": "b71a5f7c312cb3fe",
+  "zigzag-n09-0032": "6b944ed3c2f0a935",
+  "zigzag-n09-0038": "729edb14721aaf8c",
+  "zigzag-n09-0039": "14e4420121d02e38",
+  "zigzag-n10-0000": "ec385bc249baf27f",
+  "zigzag-n10-0001": "d40f1be2f198ce3b",
+  "zigzag-n10-0002": "908490d5bea9f51e",
+  "zigzag-n10-0005": "315109be22ac08f5",
+  "zigzag-n10-0009": "d7001afa2da600ea",
+  "zigzag-n10-0010": "6ba706f14de6dc07",
+  "zigzag-n10-0011": "db5480fb3a18638c",
+  "zigzag-n10-0012": "87b4688c97fdd8e1",
+  "zigzag-n10-0017": "8bcb0aa97d27f135",
+  "zigzag-n10-0019": "b6c92bf49d6f665a",
+  "zigzag-n10-0022": "b1b64057115bd8ae",
+  "zigzag-n10-0024": "72424f50b4cfd720",
+  "zigzag-n10-0027": "6584f93055ed78ff",
+  "zigzag-n10-0029": "63296a08e528dc61",
+  "zigzag-n10-0030": "6b43ceb6eb1ba37c",
+  "zigzag-n10-0031": "2d82e95664908321",
+  "zigzag-n10-0032": "21d9b3b57a286239",
+  "zigzag-n10-0035": "a3b2b074d144f3b0",
+  "zigzag-n10-0036": "94cb0be98053968d",
+  "zigzag-n10-0038": "02c554298dbfd729",
+  "square-n03-0003": "7a8f16bf82c4d54d",
+  "square-n03-0004": "97cbab5b9ef18749",
+  "square-n03-0005": "89352404169f996c",
+  "square-n03-0006": "afe54168dde60624",
+  "square-n03-0009": "9532da6798080eaa",
+  "square-n03-0016": "18fd10ab0b87cbb7",
+  "square-n03-0017": "f4a6bc37a4a04fbe",
+  "square-n03-0019": "f353ec485dd4b4d6",
+  "square-n03-0020": "14221e73c5528cff",
+  "square-n03-0021": "8447467bc4db4d10",
+  "square-n03-0022": "23be5595b537b022",
+  "square-n03-0024": "48a9f2cb2b2ec962",
+  "square-n03-0027": "494d638add228acc",
+  "square-n03-0028": "4e0a3954007349ee",
+  "square-n03-0030": "54012f9dad8443fb",
+  "square-n03-0031": "d3d3ab440c591b13",
+  "square-n03-0033": "a4e1ee070dd59789",
+  "square-n03-0034": "11469586e0430a5f",
+  "square-n03-0038": "665055ce9c7fcb37",
+  "square-n03-0039": "1e852546d737edee",
+  "square-n04-0002": "189160041b65e036",
+  "square-n04-0003": "f3bb7848165a8601",
+  "square-n04-0005": "170726a6c6c653f1",
+  "square-n04-0006": "9d271f378758f593",
+  "square-n04-0007": "2b7210e73f8db383",
+  "square-n04-0008": "9d8a7faa9ae9fc0b",
+  "square-n04-0013": "746a8df3d45229e6",
+  "square-n04-0015": "b355b96ae5cc5280",
+  "square-n04-0016": "e9994d12c5a9bf71",
+  "square-n04-0018": "684db2b5f2f6c34b",
+  "square-n04-0019": "d990b4c76aabcd34",
+  "square-n04-0021": "d7a044e813b18abe",
+  "square-n04-0024": "05cac31805131ca0",
+  "square-n04-0025": "fa9b044704d318b6",
+  "square-n04-0028": "075e44a067dcebaf",
+  "square-n04-0029": "84e875639e23f220",
+  "square-n04-0030": "63e3a3639e71b54b",
+  "square-n04-0035": "bfcf4cdaa1f02e5b",
+  "square-n04-0036": "71d771f19a44926b",
+  "square-n04-0038": "ca181c666c581501",
+  "square-n05-0000": "51e922687a68c8a6",
+  "square-n05-0001": "41280721863c82e2",
+  "square-n05-0002": "fabdb53be6ce4e0e",
+  "square-n05-0004": "994acd66f3e2b677",
+  "square-n05-0006": "5e2d72a30b21f6e1",
+  "square-n05-0007": "19f415476f290408",
+  "square-n05-0009": "7d9852f62116f42b",
+  "square-n05-0012": "6be1abac5b9964d4",
+  "square-n05-0013": "200e4fc440e72851",
+  "square-n05-0015": "d01cff8e4215f6a5",
+  "square-n05-0016": "e6b71aff110b18af",
+  "square-n05-0018": "697c2eeb5095a71d",
+  "square-n05-0021": "205ba8fc81df03b7",
+  "square-n05-0023": "d533585271b6cfc3",
+  "square-n05-0028": "4ede655b7bed2e70",
+  "square-n05-0029": "630254b037736b9c",
+  "square-n05-0034": "29dbc4ff16536506",
+  "square-n05-0035": "17d7c38ad3115f36",
+  "square-n05-0038": "16d2c655d17dccc5",
+  "square-n05-0039": "6422493ed068b9ec",
+  "square-n06-0000": "a501401ffc445357",
+  "square-n06-0001": "bfcc6ef05acbb7d4",
+  "square-n06-0002": "b80d6b837ca4de35",
+  "square-n06-0003": "139f5b9652a7dcd0",
+  "square-n06-0006": "2882f99b2bc49baa",
+  "square-n06-0007": "90ff580208e8e958",
+  "square-n06-0009": "6298ab7f2ef9f5ad",
+  "square-n06-0013": "3f6e1de335f2b51c",
+  "square-n06-0014": "a85f734c27e513d4",
+  "square-n06-0015": "ca9fe82e48aff2a5",
+  "square-n06-0016": "00df106dc2037961",
+  "square-n06-0018": "afdbac7e121470cc",
+  "square-n06-0023": "cc3215887439f4fc",
+  "square-n06-0024": "44d9547b674a7473",
+  "square-n06-0028": "0388eef1d5674a18",
+  "square-n06-0029": "a95118433498eb4e",
+  "square-n06-0031": "383028f564d01cec",
+  "square-n06-0036": "5657541004524fe8",
+  "square-n06-0037": "920c6b4836a124a8",
+  "square-n06-0038": "e4fd6e9c30b5e436",
+  "square-n07-0001": "a323a31f3bff81c4",
+  "square-n07-0003": "70750ae02c40edae",
+  "square-n07-0006": "0e530932037fc5b9",
+  "square-n07-0009": "9ed2b5038b54fca5",
+  "square-n07-0011": "05bf12907d882276",
+  "square-n07-0012": "406137d72e866d18",
+  "square-n07-0014": "bdebdf443bb9f275",
+  "square-n07-0016": "1996f7efe48dc357",
+  "square-n07-0019": "69ea1bb22f5d1cd2",
+  "square-n07-0020": "b967e79d33e62ac0",
+  "square-n07-0021": "02fe7eacb1635621",
+  "square-n07-0023": "d87e17ce84b4b3f8",
+  "square-n07-0024": "d3453ae1ed9bd64b",
+  "square-n07-0025": "a5056393fbad15cb",
+  "square-n07-0026": "7ab654bd76cb861c",
+  "square-n07-0028": "914c9d180ecfe393",
+  "square-n07-0029": "26a6e50c348ee332",
+  "square-n07-0030": "0add94d98a6068e4",
+  "square-n07-0034": "ff7273174e63f975",
+  "square-n07-0039": "5131fd1478d21e1b",
+  "square-n08-0001": "a423225a21698abd",
+  "square-n08-0002": "c62d8d204ee6bdf4",
+  "square-n08-0003": "749d1f2fbbf0eb9a",
+  "square-n08-0004": "d6c6369748ca6712",
+  "square-n08-0005": "4bd92c30ade4f84c",
+  "square-n08-0006": "2e54fd227948649c",
+  "square-n08-0008": "658424097fc24c53",
+  "square-n08-0011": "e589790c2730b027",
+  "square-n08-0012": "8aad0edb85857445",
+  "square-n08-0015": "fac68737f66d73b9",
+  "square-n08-0018": "25435dd89e5913c3",
+  "square-n08-0020": "90e004fc9a2b13fd",
+  "square-n08-0022": "4090a6eb7be687cb",
+  "square-n08-0025": "eb7fe3702f2c0b5e",
+  "square-n08-0026": "b9134e59760f06c8",
+  "square-n08-0027": "a3f68783f25a93fd",
+  "square-n08-0029": "996fd0ac0e0eb6d0",
+  "square-n08-0036": "cfb6c5abcee06dd6",
+  "square-n08-0037": "e33c440939a4d2c2",
+  "square-n08-0039": "75d47376cd56ed89",
+  "square-n09-0001": "ead97f795223cc75",
+  "square-n09-0002": "2afc1f478975421e",
+  "square-n09-0004": "70373e47667570fd",
+  "square-n09-0012": "2ccc35b3d2c0e0fc",
+  "square-n09-0014": "11eeae85b5ab78a3",
+  "square-n09-0016": "a08abd7949a5bcd3",
+  "square-n09-0018": "4276667aa41bad0b",
+  "square-n09-0019": "7ac6420b2b908ab8",
+  "square-n09-0021": "5837a03843d0dc1f",
+  "square-n09-0023": "f65024a9f64b6a7a",
+  "square-n09-0025": "24b718b4c121ab56",
+  "square-n09-0027": "ccc634c90d74f68c",
+  "square-n09-0028": "279466afd2e84695",
+  "square-n09-0030": "4943b3531e8862a1",
+  "square-n09-0032": "6d8eecc99242dce2",
+  "square-n09-0033": "5acb85cb94df6c7e",
+  "square-n09-0035": "73bb4e9731ba4695",
+  "square-n09-0037": "8ce665c0d337a688",
+  "square-n09-0038": "8706acdf693d171e",
+  "square-n09-0039": "4190fea4745a60d9",
+  "square-n10-0001": "ed26cb3aa708bcc3",
+  "square-n10-0005": "616314eca7a39843",
+  "square-n10-0006": "15ebad5629fe6e54",
+  "square-n10-0007": "0e8b9eb5bc828db8",
+  "square-n10-0010": "6f2b2d6ebe15e256",
+  "square-n10-0016": "9d0817cbb3f234d3",
+  "square-n10-0017": "fba81e5298bb3af9",
+  "square-n10-0018": "1d1ed0ae96ea3be7",
+  "square-n10-0019": "70ab4a7baa704dc6",
+  "square-n10-0020": "f772b890a9d1fa77",
+  "square-n10-0022": "a04e55ad92741a85",
+  "square-n10-0024": "9d760c65444f84d6",
+  "square-n10-0027": "86b71b180e8992a4",
+  "square-n10-0029": "365443d68f32c065",
+  "square-n10-0030": "c78255634c6b7282",
+  "square-n10-0031": "140a1db1dbd343dd",
+  "square-n10-0032": "6782bc4fd79a9b58",
+  "square-n10-0033": "e38ee93d1db8016f",
+  "square-n10-0035": "5849c072fd3da520",
+  "square-n10-0036": "7130bb9edcc77f85"
+ },
+ "checks": {
+  "arc-n03-0001": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.084385
+  },
+  "arc-n03-0003": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.070318
+  },
+  "arc-n03-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.084227
+  },
+  "arc-n03-0005": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.043014
+  },
+  "arc-n03-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.048607
+  },
+  "arc-n03-0008": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.039224
+  },
+  "arc-n03-0009": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.085504
+  },
+  "arc-n03-0011": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.085928
+  },
+  "arc-n03-0012": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.086437
+  },
+  "arc-n03-0014": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.069389
+  },
+  "arc-n03-0016": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.078706
+  },
+  "arc-n03-0022": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.075636
+  },
+  "arc-n03-0026": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.076309
+  },
+  "arc-n03-0031": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.047034
+  },
+  "arc-n03-0032": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.048515
+  },
+  "arc-n03-0033": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.076512
+  },
+  "arc-n03-0034": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.057571
+  },
+  "arc-n03-0035": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.079344
+  },
+  "arc-n03-0037": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.043665
+  },
+  "arc-n03-0038": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.048605
+  },
+  "arc-n04-0000": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.049138
+  },
+  "arc-n04-0001": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.078134
+  },
+  "arc-n04-0003": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.039116
+  },
+  "arc-n04-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.039999
+  },
+  "arc-n04-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.072747
+  },
+  "arc-n04-0008": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.075975
+  },
+  "arc-n04-0012": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.039896
+  },
+  "arc-n04-0015": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.048852
+  },
+  "arc-n04-0017": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.038751
+  },
+  "arc-n04-0018": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.05409
+  },
+  "arc-n04-0019": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 5e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.039999
+  },
+  "arc-n04-0025": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.049791
+  },
+  "arc-n04-0026": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.066167
+  },
+  "arc-n04-0030": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.061581
+  },
+  "arc-n04-0031": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.070999
+  },
+  "arc-n04-0033": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.08429
+  },
+  "arc-n04-0036": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.083175
+  },
+  "arc-n04-0037": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.089694
+  },
+  "arc-n04-0038": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.049845
+  },
+  "arc-n04-0039": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 5e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.052173
+  },
+  "arc-n05-0000": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.048619
+  },
+  "arc-n05-0001": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.07768
+  },
+  "arc-n05-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.051047
+  },
+  "arc-n05-0005": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.073518
+  },
+  "arc-n05-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.04538
+  },
+  "arc-n05-0009": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.078821
+  },
+  "arc-n05-0010": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.039262
+  },
+  "arc-n05-0011": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.072991
+  },
+  "arc-n05-0012": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.059884
+  },
+  "arc-n05-0014": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.083795
+  },
+  "arc-n05-0021": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.043673
+  },
+  "arc-n05-0023": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.07877
+  },
+  "arc-n05-0025": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.075947
+  },
+  "arc-n05-0026": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.065814
+  },
+  "arc-n05-0031": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.086384
+  },
+  "arc-n05-0032": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.07582
+  },
+  "arc-n05-0034": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.079345
+  },
+  "arc-n05-0035": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.040189
+  },
+  "arc-n05-0036": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.073544
+  },
+  "arc-n05-0039": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.06494
+  },
+  "arc-n06-0001": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.059046
+  },
+  "arc-n06-0005": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.04568
+  },
+  "arc-n06-0008": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.082817
+  },
+  "arc-n06-0011": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.065242
+  },
+  "arc-n06-0014": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.059258
+  },
+  "arc-n06-0015": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.052763
+  },
+  "arc-n06-0016": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.084842
+  },
+  "arc-n06-0017": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.057511
+  },
+  "arc-n06-0019": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.075076
+  },
+  "arc-n06-0020": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.086744
+  },
+  "arc-n06-0021": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 5e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.059179
+  },
+  "arc-n06-0022": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.074764
+  },
+  "arc-n06-0023": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.079418
+  },
+  "arc-n06-0026": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.049344
+  },
+  "arc-n06-0030": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.044434
+  },
+  "arc-n06-0031": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.076487
+  },
+  "arc-n06-0032": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.057554
+  },
+  "arc-n06-0036": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.07322
+  },
+  "arc-n06-0037": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.082102
+  },
+  "arc-n06-0038": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.06478
+  },
+  "arc-n07-0000": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.060512
+  },
+  "arc-n07-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.060309
+  },
+  "arc-n07-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.052552
+  },
+  "arc-n07-0010": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.073328
+  },
+  "arc-n07-0012": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.060922
+  },
+  "arc-n07-0013": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.048738
+  },
+  "arc-n07-0014": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.038556
+  },
+  "arc-n07-0015": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.060032
+  },
+  "arc-n07-0020": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.046647
+  },
+  "arc-n07-0021": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.079871
+  },
+  "arc-n07-0027": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.042073
+  },
+  "arc-n07-0028": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.052719
+  },
+  "arc-n07-0029": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.046731
+  },
+  "arc-n07-0030": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.038176
+  },
+  "arc-n07-0031": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 5e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.073191
+  },
+  "arc-n07-0033": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.07114
+  },
+  "arc-n07-0035": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.075726
+  },
+  "arc-n07-0037": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.062829
+  },
+  "arc-n07-0038": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.051765
+  },
+  "arc-n07-0039": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.043213
+  },
+  "arc-n08-0003": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.046005
+  },
+  "arc-n08-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.084455
+  },
+  "arc-n08-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.0413
+  },
+  "arc-n08-0010": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.061572
+  },
+  "arc-n08-0011": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.087509
+  },
+  "arc-n08-0016": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.079567
+  },
+  "arc-n08-0017": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.052542
+  },
+  "arc-n08-0018": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.078663
+  },
+  "arc-n08-0021": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.078652
+  },
+  "arc-n08-0023": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.077134
+  },
+  "arc-n08-0024": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.077383
+  },
+  "arc-n08-0025": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.061
+  },
+  "arc-n08-0026": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.084056
+  },
+  "arc-n08-0031": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.049877
+  },
+  "arc-n08-0032": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.079555
+  },
+  "arc-n08-0033": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.041865
+  },
+  "arc-n08-0034": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.069223
+  },
+  "arc-n08-0036": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.047578
+  },
+  "arc-n08-0037": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.069482
+  },
+  "arc-n08-0039": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.080607
+  },
+  "arc-n09-0001": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.082872
+  },
+  "arc-n09-0002": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.072031
+  },
+  "arc-n09-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.084471
+  },
+  "arc-n09-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.088145
+  },
+  "arc-n09-0008": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.049323
+  },
+  "arc-n09-0011": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.068922
+  },
+  "arc-n09-0014": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.08827
+  },
+  "arc-n09-0016": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.074574
+  },
+  "arc-n09-0017": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.063266
+  },
+  "arc-n09-0020": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.044298
+  },
+  "arc-n09-0021": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.084434
+  },
+  "arc-n09-0023": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 5e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.041955
+  },
+  "arc-n09-0024": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.061323
+  },
+  "arc-n09-0025": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.07781
+  },
+  "arc-n09-0026": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.083323
+  },
+  "arc-n09-0027": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.044315
+  },
+  "arc-n09-0031": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.052817
+  },
+  "arc-n09-0035": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.084866
+  },
+  "arc-n09-0037": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.042074
+  },
+  "arc-n09-0038": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.067989
+  },
+  "arc-n10-0000": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.058584
+  },
+  "arc-n10-0001": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 5e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.075305
+  },
+  "arc-n10-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.060674
+  },
+  "arc-n10-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.040214
+  },
+  "arc-n10-0008": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.082577
+  },
+  "arc-n10-0009": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.055241
+  },
+  "arc-n10-0010": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.069823
+  },
+  "arc-n10-0012": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.061715
+  },
+  "arc-n10-0013": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.059127
+  },
+  "arc-n10-0017": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.055028
+  },
+  "arc-n10-0019": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.086052
+  },
+  "arc-n10-0020": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.061085
+  },
+  "arc-n10-0021": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.049547
+  },
+  "arc-n10-0023": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.045028
+  },
+  "arc-n10-0027": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.063919
+  },
+  "arc-n10-0028": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.063862
+  },
+  "arc-n10-0030": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.077249
+  },
+  "arc-n10-0034": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.088465
+  },
+  "arc-n10-0035": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.051691
+  },
+  "arc-n10-0038": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.050217
+  },
+  "circle-n03-0001": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.086365
+  },
+  "circle-n03-0003": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.088313
+  },
+  "circle-n03-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.052378
+  },
+  "circle-n03-0009": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.059409
+  },
+  "circle-n03-0010": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.041379
+  },
+  "circle-n03-0011": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.05968
+  },
+  "circle-n03-0013": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.046603
+  },
+  "circle-n03-0015": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.047336
+  },
+  "circle-n03-0016": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.051505
+  },
+  "circle-n03-0018": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.069878
+  },
+  "circle-n03-0019": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.064963
+  },
+  "circle-n03-0020": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.071828
+  },
+  "circle-n03-0023": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.067458
+  },
+  "circle-n03-0024": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.089101
+  },
+  "circle-n03-0025": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.075342
+  },
+  "circle-n03-0028": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.082364
+  },
+  "circle-n03-0029": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.056019
+  },
+  "circle-n03-0030": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.047796
+  },
+  "circle-n03-0036": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.071715
+  },
+  "circle-n03-0038": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.054511
+  },
+  "circle-n04-0001": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.079665
+  },
+  "circle-n04-0003": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.046905
+  },
+  "circle-n04-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.051622
+  },
+  "circle-n04-0008": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.074856
+  },
+  "circle-n04-0013": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.040626
+  },
+  "circle-n04-0015": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.088204
+  },
+  "circle-n04-0016": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.082583
+  },
+  "circle-n04-0017": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.075172
+  },
+  "circle-n04-0018": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.056354
+  },
+  "circle-n04-0019": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.050374
+  },
+  "circle-n04-0022": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.044716
+  },
+  "circle-n04-0024": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.08051
+  },
+  "circle-n04-0029": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.073638
+  },
+  "circle-n04-0030": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.041256
+  },
+  "circle-n04-0031": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.047354
+  },
+  "circle-n04-0032": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.086683
+  },
+  "circle-n04-0034": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.065522
+  },
+  "circle-n04-0036": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.053051
+  },
+  "circle-n04-0037": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.069098
+  },
+  "circle-n04-0038": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.052578
+  },
+  "circle-n05-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.076322
+  },
+  "circle-n05-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.06713
+  },
+  "circle-n05-0008": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.066985
+  },
+  "circle-n05-0009": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.084497
+  },
+  "circle-n05-0011": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.056976
+  },
+  "circle-n05-0012": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.087078
+  },
+  "circle-n05-0013": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.062389
+  },
+  "circle-n05-0014": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.059997
+  },
+  "circle-n05-0016": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.085647
+  },
+  "circle-n05-0018": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.082295
+  },
+  "circle-n05-0019": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.045349
+  },
+  "circle-n05-0021": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.078628
+  },
+  "circle-n05-0027": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.051253
+  },
+  "circle-n05-0028": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.082337
+  },
+  "circle-n05-0029": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.079688
+  },
+  "circle-n05-0030": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.068638
+  },
+  "circle-n05-0032": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.045188
+  },
+  "circle-n05-0033": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.063336
+  },
+  "circle-n05-0034": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.064454
+  },
+  "circle-n05-0039": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.070324
+  },
+  "circle-n06-0001": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.082654
+  },
+  "circle-n06-0002": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.053697
+  },
+  "circle-n06-0003": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.072697
+  },
+  "circle-n06-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.073884
+  },
+  "circle-n06-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.083272
+  },
+  "circle-n06-0011": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.066935
+  },
+  "circle-n06-0012": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.076759
+  },
+  "circle-n06-0014": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.072643
+  },
+  "circle-n06-0020": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.050937
+  },
+  "circle-n06-0024": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.058193
+  },
+  "circle-n06-0025": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.073088
+  },
+  "circle-n06-0028": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.063121
+  },
+  "circle-n06-0029": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.038949
+  },
+  "circle-n06-0030": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.051657
+  },
+  "circle-n06-0031": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.078963
+  },
+  "circle-n06-0033": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.052608
+  },
+  "circle-n06-0034": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.06709
+  },
+  "circle-n06-0035": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.064399
+  },
+  "circle-n06-0037": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.076297
+  },
+  "circle-n06-0039": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.067392
+  },
+  "circle-n07-0000": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.042954
+  },
+  "circle-n07-0003": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.052721
+  },
+  "circle-n07-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.083826
+  },
+  "circle-n07-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.049661
+  },
+  "circle-n07-0009": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.047336
+  },
+  "circle-n07-0013": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.050835
+  },
+  "circle-n07-0014": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.0582
+  },
+  "circle-n07-0016": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.061265
+  },
+  "circle-n07-0018": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.071336
+  },
+  "circle-n07-0019": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.041694
+  },
+  "circle-n07-0023": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.069937
+  },
+  "circle-n07-0024": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.082461
+  },
+  "circle-n07-0025": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.055322
+  },
+  "circle-n07-0027": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.072211
+  },
+  "circle-n07-0030": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.058632
+  },
+  "circle-n07-0031": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.040977
+  },
+  "circle-n07-0033": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.060181
+  },
+  "circle-n07-0036": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.044017
+  },
+  "circle-n07-0037": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.047925
+  },
+  "circle-n07-0038": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.057297
+  },
+  "circle-n08-0001": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.057261
+  },
+  "circle-n08-0002": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.055427
+  },
+  "circle-n08-0003": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.076049
+  },
+  "circle-n08-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.076592
+  },
+  "circle-n08-0009": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.040274
+  },
+  "circle-n08-0010": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.065643
+  },
+  "circle-n08-0011": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.083772
+  },
+  "circle-n08-0012": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.03931
+  },
+  "circle-n08-0014": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.065069
+  },
+  "circle-n08-0015": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.074655
+  },
+  "circle-n08-0016": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.077045
+  },
+  "circle-n08-0017": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.056143
+  },
+  "circle-n08-0018": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.068127
+  },
+  "circle-n08-0023": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.082806
+  },
+  "circle-n08-0024": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.055252
+  },
+  "circle-n08-0025": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.049335
+  },
+  "circle-n08-0030": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.088629
+  },
+  "circle-n08-0032": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.040727
+  },
+  "circle-n08-0033": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.063855
+  },
+  "circle-n08-0035": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.064727
+  },
+  "circle-n09-0000": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.038247
+  },
+  "circle-n09-0001": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.071725
+  },
+  "circle-n09-0002": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.0,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.068821
+  },
+  "circle-n09-0003": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.053669
+  },
+  "circle-n09-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.052288
+  },
+  "circle-n09-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.080133
+  },
+  "circle-n09-0014": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.086156
+  },
+  "circle-n09-0015": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.086873
+  },
+  "circle-n09-0017": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.060822
+  },
+  "circle-n09-0019": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.0,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.041178
+  },
+  "circle-n09-0020": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.065843
+  },
+  "circle-n09-0021": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.042371
+  },
+  "circle-n09-0022": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.073424
+  },
+  "circle-n09-0023": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.065024
+  },
+  "circle-n09-0025": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.050113
+  },
+  "circle-n09-0026": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.056118
+  },
+  "circle-n09-0028": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.073402
+  },
+  "circle-n09-0034": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.067662
+  },
+  "circle-n09-0036": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.043943
+  },
+  "circle-n09-0037": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.050937
+  },
+  "circle-n10-0000": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.084471
+  },
+  "circle-n10-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.073641
+  },
+  "circle-n10-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.060563
+  },
+  "circle-n10-0009": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.06452
+  },
+  "circle-n10-0011": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.058911
+  },
+  "circle-n10-0012": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.056811
+  },
+  "circle-n10-0013": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.041226
+  },
+  "circle-n10-0015": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.081247
+  },
+  "circle-n10-0016": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.052583
+  },
+  "circle-n10-0018": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.07057
+  },
+  "circle-n10-0019": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.073751
+  },
+  "circle-n10-0020": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.071243
+  },
+  "circle-n10-0022": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.079382
+  },
+  "circle-n10-0024": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.067441
+  },
+  "circle-n10-0025": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.046153
+  },
+  "circle-n10-0026": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.040392
+  },
+  "circle-n10-0027": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.043023
+  },
+  "circle-n10-0029": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.057931
+  },
+  "circle-n10-0033": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.052522
+  },
+  "circle-n10-0034": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.049856
+  },
+  "spiral-n03-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.078122
+  },
+  "spiral-n03-0010": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.049493
+  },
+  "spiral-n03-0012": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.087644
+  },
+  "spiral-n03-0016": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.086264
+  },
+  "spiral-n03-0018": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.05571
+  },
+  "spiral-n03-0020": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.051488
+  },
+  "spiral-n03-0021": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.044969
+  },
+  "spiral-n03-0022": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.071102
+  },
+  "spiral-n03-0023": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.078357
+  },
+  "spiral-n03-0024": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.047108
+  },
+  "spiral-n03-0025": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.044185
+  },
+  "spiral-n03-0027": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.082188
+  },
+  "spiral-n03-0028": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.058265
+  },
+  "spiral-n03-0029": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.086066
+  },
+  "spiral-n03-0030": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.067058
+  },
+  "spiral-n03-0031": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.079896
+  },
+  "spiral-n03-0033": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.050773
+  },
+  "spiral-n03-0037": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.052367
+  },
+  "spiral-n03-0038": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.059337
+  },
+  "spiral-n03-0039": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.048374
+  },
+  "spiral-n04-0002": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.045834
+  },
+  "spiral-n04-0003": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.06491
+  },
+  "spiral-n04-0005": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.066751
+  },
+  "spiral-n04-0008": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.044523
+  },
+  "spiral-n04-0012": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.046756
+  },
+  "spiral-n04-0014": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.071418
+  },
+  "spiral-n04-0015": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.064071
+  },
+  "spiral-n04-0016": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.088756
+  },
+  "spiral-n04-0019": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.042903
+  },
+  "spiral-n04-0020": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.087574
+  },
+  "spiral-n04-0022": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.078871
+  },
+  "spiral-n04-0024": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.070419
+  },
+  "spiral-n04-0025": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.052508
+  },
+  "spiral-n04-0026": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.080051
+  },
+  "spiral-n04-0029": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.04472
+  },
+  "spiral-n04-0030": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.040444
+  },
+  "spiral-n04-0031": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.069223
+  },
+  "spiral-n04-0033": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.075098
+  },
+  "spiral-n04-0035": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.083741
+  },
+  "spiral-n04-0037": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.048996
+  },
+  "spiral-n05-0002": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.053153
+  },
+  "spiral-n05-0003": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 5e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.071237
+  },
+  "spiral-n05-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.071843
+  },
+  "spiral-n05-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.070894
+  },
+  "spiral-n05-0008": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.046974
+  },
+  "spiral-n05-0009": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.054059
+  },
+  "spiral-n05-0011": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.073361
+  },
+  "spiral-n05-0014": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.080132
+  },
+  "spiral-n05-0017": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.085143
+  },
+  "spiral-n05-0020": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 5e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.077317
+  },
+  "spiral-n05-0024": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.064736
+  },
+  "spiral-n05-0026": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.043325
+  },
+  "spiral-n05-0027": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 5e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.069105
+  },
+  "spiral-n05-0029": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.055986
+  },
+  "spiral-n05-0030": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.080201
+  },
+  "spiral-n05-0032": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.046291
+  },
+  "spiral-n05-0033": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.066347
+  },
+  "spiral-n05-0035": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.075836
+  },
+  "spiral-n05-0037": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.04665
+  },
+  "spiral-n05-0039": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.058464
+  },
+  "spiral-n06-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.057821
+  },
+  "spiral-n06-0005": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.081014
+  },
+  "spiral-n06-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.050611
+  },
+  "spiral-n06-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.052866
+  },
+  "spiral-n06-0012": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.076129
+  },
+  "spiral-n06-0013": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.04928
+  },
+  "spiral-n06-0014": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.084791
+  },
+  "spiral-n06-0015": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.046098
+  },
+  "spiral-n06-0016": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.063668
+  },
+  "spiral-n06-0018": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.006017,
+   "max_height_m": 0.005001,
+   "min_clip_clearance_m": 0.03797
+  },
+  "spiral-n06-0019": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.060613
+  },
+  "spiral-n06-0020": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.063037
+  },
+  "spiral-n06-0021": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.074121
+  },
+  "spiral-n06-0023": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.064871
+  },
+  "spiral-n06-0028": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.068442
+  },
+  "spiral-n06-0029": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.070685
+  },
+  "spiral-n06-0030": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.07605
+  },
+  "spiral-n06-0035": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.077533
+  },
+  "spiral-n06-0037": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.052412
+  },
+  "spiral-n06-0038": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.051162
+  },
+  "spiral-n07-0000": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.047266
+  },
+  "spiral-n07-0001": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.07791
+  },
+  "spiral-n07-0002": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.049233
+  },
+  "spiral-n07-0003": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.073133
+  },
+  "spiral-n07-0008": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.055401
+  },
+  "spiral-n07-0009": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.059468
+  },
+  "spiral-n07-0010": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.06034
+  },
+  "spiral-n07-0012": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.07454
+  },
+  "spiral-n07-0014": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.0,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.043718
+  },
+  "spiral-n07-0015": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.085459
+  },
+  "spiral-n07-0016": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.067412
+  },
+  "spiral-n07-0021": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.069285
+  },
+  "spiral-n07-0023": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.05638
+  },
+  "spiral-n07-0025": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.060616
+  },
+  "spiral-n07-0026": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.053571
+  },
+  "spiral-n07-0027": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.073831
+  },
+  "spiral-n07-0029": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.052232
+  },
+  "spiral-n07-0032": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.076459
+  },
+  "spiral-n07-0034": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.0,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.072339
+  },
+  "spiral-n07-0039": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.060903
+  },
+  "spiral-n08-0000": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.047672
+  },
+  "spiral-n08-0002": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.046803
+  },
+  "spiral-n08-0005": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.049105
+  },
+  "spiral-n08-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.079713
+  },
+  "spiral-n08-0008": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.05403
+  },
+  "spiral-n08-0013": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.045264
+  },
+  "spiral-n08-0014": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.054186
+  },
+  "spiral-n08-0015": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.060098
+  },
+  "spiral-n08-0017": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.078225
+  },
+  "spiral-n08-0018": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.061295
+  },
+  "spiral-n08-0020": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.041872
+  },
+  "spiral-n08-0022": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.057356
+  },
+  "spiral-n08-0023": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.069029
+  },
+  "spiral-n08-0024": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.044241
+  },
+  "spiral-n08-0029": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.052218
+  },
+  "spiral-n08-0031": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.07838
+  },
+  "spiral-n08-0032": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.048806
+  },
+  "spiral-n08-0033": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.080453
+  },
+  "spiral-n08-0035": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.062632
+  },
+  "spiral-n08-0038": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.000543,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.071368
+  },
+  "spiral-n09-0000": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.046715
+  },
+  "spiral-n09-0001": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.038413
+  },
+  "spiral-n09-0002": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.006573,
+   "max_height_m": 0.005001,
+   "min_clip_clearance_m": 0.047881
+  },
+  "spiral-n09-0003": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.00443,
+   "max_height_m": 0.005003,
+   "min_clip_clearance_m": 0.071954
+  },
+  "spiral-n09-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.079162
+  },
+  "spiral-n09-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.003611,
+   "max_height_m": 0.005002,
+   "min_clip_clearance_m": 0.049223
+  },
+  "spiral-n09-0008": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.054441
+  },
+  "spiral-n09-0009": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.038236
+  },
+  "spiral-n09-0010": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.004486,
+   "max_height_m": 0.005002,
+   "min_clip_clearance_m": 0.064044
+  },
+  "spiral-n09-0015": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.000141,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.057285
+  },
+  "spiral-n09-0016": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.068255
+  },
+  "spiral-n09-0017": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.065337
+  },
+  "spiral-n09-0018": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.001048,
+   "max_height_m": 0.005001,
+   "min_clip_clearance_m": 0.060929
+  },
+  "spiral-n09-0019": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.066444
+  },
+  "spiral-n09-0021": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.06201
+  },
+  "spiral-n09-0022": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.00487,
+   "max_height_m": 0.005004,
+   "min_clip_clearance_m": 0.047687
+  },
+  "spiral-n09-0026": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.001461,
+   "max_height_m": 0.005001,
+   "min_clip_clearance_m": 0.061647
+  },
+  "spiral-n09-0032": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.076396
+  },
+  "spiral-n09-0037": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.076253
+  },
+  "spiral-n09-0039": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.002181,
+   "max_height_m": 0.005001,
+   "min_clip_clearance_m": 0.044231
+  },
+  "spiral-n10-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.004388,
+   "max_height_m": 0.005003,
+   "min_clip_clearance_m": 0.046256
+  },
+  "spiral-n10-0008": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.073448
+  },
+  "spiral-n10-0009": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.055035
+  },
+  "spiral-n10-0013": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.053763
+  },
+  "spiral-n10-0015": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.004111,
+   "max_height_m": 0.005002,
+   "min_clip_clearance_m": 0.087105
+  },
+  "spiral-n10-0016": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.06589
+  },
+  "spiral-n10-0017": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.071873
+  },
+  "spiral-n10-0023": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.003726,
+   "max_height_m": 0.005002,
+   "min_clip_clearance_m": 0.052835
+  },
+  "spiral-n10-0026": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.002742,
+   "max_height_m": 0.005001,
+   "min_clip_clearance_m": 0.045133
+  },
+  "spiral-n10-0027": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.003416,
+   "max_height_m": 0.005001,
+   "min_clip_clearance_m": 0.058695
+  },
+  "spiral-n10-0028": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.065057
+  },
+  "spiral-n10-0029": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.079406
+  },
+  "spiral-n10-0030": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.000897,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.040627
+  },
+  "spiral-n10-0031": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.004899,
+   "max_height_m": 0.005003,
+   "min_clip_clearance_m": 0.066929
+  },
+  "spiral-n10-0032": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.075968
+  },
+  "spiral-n10-0033": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.070967
+  },
+  "spiral-n10-0034": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.011558,
+   "max_height_m": 0.005001,
+   "min_clip_clearance_m": 0.052689
+  },
+  "spiral-n10-0036": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.041222
+  },
+  "spiral-n10-0038": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.001955,
+   "max_height_m": 0.005001,
+   "min_clip_clearance_m": 0.062918
+  },
+  "spiral-n10-0039": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.002527,
+   "max_height_m": 0.005002,
+   "min_clip_clearance_m": 0.082462
+  },
+  "serpentine-n03-0000": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.086847
+  },
+  "serpentine-n03-0003": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.045891
+  },
+  "serpentine-n03-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.079112
+  },
+  "serpentine-n03-0005": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.078359
+  },
+  "serpentine-n03-0008": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.046615
+  },
+  "serpentine-n03-0010": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.05788
+  },
+  "serpentine-n03-0013": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.082283
+  },
+  "serpentine-n03-0015": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.045702
+  },
+  "serpentine-n03-0018": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.041451
+  },
+  "serpentine-n03-0023": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.066874
+  },
+  "serpentine-n03-0025": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.047121
+  },
+  "serpentine-n03-0026": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.086534
+  },
+  "serpentine-n03-0027": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.053764
+  },
+  "serpentine-n03-0029": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.077302
+  },
+  "serpentine-n03-0031": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.062562
+  },
+  "serpentine-n03-0032": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.08833
+  },
+  "serpentine-n03-0034": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.054459
+  },
+  "serpentine-n03-0036": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.053264
+  },
+  "serpentine-n03-0037": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.075879
+  },
+  "serpentine-n03-0038": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.055798
+  },
+  "serpentine-n04-0003": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.086847
+  },
+  "serpentine-n04-0008": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 5e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.041539
+  },
+  "serpentine-n04-0010": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.066639
+  },
+  "serpentine-n04-0011": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.085023
+  },
+  "serpentine-n04-0013": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.078735
+  },
+  "serpentine-n04-0017": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.083392
+  },
+  "serpentine-n04-0018": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.070665
+  },
+  "serpentine-n04-0022": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.073108
+  },
+  "serpentine-n04-0024": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.045047
+  },
+  "serpentine-n04-0025": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.085733
+  },
+  "serpentine-n04-0027": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.038798
+  },
+  "serpentine-n04-0028": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.083475
+  },
+  "serpentine-n04-0030": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.056327
+  },
+  "serpentine-n04-0031": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.065722
+  },
+  "serpentine-n04-0032": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.073258
+  },
+  "serpentine-n04-0033": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.077714
+  },
+  "serpentine-n04-0034": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.078522
+  },
+  "serpentine-n04-0035": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.085235
+  },
+  "serpentine-n04-0036": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.083316
+  },
+  "serpentine-n04-0037": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.041737
+  },
+  "serpentine-n05-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.079394
+  },
+  "serpentine-n05-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.068323
+  },
+  "serpentine-n05-0009": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.064664
+  },
+  "serpentine-n05-0010": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.074012
+  },
+  "serpentine-n05-0011": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.057816
+  },
+  "serpentine-n05-0013": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.051908
+  },
+  "serpentine-n05-0014": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.052938
+  },
+  "serpentine-n05-0015": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.070252
+  },
+  "serpentine-n05-0019": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.086929
+  },
+  "serpentine-n05-0020": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.071068
+  },
+  "serpentine-n05-0021": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.079224
+  },
+  "serpentine-n05-0024": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.040147
+  },
+  "serpentine-n05-0025": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.080931
+  },
+  "serpentine-n05-0026": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.052022
+  },
+  "serpentine-n05-0028": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.064992
+  },
+  "serpentine-n05-0030": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.0,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.058998
+  },
+  "serpentine-n05-0031": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.074828
+  },
+  "serpentine-n05-0036": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.050206
+  },
+  "serpentine-n05-0037": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.055737
+  },
+  "serpentine-n05-0038": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.065677
+  },
+  "serpentine-n06-0003": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.051825
+  },
+  "serpentine-n06-0005": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.085231
+  },
+  "serpentine-n06-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.051425
+  },
+  "serpentine-n06-0009": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.082586
+  },
+  "serpentine-n06-0016": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.062158
+  },
+  "serpentine-n06-0019": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.070137
+  },
+  "serpentine-n06-0020": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.044999
+  },
+  "serpentine-n06-0021": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.06735
+  },
+  "serpentine-n06-0022": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.064667
+  },
+  "serpentine-n06-0025": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.079802
+  },
+  "serpentine-n06-0027": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.068681
+  },
+  "serpentine-n06-0028": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.077276
+  },
+  "serpentine-n06-0029": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.087724
+  },
+  "serpentine-n06-0030": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.057705
+  },
+  "serpentine-n06-0031": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.081138
+  },
+  "serpentine-n06-0032": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.073769
+  },
+  "serpentine-n06-0034": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.071131
+  },
+  "serpentine-n06-0035": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.045452
+  },
+  "serpentine-n06-0036": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.059401
+  },
+  "serpentine-n06-0038": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.058057
+  },
+  "serpentine-n07-0000": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.047483
+  },
+  "serpentine-n07-0002": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.055602
+  },
+  "serpentine-n07-0009": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.075816
+  },
+  "serpentine-n07-0010": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.076717
+  },
+  "serpentine-n07-0011": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.051933
+  },
+  "serpentine-n07-0013": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.084582
+  },
+  "serpentine-n07-0015": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.082292
+  },
+  "serpentine-n07-0016": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.068112
+  },
+  "serpentine-n07-0017": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.086762
+  },
+  "serpentine-n07-0019": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.055207
+  },
+  "serpentine-n07-0027": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.048223
+  },
+  "serpentine-n07-0028": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.086506
+  },
+  "serpentine-n07-0030": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.077782
+  },
+  "serpentine-n07-0032": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.050766
+  },
+  "serpentine-n07-0033": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.043094
+  },
+  "serpentine-n07-0034": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.050748
+  },
+  "serpentine-n07-0035": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.052116
+  },
+  "serpentine-n07-0036": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.06331
+  },
+  "serpentine-n07-0037": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.052463
+  },
+  "serpentine-n07-0038": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.071862
+  },
+  "serpentine-n08-0001": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.046157
+  },
+  "serpentine-n08-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.0672
+  },
+  "serpentine-n08-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.054262
+  },
+  "serpentine-n08-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.059627
+  },
+  "serpentine-n08-0008": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.04317
+  },
+  "serpentine-n08-0010": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.075758
+  },
+  "serpentine-n08-0011": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.054426
+  },
+  "serpentine-n08-0014": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.076697
+  },
+  "serpentine-n08-0015": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.049143
+  },
+  "serpentine-n08-0016": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.087359
+  },
+  "serpentine-n08-0017": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.062343
+  },
+  "serpentine-n08-0018": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.057934
+  },
+  "serpentine-n08-0023": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.065052
+  },
+  "serpentine-n08-0025": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.055809
+  },
+  "serpentine-n08-0028": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.074142
+  },
+  "serpentine-n08-0029": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.068103
+  },
+  "serpentine-n08-0032": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.062941
+  },
+  "serpentine-n08-0033": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.081321
+  },
+  "serpentine-n08-0034": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.04887
+  },
+  "serpentine-n08-0035": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.063028
+  },
+  "serpentine-n09-0001": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.045338
+  },
+  "serpentine-n09-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.066139
+  },
+  "serpentine-n09-0005": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.045164
+  },
+  "serpentine-n09-0008": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.046764
+  },
+  "serpentine-n09-0011": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 5e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.070334
+  },
+  "serpentine-n09-0013": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.052049
+  },
+  "serpentine-n09-0014": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.08008
+  },
+  "serpentine-n09-0015": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.040276
+  },
+  "serpentine-n09-0016": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.076226
+  },
+  "serpentine-n09-0017": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.054513
+  },
+  "serpentine-n09-0018": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.040126
+  },
+  "serpentine-n09-0019": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.046084
+  },
+  "serpentine-n09-0021": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.058766
+  },
+  "serpentine-n09-0024": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.044763
+  },
+  "serpentine-n09-0027": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.085654
+  },
+  "serpentine-n09-0030": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.068755
+  },
+  "serpentine-n09-0034": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.08541
+  },
+  "serpentine-n09-0035": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.087035
+  },
+  "serpentine-n09-0036": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.078102
+  },
+  "serpentine-n09-0038": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.047987
+  },
+  "serpentine-n10-0001": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.047428
+  },
+  "serpentine-n10-0002": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.070024
+  },
+  "serpentine-n10-0003": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.082455
+  },
+  "serpentine-n10-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.057249
+  },
+  "serpentine-n10-0011": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.066381
+  },
+  "serpentine-n10-0014": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 5e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.081122
+  },
+  "serpentine-n10-0015": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.078728
+  },
+  "serpentine-n10-0016": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 5e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.078987
+  },
+  "serpentine-n10-0017": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.051931
+  },
+  "serpentine-n10-0019": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.064498
+  },
+  "serpentine-n10-0020": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.056175
+  },
+  "serpentine-n10-0024": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.080791
+  },
+  "serpentine-n10-0025": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.058835
+  },
+  "serpentine-n10-0028": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.067904
+  },
+  "serpentine-n10-0029": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.052041
+  },
+  "serpentine-n10-0031": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.075462
+  },
+  "serpentine-n10-0032": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.064668
+  },
+  "serpentine-n10-0034": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.045256
+  },
+  "serpentine-n10-0037": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.08185
+  },
+  "serpentine-n10-0038": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.049341
+  },
+  "zigzag-n03-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.042175
+  },
+  "zigzag-n03-0013": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.082025
+  },
+  "zigzag-n03-0014": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.042092
+  },
+  "zigzag-n03-0016": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.062147
+  },
+  "zigzag-n03-0018": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.050086
+  },
+  "zigzag-n03-0019": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.077284
+  },
+  "zigzag-n03-0020": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.074637
+  },
+  "zigzag-n03-0021": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.062984
+  },
+  "zigzag-n03-0023": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.0498
+  },
+  "zigzag-n03-0024": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.076163
+  },
+  "zigzag-n03-0025": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.045134
+  },
+  "zigzag-n03-0026": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.044455
+  },
+  "zigzag-n03-0027": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.079804
+  },
+  "zigzag-n03-0028": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.062761
+  },
+  "zigzag-n03-0029": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.0,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.083308
+  },
+  "zigzag-n03-0030": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.074549
+  },
+  "zigzag-n03-0031": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.070424
+  },
+  "zigzag-n03-0037": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.067138
+  },
+  "zigzag-n03-0038": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.0,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.070321
+  },
+  "zigzag-n03-0039": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 5e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.057601
+  },
+  "zigzag-n04-0000": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.06306
+  },
+  "zigzag-n04-0002": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.060229
+  },
+  "zigzag-n04-0003": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.045674
+  },
+  "zigzag-n04-0005": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.040483
+  },
+  "zigzag-n04-0009": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.04759
+  },
+  "zigzag-n04-0011": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.056739
+  },
+  "zigzag-n04-0013": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.070365
+  },
+  "zigzag-n04-0014": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.071811
+  },
+  "zigzag-n04-0016": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.059953
+  },
+  "zigzag-n04-0019": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.085417
+  },
+  "zigzag-n04-0020": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.051416
+  },
+  "zigzag-n04-0021": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.081664
+  },
+  "zigzag-n04-0022": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.079832
+  },
+  "zigzag-n04-0023": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.078202
+  },
+  "zigzag-n04-0028": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.080843
+  },
+  "zigzag-n04-0030": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.047748
+  },
+  "zigzag-n04-0033": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.080786
+  },
+  "zigzag-n04-0036": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.073649
+  },
+  "zigzag-n04-0038": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.085587
+  },
+  "zigzag-n04-0039": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.050567
+  },
+  "zigzag-n05-0000": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.070615
+  },
+  "zigzag-n05-0003": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.04751
+  },
+  "zigzag-n05-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.060822
+  },
+  "zigzag-n05-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.077559
+  },
+  "zigzag-n05-0011": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.062545
+  },
+  "zigzag-n05-0013": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.052017
+  },
+  "zigzag-n05-0014": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.07404
+  },
+  "zigzag-n05-0016": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.059811
+  },
+  "zigzag-n05-0017": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.08739
+  },
+  "zigzag-n05-0018": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.083059
+  },
+  "zigzag-n05-0020": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.044212
+  },
+  "zigzag-n05-0021": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.059339
+  },
+  "zigzag-n05-0022": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.062515
+  },
+  "zigzag-n05-0024": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.071809
+  },
+  "zigzag-n05-0026": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.06089
+  },
+  "zigzag-n05-0027": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.041657
+  },
+  "zigzag-n05-0028": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.05456
+  },
+  "zigzag-n05-0029": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.07452
+  },
+  "zigzag-n05-0031": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.057554
+  },
+  "zigzag-n05-0037": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.045937
+  },
+  "zigzag-n06-0001": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.059731
+  },
+  "zigzag-n06-0002": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.080941
+  },
+  "zigzag-n06-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.080052
+  },
+  "zigzag-n06-0008": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.043241
+  },
+  "zigzag-n06-0010": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.081633
+  },
+  "zigzag-n06-0011": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.068868
+  },
+  "zigzag-n06-0012": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.041372
+  },
+  "zigzag-n06-0017": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.07105
+  },
+  "zigzag-n06-0019": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.057058
+  },
+  "zigzag-n06-0020": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.053508
+  },
+  "zigzag-n06-0021": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.064545
+  },
+  "zigzag-n06-0023": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.039856
+  },
+  "zigzag-n06-0026": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.064575
+  },
+  "zigzag-n06-0027": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.061743
+  },
+  "zigzag-n06-0028": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.084238
+  },
+  "zigzag-n06-0033": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.083442
+  },
+  "zigzag-n06-0034": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.04441
+  },
+  "zigzag-n06-0036": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.057389
+  },
+  "zigzag-n06-0037": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.071032
+  },
+  "zigzag-n06-0038": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.087736
+  },
+  "zigzag-n07-0000": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.08456
+  },
+  "zigzag-n07-0001": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.063218
+  },
+  "zigzag-n07-0002": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.079537
+  },
+  "zigzag-n07-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.04924
+  },
+  "zigzag-n07-0005": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.050791
+  },
+  "zigzag-n07-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.081419
+  },
+  "zigzag-n07-0009": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.08399
+  },
+  "zigzag-n07-0014": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.073111
+  },
+  "zigzag-n07-0015": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.085345
+  },
+  "zigzag-n07-0016": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.078952
+  },
+  "zigzag-n07-0018": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.084208
+  },
+  "zigzag-n07-0019": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.081497
+  },
+  "zigzag-n07-0024": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.074792
+  },
+  "zigzag-n07-0026": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.076553
+  },
+  "zigzag-n07-0027": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.062086
+  },
+  "zigzag-n07-0028": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.041922
+  },
+  "zigzag-n07-0029": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.07663
+  },
+  "zigzag-n07-0031": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.067943
+  },
+  "zigzag-n07-0034": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.065765
+  },
+  "zigzag-n07-0037": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.061166
+  },
+  "zigzag-n08-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.065015
+  },
+  "zigzag-n08-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.045716
+  },
+  "zigzag-n08-0009": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.06082
+  },
+  "zigzag-n08-0010": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.062219
+  },
+  "zigzag-n08-0012": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.077281
+  },
+  "zigzag-n08-0014": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.066012
+  },
+  "zigzag-n08-0017": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.053906
+  },
+  "zigzag-n08-0018": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.083329
+  },
+  "zigzag-n08-0020": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 5e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.075971
+  },
+  "zigzag-n08-0022": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.083503
+  },
+  "zigzag-n08-0023": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.068023
+  },
+  "zigzag-n08-0024": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.064013
+  },
+  "zigzag-n08-0027": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.04602
+  },
+  "zigzag-n08-0028": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.045688
+  },
+  "zigzag-n08-0029": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.075933
+  },
+  "zigzag-n08-0030": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.068568
+  },
+  "zigzag-n08-0031": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.067247
+  },
+  "zigzag-n08-0033": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.070041
+  },
+  "zigzag-n08-0037": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.055469
+  },
+  "zigzag-n08-0039": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.069636
+  },
+  "zigzag-n09-0000": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.059903
+  },
+  "zigzag-n09-0001": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.069085
+  },
+  "zigzag-n09-0002": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.069636
+  },
+  "zigzag-n09-0003": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.085571
+  },
+  "zigzag-n09-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.084906
+  },
+  "zigzag-n09-0008": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.071525
+  },
+  "zigzag-n09-0009": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 5e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.078008
+  },
+  "zigzag-n09-0010": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.045227
+  },
+  "zigzag-n09-0011": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.053548
+  },
+  "zigzag-n09-0013": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.060585
+  },
+  "zigzag-n09-0017": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.073166
+  },
+  "zigzag-n09-0019": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.059728
+  },
+  "zigzag-n09-0020": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.064708
+  },
+  "zigzag-n09-0022": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.047013
+  },
+  "zigzag-n09-0025": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.056792
+  },
+  "zigzag-n09-0026": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.040735
+  },
+  "zigzag-n09-0028": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.048646
+  },
+  "zigzag-n09-0032": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.080042
+  },
+  "zigzag-n09-0038": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.039049
+  },
+  "zigzag-n09-0039": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.08467
+  },
+  "zigzag-n10-0000": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.074515
+  },
+  "zigzag-n10-0001": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.053057
+  },
+  "zigzag-n10-0002": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.081904
+  },
+  "zigzag-n10-0005": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.06325
+  },
+  "zigzag-n10-0009": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.08176
+  },
+  "zigzag-n10-0010": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.053746
+  },
+  "zigzag-n10-0011": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.08493
+  },
+  "zigzag-n10-0012": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.075378
+  },
+  "zigzag-n10-0017": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.073341
+  },
+  "zigzag-n10-0019": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.060529
+  },
+  "zigzag-n10-0022": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.087238
+  },
+  "zigzag-n10-0024": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.070995
+  },
+  "zigzag-n10-0027": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 5e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.07924
+  },
+  "zigzag-n10-0029": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.061625
+  },
+  "zigzag-n10-0030": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.081369
+  },
+  "zigzag-n10-0031": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.073476
+  },
+  "zigzag-n10-0032": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.086704
+  },
+  "zigzag-n10-0035": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.043392
+  },
+  "zigzag-n10-0036": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.048677
+  },
+  "zigzag-n10-0038": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.086186
+  },
+  "square-n03-0003": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.057394
+  },
+  "square-n03-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.000189,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.053803
+  },
+  "square-n03-0005": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.050982
+  },
+  "square-n03-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.087628
+  },
+  "square-n03-0009": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.08331
+  },
+  "square-n03-0016": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.04324
+  },
+  "square-n03-0017": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.086904
+  },
+  "square-n03-0019": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.075402
+  },
+  "square-n03-0020": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 5e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.078481
+  },
+  "square-n03-0021": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.077373
+  },
+  "square-n03-0022": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.045393
+  },
+  "square-n03-0024": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.054937
+  },
+  "square-n03-0027": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.074524
+  },
+  "square-n03-0028": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.076017
+  },
+  "square-n03-0030": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.076233
+  },
+  "square-n03-0031": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.062052
+  },
+  "square-n03-0033": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.087306
+  },
+  "square-n03-0034": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.054666
+  },
+  "square-n03-0038": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.052405
+  },
+  "square-n03-0039": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.08098
+  },
+  "square-n04-0002": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.069717
+  },
+  "square-n04-0003": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.058597
+  },
+  "square-n04-0005": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.055279
+  },
+  "square-n04-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.047264
+  },
+  "square-n04-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.074391
+  },
+  "square-n04-0008": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.054815
+  },
+  "square-n04-0013": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.073648
+  },
+  "square-n04-0015": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.04223
+  },
+  "square-n04-0016": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.047096
+  },
+  "square-n04-0018": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.07683
+  },
+  "square-n04-0019": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.056856
+  },
+  "square-n04-0021": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.053518
+  },
+  "square-n04-0024": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.051779
+  },
+  "square-n04-0025": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.049611
+  },
+  "square-n04-0028": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.067397
+  },
+  "square-n04-0029": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.063088
+  },
+  "square-n04-0030": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.038703
+  },
+  "square-n04-0035": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.085366
+  },
+  "square-n04-0036": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.063296
+  },
+  "square-n04-0038": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.051295
+  },
+  "square-n05-0000": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.063267
+  },
+  "square-n05-0001": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.039738
+  },
+  "square-n05-0002": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.041576
+  },
+  "square-n05-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.063692
+  },
+  "square-n05-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.080233
+  },
+  "square-n05-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.07854
+  },
+  "square-n05-0009": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.088664
+  },
+  "square-n05-0012": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.085111
+  },
+  "square-n05-0013": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.051418
+  },
+  "square-n05-0015": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.053695
+  },
+  "square-n05-0016": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.0,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.057575
+  },
+  "square-n05-0018": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.070727
+  },
+  "square-n05-0021": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.080379
+  },
+  "square-n05-0023": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.050141
+  },
+  "square-n05-0028": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.087984
+  },
+  "square-n05-0029": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.053979
+  },
+  "square-n05-0034": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.040467
+  },
+  "square-n05-0035": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.054811
+  },
+  "square-n05-0038": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.063587
+  },
+  "square-n05-0039": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.059698
+  },
+  "square-n06-0000": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.059084
+  },
+  "square-n06-0001": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.046931
+  },
+  "square-n06-0002": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.060718
+  },
+  "square-n06-0003": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.079212
+  },
+  "square-n06-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.042365
+  },
+  "square-n06-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.071009
+  },
+  "square-n06-0009": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.055371
+  },
+  "square-n06-0013": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.078751
+  },
+  "square-n06-0014": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.066594
+  },
+  "square-n06-0015": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.000178,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.077448
+  },
+  "square-n06-0016": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.041355
+  },
+  "square-n06-0018": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.074393
+  },
+  "square-n06-0023": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.077903
+  },
+  "square-n06-0024": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.060015
+  },
+  "square-n06-0028": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.085892
+  },
+  "square-n06-0029": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.071496
+  },
+  "square-n06-0031": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.04687
+  },
+  "square-n06-0036": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.074513
+  },
+  "square-n06-0037": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.049236
+  },
+  "square-n06-0038": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.052645
+  },
+  "square-n07-0001": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.044544
+  },
+  "square-n07-0003": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.05684
+  },
+  "square-n07-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.07635
+  },
+  "square-n07-0009": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.082853
+  },
+  "square-n07-0011": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.08278
+  },
+  "square-n07-0012": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.087015
+  },
+  "square-n07-0014": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.087891
+  },
+  "square-n07-0016": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.072136
+  },
+  "square-n07-0019": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.071141
+  },
+  "square-n07-0020": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.082275
+  },
+  "square-n07-0021": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.088262
+  },
+  "square-n07-0023": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.040582
+  },
+  "square-n07-0024": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.04688
+  },
+  "square-n07-0025": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.05667
+  },
+  "square-n07-0026": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.075747
+  },
+  "square-n07-0028": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.085213
+  },
+  "square-n07-0029": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.08172
+  },
+  "square-n07-0030": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.04393
+  },
+  "square-n07-0034": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.063137
+  },
+  "square-n07-0039": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.087674
+  },
+  "square-n08-0001": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.087357
+  },
+  "square-n08-0002": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.062466
+  },
+  "square-n08-0003": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.058727
+  },
+  "square-n08-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.059643
+  },
+  "square-n08-0005": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.082892
+  },
+  "square-n08-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.000352,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.063441
+  },
+  "square-n08-0008": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.060176
+  },
+  "square-n08-0011": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.072072
+  },
+  "square-n08-0012": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.053555
+  },
+  "square-n08-0015": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.069034
+  },
+  "square-n08-0018": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.05047
+  },
+  "square-n08-0020": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.051039
+  },
+  "square-n08-0022": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.051407
+  },
+  "square-n08-0025": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.057343
+  },
+  "square-n08-0026": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.086213
+  },
+  "square-n08-0027": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.047339
+  },
+  "square-n08-0029": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.070383
+  },
+  "square-n08-0036": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 9.3e-05,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.042771
+  },
+  "square-n08-0037": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.063643
+  },
+  "square-n08-0039": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.005874,
+   "max_height_m": 0.005001,
+   "min_clip_clearance_m": 0.041955
+  },
+  "square-n09-0001": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.074852
+  },
+  "square-n09-0002": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.04863
+  },
+  "square-n09-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.072486
+  },
+  "square-n09-0012": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.068893
+  },
+  "square-n09-0014": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.043074
+  },
+  "square-n09-0016": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.073423
+  },
+  "square-n09-0018": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.088238
+  },
+  "square-n09-0019": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.084652
+  },
+  "square-n09-0021": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.045971
+  },
+  "square-n09-0023": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.077585
+  },
+  "square-n09-0025": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.044651
+  },
+  "square-n09-0027": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.068048
+  },
+  "square-n09-0028": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.065743
+  },
+  "square-n09-0030": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.05427
+  },
+  "square-n09-0032": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.071847
+  },
+  "square-n09-0033": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.08093
+  },
+  "square-n09-0035": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.077407
+  },
+  "square-n09-0037": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.055509
+  },
+  "square-n09-0038": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.078047
+  },
+  "square-n09-0039": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.057274
+  },
+  "square-n10-0001": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.081563
+  },
+  "square-n10-0005": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.058795
+  },
+  "square-n10-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.07484
+  },
+  "square-n10-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.065998
+  },
+  "square-n10-0010": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.081822
+  },
+  "square-n10-0016": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.054229
+  },
+  "square-n10-0017": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.056331
+  },
+  "square-n10-0018": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.076803
+  },
+  "square-n10-0019": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.044026
+  },
+  "square-n10-0020": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.04656
+  },
+  "square-n10-0022": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.082843
+  },
+  "square-n10-0024": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.089349
+  },
+  "square-n10-0027": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.071894
+  },
+  "square-n10-0029": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.053412
+  },
+  "square-n10-0030": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.04598
+  },
+  "square-n10-0031": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.075426
+  },
+  "square-n10-0032": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.057169
+  },
+  "square-n10-0033": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.065724
+  },
+  "square-n10-0035": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.073746
+  },
+  "square-n10-0036": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.055612
+  }
+ }
+}

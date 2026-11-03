@@ -1,0 +1,400 @@
+{
+ "manifest_sha256": "12255c5a949dd359",
+ "settle_steps": 480,
+ "config_hash": "95f654b8b1b52a6b",
+ "physics_hash": "afc9d60dd932e624",
+ "check_limits": {
+  "max_displacement_m": 0.02,
+  "max_height_radii": 3.0,
+  "min_clip_clearance_m": 0.0
+ },
+ "all_checks_passed": true,
+ "states": {
+  "arc-n05-val-0004": "6c9417613cb6484d",
+  "arc-n05-val-0005": "c0189e62040ed390",
+  "arc-n05-val-0006": "796ed28b93a018d3",
+  "arc-n05-val-0007": "57b188bb61d67d76",
+  "arc-n10-val-0004": "85d6b4c2352bd0d7",
+  "arc-n10-val-0005": "06a148126bcc9364",
+  "arc-n10-val-0006": "675b624390713a9a",
+  "arc-n10-val-0007": "34216efa45b15499",
+  "circle-n05-val-0004": "b597c45c53377419",
+  "circle-n05-val-0005": "bd661876fd6bd9a6",
+  "circle-n05-val-0006": "251ce406604f791d",
+  "circle-n05-val-0007": "af178b6d8dfe7a04",
+  "circle-n10-val-0004": "0e1a4ed90dd50b0a",
+  "circle-n10-val-0005": "d18a97c4b33373e2",
+  "circle-n10-val-0006": "56079842ea227585",
+  "circle-n10-val-0007": "1c6e55557d322417",
+  "spiral-n05-val-0004": "fd0cba352c79ef81",
+  "spiral-n05-val-0005": "94e1b6eb4adea232",
+  "spiral-n05-val-0006": "0c80c76e316adfcc",
+  "spiral-n05-val-0007": "c3d63d1400066236",
+  "spiral-n10-val-0004": "bcc64590bad3d2a8",
+  "spiral-n10-val-0005": "f79e5a09afadc930",
+  "spiral-n10-val-0006": "0a40e1ff86905126",
+  "spiral-n10-val-0007": "d33b06ec3c9c0906",
+  "serpentine-n05-val-0004": "01fbff49a4f10e74",
+  "serpentine-n05-val-0005": "a489d4348719ac49",
+  "serpentine-n05-val-0006": "88dba2ba55888fad",
+  "serpentine-n05-val-0007": "491267dd145093b6",
+  "serpentine-n10-val-0004": "79bc06a1563b5daa",
+  "serpentine-n10-val-0005": "335b0b7ef7242921",
+  "serpentine-n10-val-0006": "acb664ed8c72e1b8",
+  "serpentine-n10-val-0007": "1fbff54c6a597b31",
+  "zigzag-n05-val-0004": "ad4950dfe9408d3b",
+  "zigzag-n05-val-0005": "e268ad5a7c05281d",
+  "zigzag-n05-val-0006": "421332b2ab12ca65",
+  "zigzag-n05-val-0007": "2d3d4ebd9da3bb74",
+  "zigzag-n10-val-0004": "f30763ae5de741d0",
+  "zigzag-n10-val-0005": "a252124cdbe26c52",
+  "zigzag-n10-val-0006": "1c7443fc9d2829c0",
+  "zigzag-n10-val-0007": "3377b29beef550a2",
+  "square-n05-val-0004": "accfd04f3ee07b0f",
+  "square-n05-val-0005": "751b8e41ad3c469f",
+  "square-n05-val-0006": "013a01004232b130",
+  "square-n05-val-0007": "c6c8a00d1e4ce77f",
+  "square-n10-val-0004": "ed425e447155b6cf",
+  "square-n10-val-0005": "9d1ec20f15365f88",
+  "square-n10-val-0006": "7174e9c1faca2787",
+  "square-n10-val-0007": "504e08c69bd5e1b6"
+ },
+ "checks": {
+  "arc-n05-val-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.070663
+  },
+  "arc-n05-val-0005": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.038101
+  },
+  "arc-n05-val-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.078382
+  },
+  "arc-n05-val-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.061424
+  },
+  "arc-n10-val-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.081597
+  },
+  "arc-n10-val-0005": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.052549
+  },
+  "arc-n10-val-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.044039
+  },
+  "arc-n10-val-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.079308
+  },
+  "circle-n05-val-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.087653
+  },
+  "circle-n05-val-0005": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.070531
+  },
+  "circle-n05-val-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.065245
+  },
+  "circle-n05-val-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.053927
+  },
+  "circle-n10-val-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.069829
+  },
+  "circle-n10-val-0005": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.061473
+  },
+  "circle-n10-val-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.040768
+  },
+  "circle-n10-val-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.040448
+  },
+  "spiral-n05-val-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.080037
+  },
+  "spiral-n05-val-0005": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.061221
+  },
+  "spiral-n05-val-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.082451
+  },
+  "spiral-n05-val-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.081991
+  },
+  "spiral-n10-val-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.052294
+  },
+  "spiral-n10-val-0005": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.042648
+  },
+  "spiral-n10-val-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.003389,
+   "max_height_m": 0.005002,
+   "min_clip_clearance_m": 0.061604
+  },
+  "spiral-n10-val-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.004807,
+   "max_height_m": 0.005004,
+   "min_clip_clearance_m": 0.085133
+  },
+  "serpentine-n05-val-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.078192
+  },
+  "serpentine-n05-val-0005": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.070242
+  },
+  "serpentine-n05-val-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.050621
+  },
+  "serpentine-n05-val-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.064603
+  },
+  "serpentine-n10-val-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.081701
+  },
+  "serpentine-n10-val-0005": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.060233
+  },
+  "serpentine-n10-val-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.086248
+  },
+  "serpentine-n10-val-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.082522
+  },
+  "zigzag-n05-val-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.060864
+  },
+  "zigzag-n05-val-0005": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 5e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.068312
+  },
+  "zigzag-n05-val-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.077834
+  },
+  "zigzag-n05-val-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.041954
+  },
+  "zigzag-n10-val-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.061873
+  },
+  "zigzag-n10-val-0005": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.040878
+  },
+  "zigzag-n10-val-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 5e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.073016
+  },
+  "zigzag-n10-val-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.040445
+  },
+  "square-n05-val-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.045782
+  },
+  "square-n05-val-0005": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.050379
+  },
+  "square-n05-val-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.084322
+  },
+  "square-n05-val-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.041391
+  },
+  "square-n10-val-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.044393
+  },
+  "square-n10-val-0005": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.056839
+  },
+  "square-n10-val-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.039449
+  },
+  "square-n10-val-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.079722
+  }
+ }
+}

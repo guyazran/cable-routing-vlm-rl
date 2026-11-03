@@ -1,0 +1,80 @@
+{
+ "manifest_sha256": "174dcdc73ff204d4",
+ "settle_steps": 480,
+ "config_hash": "95f654b8b1b52a6b",
+ "physics_hash": "afc9d60dd932e624",
+ "check_limits": {
+  "max_displacement_m": 0.02,
+  "max_height_radii": 3.0,
+  "min_clip_clearance_m": 0.0
+ },
+ "all_checks_passed": true,
+ "states": {
+  "zigzag5-dev-0000": "93b3ce8804774c4c",
+  "zigzag5-dev-0001": "4c0d360f97aa1941",
+  "zigzag5-dev-0002": "70e498f222b3715a",
+  "zigzag5-dev-0003": "f64fcf6259aa319b",
+  "zigzag5-dev-0004": "5d1694f81e1741a0",
+  "zigzag5-dev-0005": "42d6fc8051d03b50",
+  "zigzag5-dev-0006": "bc4ce4163d8df6df",
+  "zigzag5-dev-0007": "b6bcc99bf2e29ca8"
+ },
+ "checks": {
+  "zigzag5-dev-0000": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.048171
+  },
+  "zigzag5-dev-0001": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.056626
+  },
+  "zigzag5-dev-0002": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.040018
+  },
+  "zigzag5-dev-0003": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.078662
+  },
+  "zigzag5-dev-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.083967
+  },
+  "zigzag5-dev-0005": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.084955
+  },
+  "zigzag5-dev-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.05965
+  },
+  "zigzag5-dev-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.049813
+  }
+ }
+}

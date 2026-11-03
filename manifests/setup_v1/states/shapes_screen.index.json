@@ -1,0 +1,256 @@
+{
+ "manifest_sha256": "cc86ce300370fcd4",
+ "settle_steps": 480,
+ "config_hash": "95f654b8b1b52a6b",
+ "physics_hash": "afc9d60dd932e624",
+ "check_limits": {
+  "max_displacement_m": 0.02,
+  "max_height_radii": 3.0,
+  "min_clip_clearance_m": 0.0
+ },
+ "all_checks_passed": true,
+ "states": {
+  "arc-n10-0004": "017c076bc73bc30c",
+  "arc-n10-0005": "6b4db3eeaa9a799b",
+  "arc-n10-0002": "478e16239e90aa0e",
+  "arc-n10-0003": "097786cdc5b11d90",
+  "arc-n10-0016": "fa862914970e5be2",
+  "circle-n10-0001": "4c2ca40622cdb976",
+  "circle-n10-0002": "e2b17ea86a19bd41",
+  "circle-n10-0003": "c54964a6ef086b3b",
+  "circle-n10-0004": "71111b3c00221aec",
+  "circle-n10-0005": "c2d3d935c8ce441c",
+  "spiral-n10-0002": "4a01656ca4e79822",
+  "spiral-n10-0003": "84a6a29434f9708f",
+  "spiral-n10-0000": "7799f4a7c6b5611c",
+  "spiral-n10-0001": "40ae29da767c1a32",
+  "spiral-n10-0010": "b41574825f67604f",
+  "serpentine-n10-0007": "8505608573f77368",
+  "serpentine-n10-0000": "7f85153c9b7c7622",
+  "serpentine-n10-0005": "96870382d972725e",
+  "serpentine-n10-0010": "89c7e161fba352f9",
+  "serpentine-n10-0023": "bf47aa87a8639aab",
+  "zigzag-n10-0004": "5e8cbbab9549dbbd",
+  "zigzag-n10-0013": "7c3284e5febb5a7c",
+  "zigzag-n10-0006": "2453e9b15826e93e",
+  "zigzag-n10-0003": "fa7e934eaa147ff2",
+  "zigzag-n10-0008": "a6c1a680802d7109",
+  "square-n10-0009": "1e5b960a49ae3883",
+  "square-n10-0002": "b5af93bed50e44bb",
+  "square-n10-0003": "017da8bac1a9d2fa",
+  "square-n10-0000": "02c1c2efd7eed315",
+  "square-n10-0013": "ac8a8f1490ae7cee"
+ },
+ "checks": {
+  "arc-n10-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.082318
+  },
+  "arc-n10-0005": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.042608
+  },
+  "arc-n10-0002": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.070743
+  },
+  "arc-n10-0003": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.057611
+  },
+  "arc-n10-0016": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.039201
+  },
+  "circle-n10-0001": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.06914
+  },
+  "circle-n10-0002": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.074037
+  },
+  "circle-n10-0003": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.084116
+  },
+  "circle-n10-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.046217
+  },
+  "circle-n10-0005": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.074844
+  },
+  "spiral-n10-0002": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.002829,
+   "max_height_m": 0.005002,
+   "min_clip_clearance_m": 0.06303
+  },
+  "spiral-n10-0003": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.003633,
+   "max_height_m": 0.005002,
+   "min_clip_clearance_m": 0.081261
+  },
+  "spiral-n10-0000": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.068692
+  },
+  "spiral-n10-0001": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.045679
+  },
+  "spiral-n10-0010": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.003425,
+   "max_height_m": 0.005001,
+   "min_clip_clearance_m": 0.059577
+  },
+  "serpentine-n10-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.080673
+  },
+  "serpentine-n10-0000": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.05596
+  },
+  "serpentine-n10-0005": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.082162
+  },
+  "serpentine-n10-0010": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.04452
+  },
+  "serpentine-n10-0023": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 5e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.046776
+  },
+  "zigzag-n10-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.054988
+  },
+  "zigzag-n10-0013": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.045371
+  },
+  "zigzag-n10-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.075674
+  },
+  "zigzag-n10-0003": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.049195
+  },
+  "zigzag-n10-0008": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.04147
+  },
+  "square-n10-0009": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.045514
+  },
+  "square-n10-0002": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 0.0,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.086393
+  },
+  "square-n10-0003": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.073661
+  },
+  "square-n10-0000": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.079879
+  },
+  "square-n10-0013": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.04252
+  }
+ }
+}

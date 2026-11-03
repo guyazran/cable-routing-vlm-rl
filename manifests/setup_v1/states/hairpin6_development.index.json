@@ -1,0 +1,80 @@
+{
+ "manifest_sha256": "6b9fecc55880f344",
+ "settle_steps": 480,
+ "config_hash": "95f654b8b1b52a6b",
+ "physics_hash": "afc9d60dd932e624",
+ "check_limits": {
+  "max_displacement_m": 0.02,
+  "max_height_radii": 3.0,
+  "min_clip_clearance_m": 0.0
+ },
+ "all_checks_passed": true,
+ "states": {
+  "hairpin6-dev-0000": "e1acb41bb56c4b06",
+  "hairpin6-dev-0001": "3a37a4c3db74bd0d",
+  "hairpin6-dev-0002": "e741cfb90c89aabe",
+  "hairpin6-dev-0003": "efd53d97b8faf31a",
+  "hairpin6-dev-0004": "525dac210192ea75",
+  "hairpin6-dev-0005": "16732b3048120115",
+  "hairpin6-dev-0006": "4570909525a1e5a6",
+  "hairpin6-dev-0007": "141ca3bcd8738126"
+ },
+ "checks": {
+  "hairpin6-dev-0000": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.058589
+  },
+  "hairpin6-dev-0001": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.079012
+  },
+  "hairpin6-dev-0002": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.067816
+  },
+  "hairpin6-dev-0003": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.081047
+  },
+  "hairpin6-dev-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 3e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.059879
+  },
+  "hairpin6-dev-0005": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.06487
+  },
+  "hairpin6-dev-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.057579
+  },
+  "hairpin6-dev-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.076268
+  }
+ }
+}

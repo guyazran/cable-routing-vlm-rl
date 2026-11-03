@@ -1,0 +1,96 @@
+{
+ "manifest_sha256": "ae581e680e3ed7d4",
+ "settle_steps": 480,
+ "config_hash": "95f654b8b1b52a6b",
+ "physics_hash": "afc9d60dd932e624",
+ "check_limits": {
+  "max_displacement_m": 0.02,
+  "max_height_radii": 3.0,
+  "min_clip_clearance_m": 0.0
+ },
+ "all_checks_passed": true,
+ "states": {
+  "paper5-dev-0000": "01b73072bb8368bd",
+  "paper5-dev-0001": "4583dedb933a4c41",
+  "paper5-dev-0002": "6922c57496354230",
+  "paper5-dev-0003": "fa5fa011079de3ae",
+  "paper5-dev-0004": "9f0170a98b1bc80d",
+  "paper5-dev-0005": "a2b4cefee369d30b",
+  "paper5-dev-0006": "61c262a9ad2eae6e",
+  "paper5-dev-0007": "2e30d5e75c16b78f",
+  "paper5-dev-0008": "4fe54a2e3a24b3b1",
+  "paper5-dev-0009": "3112b1817eb94b04"
+ },
+ "checks": {
+  "paper5-dev-0000": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.071344
+  },
+  "paper5-dev-0001": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.080121
+  },
+  "paper5-dev-0002": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.04685
+  },
+  "paper5-dev-0003": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.073757
+  },
+  "paper5-dev-0004": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 4e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.058369
+  },
+  "paper5-dev-0005": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 2e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.069439
+  },
+  "paper5-dev-0006": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.083584
+  },
+  "paper5-dev-0007": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.054969
+  },
+  "paper5-dev-0008": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.078207
+  },
+  "paper5-dev-0009": {
+   "passed": true,
+   "failed": [],
+   "max_displacement_m": 1e-06,
+   "max_height_m": 0.005,
+   "min_clip_clearance_m": 0.052137
+  }
+ }
+}
