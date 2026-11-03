@@ -1,0 +1,330 @@
+# Horizon-check study configuration (reconstruction defaults, NOT yet frozen).
+# Every value not taken from the paper is a reconstruction choice; see
+# reports/deviation_log.md. Tune on development scenes only, then freeze
+# (record the config hash printed by `python -m cablerouting.cli config-hash`).
+
+study:
+  per_clip_budget: 10          # b; B(N) = b * N high-level skill invocations
+  horizons: [5, 10]
+  screen_scenes: 30
+  eval_dataset: shapes         # screen: manifests/shapes_screen.json; calibration: shapes_calibration_r<k>.json
+  calibration_states: 24       # per scene type per round (4 per shape)
+  calibration_min_successes: 20  # gate per scene type and controller (protocol: 16/20, scaled to >= 80% of 24)
+  scheduling_seed: 20261031    # condition-order randomisation within each scene
+
+scene_families:
+  primary10:                    # ten physical clips; 5- and 10-target conditions share each scene
+    n_clips: 10
+    clip_scale: 1.0
+    stage_length: [0.16, 0.19]
+    turn_deg: [5.0, 50.0]          # |heading change| per stage, same distribution at every position
+    sign_persistence: [0.2, 0.8]   # per scene: P(next turn has the same sign); zigzag <-> hooks/spirals
+    stage_tries: 40
+    max_backtracks: 30
+    reach_radius: [0.15, 0.90]     # virtual robot base at the origin (slightly beyond a Franka's 0.855 m)
+    max_bearing_deg: 150.0
+    min_reach_margin: 0.02
+    min_clip_separation: 0.10
+    path_clearance: 0.05
+    view_x: [-0.25, 0.80]
+    view_y: [-0.70, 0.70]
+    view_margin: 0.0
+    insertion_region: 0.16
+    cable_length: 3.0
+    cable_radius: 0.0025
+    head_allowance: 0.12
+    tail_reserve: 0.30
+    initial_head_axial: [0.06, 0.11]
+    initial_head_lateral: [-0.025, 0.025]
+    initial_angle_deg: 10.0
+    initial_lead: 0.30
+    initial_max_bend_deg: 100.0
+    initial_clip_clearance: 0.04
+  paper5:                       # calibration family 1: five physical clips, all requested
+    n_clips: 5
+    clip_scale: 1.0
+    stage_length: [0.16, 0.19]
+    turn_deg: [5.0, 50.0]          # |heading change| per stage, same distribution at every position
+    sign_persistence: [0.2, 0.8]   # per scene: P(next turn has the same sign); zigzag <-> hooks/spirals
+    stage_tries: 40
+    max_backtracks: 30
+    reach_radius: [0.15, 0.90]     # virtual robot base at the origin (slightly beyond a Franka's 0.855 m)
+    max_bearing_deg: 150.0
+    min_reach_margin: 0.02
+    min_clip_separation: 0.10
+    path_clearance: 0.05
+    view_x: [-0.25, 0.80]
+    view_y: [-0.70, 0.70]
+    view_margin: 0.0
+    insertion_region: 0.16
+    cable_length: 3.0
+    cable_radius: 0.0025
+    head_allowance: 0.12
+    tail_reserve: 0.30
+    initial_head_axial: [0.06, 0.11]
+    initial_head_lateral: [-0.025, 0.025]
+    initial_angle_deg: 10.0
+    initial_lead: 0.30
+    initial_max_bend_deg: 100.0
+    initial_clip_clearance: 0.04
+
+  # ---- Demo / development families (not used by the screen). Same clip, cable and
+  # checks as above, Franka-exact reach, and stage geometry well outside primary10's
+  # 16-19 cm / 5-50 deg band.
+  hairpin6:                     # sharp turns: 75-150 deg per stage, U-turns and switchbacks
+    n_clips: 6
+    clip_scale: 1.0
+    stage_length: [0.15, 0.22]
+    turn_deg: [75.0, 150.0]
+    sign_persistence: [0.0, 0.6]
+    stage_tries: 60
+    max_backtracks: 40
+    reach_radius: [0.25, 0.74]     # Franka top-down reach at table height is 0.20-0.78 m (IK)
+    max_bearing_deg: 150.0
+    min_reach_margin: 0.02
+    base_clearance: 0.20           # route and initial cable keep clear of the robot pedestal
+    min_clip_separation: 0.12
+    path_clearance: 0.05
+    view_x: [-0.25, 0.80]
+    view_y: [-0.70, 0.70]
+    view_margin: 0.0
+    insertion_region: 0.16
+    cable_length: 3.0
+    cable_radius: 0.0025
+    head_allowance: 0.12
+    tail_reserve: 0.30
+    initial_head_axial: [0.06, 0.11]
+    initial_head_lateral: [-0.025, 0.025]
+    initial_angle_deg: 10.0
+    initial_lead: 0.30
+    initial_max_bend_deg: 100.0
+    initial_clip_clearance: 0.04
+  scatter5:                     # far moves off any trail: 28-40 cm jumps, clip direction and heading drawn independently
+    n_clips: 5
+    clip_scale: 1.0
+    stage_shape: hermite
+    stage_length: [0.28, 0.40]
+    bearing_deg: [25.0, 80.0]
+    turn_deg: [30.0, 150.0]
+    min_path_radius: 0.05
+    sign_persistence: [0.2, 0.8]
+    stage_tries: 60
+    max_backtracks: 40
+    reach_radius: [0.25, 0.74]     # Franka top-down reach at table height is 0.20-0.78 m (IK)
+    max_bearing_deg: 150.0
+    min_reach_margin: 0.02
+    base_clearance: 0.20           # route and initial cable keep clear of the robot pedestal
+    min_clip_separation: 0.12
+    path_clearance: 0.05
+    view_x: [-0.25, 0.80]
+    view_y: [-0.70, 0.70]
+    view_margin: 0.0
+    insertion_region: 0.16
+    cable_length: 3.0
+    cable_radius: 0.0025
+    head_allowance: 0.12
+    tail_reserve: 0.30
+    initial_head_axial: [0.06, 0.11]
+    initial_head_lateral: [-0.025, 0.025]
+    initial_angle_deg: 10.0
+    initial_lead: 0.30
+    initial_max_bend_deg: 100.0
+    initial_clip_clearance: 0.04
+  zigzag5:                      # far and sharp: 24-34 cm legs, 60-120 deg alternating turns
+    n_clips: 5
+    clip_scale: 1.0
+    stage_length: [0.24, 0.34]
+    turn_deg: [60.0, 120.0]
+    sign_persistence: [0.0, 0.25]
+    stage_tries: 60
+    max_backtracks: 40
+    reach_radius: [0.25, 0.74]     # Franka top-down reach at table height is 0.20-0.78 m (IK)
+    max_bearing_deg: 150.0
+    min_reach_margin: 0.02
+    base_clearance: 0.20           # route and initial cable keep clear of the robot pedestal
+    min_clip_separation: 0.12
+    path_clearance: 0.05
+    view_x: [-0.25, 0.80]
+    view_y: [-0.70, 0.70]
+    view_margin: 0.0
+    insertion_region: 0.16
+    cable_length: 3.0
+    cable_radius: 0.0025
+    head_allowance: 0.12
+    tail_reserve: 0.30
+    initial_head_axial: [0.06, 0.11]
+    initial_head_lateral: [-0.025, 0.025]
+    initial_angle_deg: 10.0
+    initial_lead: 0.30
+    initial_max_bend_deg: 100.0
+    initial_clip_clearance: 0.04
+
+  # ---- Shape families of the train/test dataset (`dataset` below; deviation L6). Clip, cable,
+  # stage spacing and reach as primary10, plus 0.20 m clearance from the robot base. The dataset
+  # sets n_clips per cell; the motif fixes each stage's base turn (scenes/generator.py docstring),
+  # turn_deg is the per-scene motif level, and every stage adds U(+-turn_jitter_deg).
+  arc: &shape_family            # gentle constant bend
+    motif: arc
+    n_clips: 10
+    clip_scale: 1.0
+    stage_length: [0.21, 0.25]     # P5b/L7: ~3 clip lengths, as in the authors' simulated scenes
+    turn_deg: [15.0, 22.0]
+    turn_jitter_deg: 2.0
+    stage_tries: 40
+    placement_tries: 1000
+    reach_radius: [0.15, 1.18]     # L7: workspace scaled with the stage length (x1.31); beyond a Franka's reach
+    max_bearing_deg: 150.0
+    min_reach_margin: 0.02
+    base_clearance: 0.20
+    min_clip_separation: 0.14
+    path_clearance: 0.05
+    view_x: [-0.33, 1.05]          # L7: camera coverage scaled x1.31 (same 4:3 image)
+    view_y: [-0.92, 0.92]
+    view_margin: 0.0
+    insertion_region: 0.16
+    cable_length: 3.0
+    cable_radius: 0.0025
+    head_allowance: 0.12
+    tail_reserve: 0.30
+    initial_head_axial: [0.06, 0.11]
+    initial_head_lateral: [-0.025, 0.025]
+    initial_angle_deg: 10.0
+    initial_lead: 0.30
+    initial_max_bend_deg: 100.0
+    initial_clip_clearance: 0.04
+  circle:                       # tight constant bend; closes into a loop on long routes
+    <<: *shape_family
+    motif: circle
+    turn_deg: [28.0, 34.0]
+  spiral:                       # same sign, bend tightening linearly (loosening when reversed)
+    <<: *shape_family
+    motif: spiral
+    turn_deg: [6.0, 12.0]
+    turn_end_deg: [45.0, 55.0]
+  serpentine:                   # smooth S-waves: sign flips every 2-3 stages, plus a backbone bias
+    <<: *shape_family
+    motif: serpentine
+    turn_deg: [22.0, 32.0]
+    motif_period: [2, 3]
+    bias_deg: [6.0, 12.0]
+  zigzag:                       # straight legs, sharp corners of alternating sign, plus a backbone bias
+    <<: *shape_family
+    motif: zigzag
+    turn_deg: [60.0, 80.0]
+    motif_period: [2]
+    bias_deg: [4.0, 10.0]
+  square:                       # 90 deg corners of one sign, 2-3 straight stages between them
+    <<: *shape_family
+    motif: square
+    turn_deg: [86.0, 94.0]
+    motif_period: [3, 4]
+
+dataset:                       # official scenes of the study (horizon-check.md Section 8; scenes/dataset.py)
+  name: shapes                 # -> manifests/shapes_{train,validation,test,screen,calibration_r1,calibration_r2,split}.json
+  shapes: [arc, circle, spiral, serpentine, zigzag, square]
+  n_clips: [3, 4, 5, 6, 7, 8, 9, 10]
+  train_per_cell: 20           # per (shape, n_clips) cell; multiples of 4 balance mirror x reverse
+  test_per_cell: 20
+  validation_per_cell: 8       # separate pool = protocol's calibration pool; 4 per cell per calibration round
+  seed_base: 10000000          # train/test: cell c, scene i, attempt a -> seed_base + 100000 c + 1000 i + a
+  validation_seed_base: 30000000   # setup A: fresh validation pool (setup v1 used 20000000; rounds 1-2 spent)
+  split_seed: 20261102
+  max_attempts: 400
+  screen_n_clips: 10           # screen: 5 ten-clip test scenes per shape (30), fixed by rule
+  screen_per_shape: 5
+  calibration_n_clips: [5, 10] # calibration round: 4 validation scenes per shape at each length (24 + 24)
+
+cable:                         # PhysX capsule chain; one cable for every condition
+  length: 3.0                  # ten 21-25 cm stages + head allowance + tail reserve (L7)
+  radius: 0.0025               # P1b: ~5 mm thick, as in the authors' simulation videos
+  link_length: 0.0125
+  mass_per_m: 0.05
+  friction: 0.5                # paper value
+  bend_limit_deg: 60.0
+  bend_stiffness: 2.0e-6       # P1b: floppy enough to hold the loose curves seen in the videos
+  bend_damping: 2.0e-6
+  linear_damping: 0.2
+  angular_damping: 0.5
+  contact_offset: 0.002
+  rest_offset: 0.0
+
+physics:
+  dt: 0.004166666666666667     # 1/240 s
+  solver: TGS
+  position_iterations: 32
+  velocity_iterations: 4
+  max_depenetration_velocity: 0.5
+  gravity: 9.81
+  enhanced_determinism: true
+
+robot:                         # Franka Panda at the virtual base, posed by IK from the grasp body (visual only)
+  model: franka_panda          # "none" = floating gripper
+  usd: assets/robots/franka_panda/franka.usd   # scripts/install/fetch_robot_assets.py
+  mesh_variant: Quality
+  base_pose: [0.0, 0.0, 0.0]   # x, y, yaw
+  base_collider: true          # static box at the pedestal footprint (cable cannot pass through the base)
+  hide_in_observations: true   # planner/crop renders: wrist camera at the observation pose sees no arm
+
+motion:                        # shared pick-and-place primitive
+  safe_height: 0.08
+  home_pose: [0.31, 0.0, 0.49, 0.0]   # Franka ready posture; free moves from here stay above every clip
+  hold_speed: 0.10
+  hold_yaw_rate: 1.5707963267948966
+  vertical_speed: 0.05
+  free_sample_spacing: 0.005
+  settle_steps: 240            # 1 s after every release, identical for all skills/controllers
+  grasp_close_margin: 0.002
+
+skills:
+  lift_height: 0.03            # Flatten transport height
+  pull_grasp_offset: 0.0        # R6b: Pull grasps the head itself, just past the clip it left (videos)
+  pull_lift: 0.10              # R6b: Pull carries the head lifted, as in the authors' videos
+  pull_stage: 0.08             # R6b: head lands this far in front of the target's entry (centre of the 3-13 cm start range)
+  flatten_head_distance: 0.04
+  flatten_tail_offset: 0.06
+  local_horizon: 7             # paper: up to 7 low-level steps per insertion
+  insertion_region: 0.16       # paper: 0.16 m x 0.16 m
+  max_rel_yaw: 1.5707963267948966
+
+observation:
+  n_points: 16
+  stride: 2
+  pos_scale: 0.16
+
+reward:                        # paper Eq. 1-4 coefficients
+  collision: -2.0
+  horizon: -0.001
+  flat: 0.5
+  insertion_bonus: 0.5
+  success_margin: 0.02
+
+render:
+  full_resolution: [1600, 1200]
+  full_height: 2.0
+  crop_size: 0.32               # L7: scaled with the clip (7.8 cm) and stage length
+  crop_resolution: 768
+  crop_height: 0.6
+
+reference:
+  max_failed_inserts: 3        # protocol: Flatten after three unsuccessful Inserts
+  success_margin: 0.02
+
+planner:
+  model: Qwen/Qwen3.8-27B
+  base_url: http://127.0.0.1:8000/v1
+  temperature: 1.0
+  top_p: 0.95
+  top_k: 20
+  min_p: 0.0
+  presence_penalty: 0.0
+  max_tokens: 8192
+  reasoning_effort: medium
+  enable_thinking: true
+  preserve_thinking: false
+  structured_output: true      # validated with reasoning on by scripts/smoke/vlm_smoke.py (2026-11-01)
+  timeout_s: 900.0
+
+prompts:
+  local_horizon: 7
+  max_consecutive_inserts: 3
+  allow_missing_examples: false
