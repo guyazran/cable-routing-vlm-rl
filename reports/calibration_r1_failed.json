@@ -1,0 +1,290 @@
+{
+ "runs": "runs/study/calibration_r1",
+ "config_hash": "8e1630ce10345ab3",
+ "gate": ">= 20 successes of 24 per check and controller",
+ "checks": {
+  "check1_five_clip_scenes/reference": {
+   "successes": 14,
+   "n": 24,
+   "rate": 0.5833333333333334,
+   "wilson95": [
+    0.3883466586522876,
+    0.7553239739018824
+   ],
+   "passes_gate": false,
+   "terminal": {
+    "done": 14,
+    "collision": 1,
+    "budget_exhausted": 9
+   },
+   "premature_done": 0,
+   "failures": [
+    {
+     "scene": "spiral-n05-val-0002",
+     "success": false,
+     "terminal": "collision",
+     "final_prefix": 2,
+     "invocations": 8,
+     "premature_done": false
+    },
+    {
+     "scene": "spiral-n05-val-0003",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 2,
+     "invocations": 50,
+     "premature_done": false
+    },
+    {
+     "scene": "zigzag-n05-val-0000",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 2,
+     "invocations": 50,
+     "premature_done": false
+    },
+    {
+     "scene": "zigzag-n05-val-0001",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 2,
+     "invocations": 50,
+     "premature_done": false
+    },
+    {
+     "scene": "zigzag-n05-val-0002",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 1,
+     "invocations": 50,
+     "premature_done": false
+    },
+    {
+     "scene": "zigzag-n05-val-0003",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 1,
+     "invocations": 50,
+     "premature_done": false
+    },
+    {
+     "scene": "square-n05-val-0000",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 2,
+     "invocations": 50,
+     "premature_done": false
+    },
+    {
+     "scene": "square-n05-val-0001",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 2,
+     "invocations": 50,
+     "premature_done": false
+    },
+    {
+     "scene": "square-n05-val-0002",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 1,
+     "invocations": 50,
+     "premature_done": false
+    },
+    {
+     "scene": "square-n05-val-0003",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 3,
+     "invocations": 50,
+     "premature_done": false
+    }
+   ]
+  },
+  "check1_five_clip_scenes/vlm": {
+   "successes": 10,
+   "n": 12,
+   "rate": 0.8333333333333334,
+   "wilson95": [
+    0.5519691377470266,
+    0.9530348578161463
+   ],
+   "passes_gate": false,
+   "terminal": {
+    "done": 11,
+    "collision": 1
+   },
+   "premature_done": 1,
+   "failures": [
+    {
+     "scene": "spiral-n05-val-0001",
+     "success": false,
+     "terminal": "done",
+     "final_prefix": 4,
+     "invocations": 47,
+     "premature_done": true
+    },
+    {
+     "scene": "spiral-n05-val-0002",
+     "success": false,
+     "terminal": "collision",
+     "final_prefix": 2,
+     "invocations": 11,
+     "premature_done": false
+    }
+   ]
+  },
+  "check2_ten_clip_scenes_first_five/reference": {
+   "successes": 13,
+   "n": 23,
+   "rate": 0.5652173913043478,
+   "wilson95": [
+    0.3681137508501646,
+    0.743653646743258
+   ],
+   "passes_gate": false,
+   "terminal": {
+    "done": 13,
+    "budget_exhausted": 10
+   },
+   "premature_done": 0,
+   "failures": [
+    {
+     "scene": "spiral-n10-val-0002",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 1,
+     "invocations": 50,
+     "premature_done": false
+    },
+    {
+     "scene": "spiral-n10-val-0003",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 1,
+     "invocations": 50,
+     "premature_done": false
+    },
+    {
+     "scene": "serpentine-n10-val-0003",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 3,
+     "invocations": 50,
+     "premature_done": false
+    },
+    {
+     "scene": "zigzag-n10-val-0000",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 2,
+     "invocations": 50,
+     "premature_done": false
+    },
+    {
+     "scene": "zigzag-n10-val-0001",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 3,
+     "invocations": 50,
+     "premature_done": false
+    },
+    {
+     "scene": "zigzag-n10-val-0002",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 2,
+     "invocations": 50,
+     "premature_done": false
+    },
+    {
+     "scene": "zigzag-n10-val-0003",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 2,
+     "invocations": 50,
+     "premature_done": false
+    },
+    {
+     "scene": "square-n10-val-0000",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 2,
+     "invocations": 50,
+     "premature_done": false
+    },
+    {
+     "scene": "square-n10-val-0001",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 3,
+     "invocations": 50,
+     "premature_done": false
+    },
+    {
+     "scene": "square-n10-val-0002",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 4,
+     "invocations": 50,
+     "premature_done": false
+    }
+   ]
+  },
+  "check2_ten_clip_scenes_first_five/vlm": {
+   "successes": 10,
+   "n": 11,
+   "rate": 0.9090909090909091,
+   "wilson95": [
+    0.6226415635484043,
+    0.9837678271141151
+   ],
+   "passes_gate": false,
+   "terminal": {
+    "done": 10,
+    "budget_exhausted": 1
+   },
+   "premature_done": 0,
+   "failures": [
+    {
+     "scene": "spiral-n10-val-0002",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 1,
+     "invocations": 50,
+     "premature_done": false
+    }
+   ]
+  }
+ },
+ "missing": [
+  "spiral-n10-val-0003/vlm_5",
+  "serpentine-n05-val-0000/vlm_5",
+  "serpentine-n05-val-0001/vlm_5",
+  "serpentine-n05-val-0002/vlm_5",
+  "serpentine-n05-val-0003/vlm_5",
+  "serpentine-n10-val-0000/vlm_5",
+  "serpentine-n10-val-0001/vlm_5",
+  "serpentine-n10-val-0002/vlm_5",
+  "serpentine-n10-val-0003/vlm_5",
+  "zigzag-n05-val-0000/vlm_5",
+  "zigzag-n05-val-0001/vlm_5",
+  "zigzag-n05-val-0002/vlm_5",
+  "zigzag-n05-val-0003/vlm_5",
+  "zigzag-n10-val-0000/vlm_5",
+  "zigzag-n10-val-0001/vlm_5",
+  "zigzag-n10-val-0002/vlm_5",
+  "zigzag-n10-val-0003/vlm_5",
+  "square-n05-val-0000/vlm_5",
+  "square-n05-val-0001/vlm_5",
+  "square-n05-val-0002/vlm_5",
+  "square-n05-val-0003/vlm_5",
+  "square-n10-val-0000/vlm_5",
+  "square-n10-val-0001/vlm_5",
+  "square-n10-val-0002/vlm_5",
+  "square-n10-val-0003/reference_5",
+  "square-n10-val-0003/vlm_5"
+ ],
+ "gate_passed": false,
+ "gate_status": "incomplete"
+}

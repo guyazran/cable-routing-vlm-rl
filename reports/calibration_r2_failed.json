@@ -1,0 +1,450 @@
+{
+ "runs": "runs/study/calibration_r2",
+ "config_hash": "95f654b8b1b52a6b",
+ "gate": ">= 20 successes of 24 per check and controller",
+ "checks": {
+  "check1_five_clip_scenes/reference": {
+   "successes": 12,
+   "n": 24,
+   "rate": 0.5,
+   "wilson95": [
+    0.3142742581957335,
+    0.6857257418042665
+   ],
+   "passes_gate": false,
+   "terminal": {
+    "done": 12,
+    "budget_exhausted": 8,
+    "collision": 4
+   },
+   "premature_done": 0,
+   "failures": [
+    {
+     "scene": "spiral-n05-val-0004",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 4,
+     "invocations": 50,
+     "premature_done": false
+    },
+    {
+     "scene": "spiral-n05-val-0005",
+     "success": false,
+     "terminal": "collision",
+     "final_prefix": 4,
+     "invocations": 5,
+     "premature_done": false
+    },
+    {
+     "scene": "spiral-n05-val-0007",
+     "success": false,
+     "terminal": "collision",
+     "final_prefix": 2,
+     "invocations": 3,
+     "premature_done": false
+    },
+    {
+     "scene": "serpentine-n05-val-0005",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 3,
+     "invocations": 50,
+     "premature_done": false
+    },
+    {
+     "scene": "zigzag-n05-val-0004",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 2,
+     "invocations": 50,
+     "premature_done": false
+    },
+    {
+     "scene": "zigzag-n05-val-0005",
+     "success": false,
+     "terminal": "collision",
+     "final_prefix": 3,
+     "invocations": 6,
+     "premature_done": false
+    },
+    {
+     "scene": "zigzag-n05-val-0006",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 1,
+     "invocations": 50,
+     "premature_done": false
+    },
+    {
+     "scene": "zigzag-n05-val-0007",
+     "success": false,
+     "terminal": "collision",
+     "final_prefix": 3,
+     "invocations": 4,
+     "premature_done": false
+    },
+    {
+     "scene": "square-n05-val-0004",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 4,
+     "invocations": 50,
+     "premature_done": false
+    },
+    {
+     "scene": "square-n05-val-0005",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 4,
+     "invocations": 50,
+     "premature_done": false
+    },
+    {
+     "scene": "square-n05-val-0006",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 1,
+     "invocations": 50,
+     "premature_done": false
+    },
+    {
+     "scene": "square-n05-val-0007",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 2,
+     "invocations": 50,
+     "premature_done": false
+    }
+   ]
+  },
+  "check1_five_clip_scenes/vlm": {
+   "successes": 11,
+   "n": 24,
+   "rate": 0.4583333333333333,
+   "wilson95": [
+    0.2789133373121099,
+    0.6492513464108051
+   ],
+   "passes_gate": false,
+   "terminal": {
+    "done": 11,
+    "collision": 9,
+    "budget_exhausted": 4
+   },
+   "premature_done": 0,
+   "failures": [
+    {
+     "scene": "arc-n05-val-0007",
+     "success": false,
+     "terminal": "collision",
+     "final_prefix": 2,
+     "invocations": 4,
+     "premature_done": false
+    },
+    {
+     "scene": "spiral-n05-val-0004",
+     "success": false,
+     "terminal": "collision",
+     "final_prefix": 4,
+     "invocations": 10,
+     "premature_done": false
+    },
+    {
+     "scene": "spiral-n05-val-0005",
+     "success": false,
+     "terminal": "collision",
+     "final_prefix": 4,
+     "invocations": 9,
+     "premature_done": false
+    },
+    {
+     "scene": "spiral-n05-val-0007",
+     "success": false,
+     "terminal": "collision",
+     "final_prefix": 2,
+     "invocations": 3,
+     "premature_done": false
+    },
+    {
+     "scene": "serpentine-n05-val-0005",
+     "success": false,
+     "terminal": "collision",
+     "final_prefix": 3,
+     "invocations": 8,
+     "premature_done": false
+    },
+    {
+     "scene": "zigzag-n05-val-0004",
+     "success": false,
+     "terminal": "collision",
+     "final_prefix": 2,
+     "invocations": 8,
+     "premature_done": false
+    },
+    {
+     "scene": "zigzag-n05-val-0005",
+     "success": false,
+     "terminal": "collision",
+     "final_prefix": 2,
+     "invocations": 8,
+     "premature_done": false
+    },
+    {
+     "scene": "zigzag-n05-val-0006",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 1,
+     "invocations": 50,
+     "premature_done": false
+    },
+    {
+     "scene": "zigzag-n05-val-0007",
+     "success": false,
+     "terminal": "collision",
+     "final_prefix": 2,
+     "invocations": 5,
+     "premature_done": false
+    },
+    {
+     "scene": "square-n05-val-0004",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 4,
+     "invocations": 50,
+     "premature_done": false
+    },
+    {
+     "scene": "square-n05-val-0005",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 4,
+     "invocations": 50,
+     "premature_done": false
+    },
+    {
+     "scene": "square-n05-val-0006",
+     "success": false,
+     "terminal": "collision",
+     "final_prefix": 4,
+     "invocations": 15,
+     "premature_done": false
+    },
+    {
+     "scene": "square-n05-val-0007",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 2,
+     "invocations": 50,
+     "premature_done": false
+    }
+   ]
+  },
+  "check2_ten_clip_scenes_first_five/reference": {
+   "successes": 14,
+   "n": 24,
+   "rate": 0.5833333333333334,
+   "wilson95": [
+    0.3883466586522876,
+    0.7553239739018824
+   ],
+   "passes_gate": false,
+   "terminal": {
+    "done": 14,
+    "collision": 5,
+    "budget_exhausted": 5
+   },
+   "premature_done": 0,
+   "failures": [
+    {
+     "scene": "spiral-n10-val-0007",
+     "success": false,
+     "terminal": "collision",
+     "final_prefix": 1,
+     "invocations": 2,
+     "premature_done": false
+    },
+    {
+     "scene": "serpentine-n10-val-0005",
+     "success": false,
+     "terminal": "collision",
+     "final_prefix": 2,
+     "invocations": 6,
+     "premature_done": false
+    },
+    {
+     "scene": "zigzag-n10-val-0004",
+     "success": false,
+     "terminal": "collision",
+     "final_prefix": 2,
+     "invocations": 11,
+     "premature_done": false
+    },
+    {
+     "scene": "zigzag-n10-val-0005",
+     "success": false,
+     "terminal": "collision",
+     "final_prefix": 1,
+     "invocations": 6,
+     "premature_done": false
+    },
+    {
+     "scene": "zigzag-n10-val-0006",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 4,
+     "invocations": 50,
+     "premature_done": false
+    },
+    {
+     "scene": "zigzag-n10-val-0007",
+     "success": false,
+     "terminal": "collision",
+     "final_prefix": 2,
+     "invocations": 3,
+     "premature_done": false
+    },
+    {
+     "scene": "square-n10-val-0004",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 3,
+     "invocations": 50,
+     "premature_done": false
+    },
+    {
+     "scene": "square-n10-val-0005",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 2,
+     "invocations": 50,
+     "premature_done": false
+    },
+    {
+     "scene": "square-n10-val-0006",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 1,
+     "invocations": 50,
+     "premature_done": false
+    },
+    {
+     "scene": "square-n10-val-0007",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 2,
+     "invocations": 50,
+     "premature_done": false
+    }
+   ]
+  },
+  "check2_ten_clip_scenes_first_five/vlm": {
+   "successes": 13,
+   "n": 24,
+   "rate": 0.5416666666666666,
+   "wilson95": [
+    0.3507486535891948,
+    0.72108666268789
+   ],
+   "passes_gate": false,
+   "terminal": {
+    "done": 13,
+    "collision": 7,
+    "budget_exhausted": 4
+   },
+   "premature_done": 0,
+   "failures": [
+    {
+     "scene": "spiral-n10-val-0006",
+     "success": false,
+     "terminal": "collision",
+     "final_prefix": 3,
+     "invocations": 8,
+     "premature_done": false
+    },
+    {
+     "scene": "spiral-n10-val-0007",
+     "success": false,
+     "terminal": "collision",
+     "final_prefix": 1,
+     "invocations": 6,
+     "premature_done": false
+    },
+    {
+     "scene": "serpentine-n10-val-0005",
+     "success": false,
+     "terminal": "collision",
+     "final_prefix": 3,
+     "invocations": 7,
+     "premature_done": false
+    },
+    {
+     "scene": "zigzag-n10-val-0004",
+     "success": false,
+     "terminal": "collision",
+     "final_prefix": 4,
+     "invocations": 12,
+     "premature_done": false
+    },
+    {
+     "scene": "zigzag-n10-val-0005",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 3,
+     "invocations": 50,
+     "premature_done": false
+    },
+    {
+     "scene": "zigzag-n10-val-0006",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 4,
+     "invocations": 50,
+     "premature_done": false
+    },
+    {
+     "scene": "zigzag-n10-val-0007",
+     "success": false,
+     "terminal": "collision",
+     "final_prefix": 2,
+     "invocations": 3,
+     "premature_done": false
+    },
+    {
+     "scene": "square-n10-val-0004",
+     "success": false,
+     "terminal": "collision",
+     "final_prefix": 3,
+     "invocations": 8,
+     "premature_done": false
+    },
+    {
+     "scene": "square-n10-val-0005",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 2,
+     "invocations": 50,
+     "premature_done": false
+    },
+    {
+     "scene": "square-n10-val-0006",
+     "success": false,
+     "terminal": "collision",
+     "final_prefix": 1,
+     "invocations": 4,
+     "premature_done": false
+    },
+    {
+     "scene": "square-n10-val-0007",
+     "success": false,
+     "terminal": "budget_exhausted",
+     "final_prefix": 2,
+     "invocations": 50,
+     "premature_done": false
+    }
+   ]
+  }
+ },
+ "missing": [],
+ "gate_passed": false,
+ "gate_status": "failed"
+}

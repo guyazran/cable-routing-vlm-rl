@@ -1,0 +1,105 @@
+{
+ "rule": "max mean clean success over 100 single-clip + 100 route-stage validation starts (seeds 8,000,000+ / 8,100,000+); ties: fewer collisions, then earlier checkpoint",
+ "selected": {
+  "candidate": "sac_v6_s1_14700",
+  "policy": "/home/guy.azran/workspace/cable-routing-vlm-rl/runs/study/train/sac_v6_s1/sac_14808_steps.zip",
+  "env_steps": 14808,
+  "single_clean": 100,
+  "stage_clean": 94,
+  "collisions": 1,
+  "score": 0.97
+ },
+ "candidates": [
+  {
+   "candidate": "sac_v6_s1_14700",
+   "policy": "/home/guy.azran/workspace/cable-routing-vlm-rl/runs/study/train/sac_v6_s1/sac_14808_steps.zip",
+   "env_steps": 14808,
+   "single_clean": 100,
+   "stage_clean": 94,
+   "collisions": 1,
+   "score": 0.97
+  },
+  {
+   "candidate": "sac_v6_s0_19600",
+   "policy": "/home/guy.azran/workspace/cable-routing-vlm-rl/runs/study/train/sac_v6_s0/sac_19728_steps.zip",
+   "env_steps": 19728,
+   "single_clean": 100,
+   "stage_clean": 93,
+   "collisions": 0,
+   "score": 0.965
+  },
+  {
+   "candidate": "sac_v6_s0_14700",
+   "policy": "/home/guy.azran/workspace/cable-routing-vlm-rl/runs/study/train/sac_v6_s0/sac_14808_steps.zip",
+   "env_steps": 14808,
+   "single_clean": 100,
+   "stage_clean": 92,
+   "collisions": 0,
+   "score": 0.96
+  },
+  {
+   "candidate": "sac_v6_s0_9800",
+   "policy": "/home/guy.azran/workspace/cable-routing-vlm-rl/runs/study/train/sac_v6_s0/sac_9888_steps.zip",
+   "env_steps": 9888,
+   "single_clean": 100,
+   "stage_clean": 92,
+   "collisions": 3,
+   "score": 0.96
+  },
+  {
+   "candidate": "sac_v6_s0_final",
+   "policy": "/home/guy.azran/workspace/cable-routing-vlm-rl/runs/study/train/sac_v6_s0/sac_final.zip",
+   "env_steps": 20000,
+   "single_clean": 100,
+   "stage_clean": 91,
+   "collisions": 0,
+   "score": 0.955
+  },
+  {
+   "candidate": "sac_v6_s1_9800",
+   "policy": "/home/guy.azran/workspace/cable-routing-vlm-rl/runs/study/train/sac_v6_s1/sac_9888_steps.zip",
+   "env_steps": 9888,
+   "single_clean": 99,
+   "stage_clean": 86,
+   "collisions": 9,
+   "score": 0.925
+  },
+  {
+   "candidate": "sac_v6_s1_6200",
+   "policy": "/home/guy.azran/workspace/cable-routing-vlm-rl/runs/study/train/sac_v6_s1/sac_6936_steps.zip",
+   "env_steps": 6936,
+   "single_clean": 93,
+   "stage_clean": 90,
+   "collisions": 6,
+   "score": 0.915
+  },
+  {
+   "candidate": "sac_v6_s0_6200",
+   "policy": "/home/guy.azran/workspace/cable-routing-vlm-rl/runs/study/train/sac_v6_s0/sac_6936_steps.zip",
+   "env_steps": 6936,
+   "single_clean": 93,
+   "stage_clean": 70,
+   "collisions": 14,
+   "score": 0.815
+  },
+  {
+   "candidate": "sac_v6_s1_4500",
+   "policy": "/home/guy.azran/workspace/cable-routing-vlm-rl/runs/study/train/sac_v6_s1/sac_4968_steps.zip",
+   "env_steps": 4968,
+   "single_clean": 86,
+   "stage_clean": 55,
+   "collisions": 24,
+   "score": 0.705
+  },
+  {
+   "candidate": "sac_v6_s0_4500",
+   "policy": "/home/guy.azran/workspace/cable-routing-vlm-rl/runs/study/train/sac_v6_s0/sac_4968_steps.zip",
+   "env_steps": 4968,
+   "single_clean": 63,
+   "stage_clean": 44,
+   "collisions": 42,
+   "score": 0.535
+  }
+ ],
+ "incomplete": []
+}

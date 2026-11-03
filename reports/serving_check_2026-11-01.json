@@ -1,0 +1,88 @@
+{
+ "served_models": [
+  {
+   "id": "Qwen/Qwen3.8-27B",
+   "root": "Qwen/Qwen3.8-27B",
+   "max_model_len": 32768
+  }
+ ],
+ "gpu_memory_mib_loaded": [
+  42445,
+  42445,
+  3,
+  3
+ ],
+ "two_image_check": {
+  "passed": true,
+  "content": "\n\n{\"A\": \"7\", \"B\": \"K\", \"A_color\": \"red\", \"B_color\": \"blue\"}",
+  "latency_s": 7.3623020919039845
+ },
+ "full_request": {
+  "failure": null,
+  "decision": {
+   "skill": "Insert",
+   "target_clip": "C01",
+   "done": false
+  },
+  "finish": "stop",
+  "usage": {
+   "completion_tokens": 878,
+   "prompt_tokens": 5032,
+   "total_tokens": 5910,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 685,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens_details": null
+  },
+  "latency_s": 31.680795270949602,
+  "reasoning_chars": 2554,
+  "n_images": 4,
+  "retries": 0
+ },
+ "longest_history": {
+  "failure": null,
+  "decision": {
+   "skill": "Insert",
+   "target_clip": "C01",
+   "done": false
+  },
+  "finish": "stop",
+  "usage": {
+   "completion_tokens": 1072,
+   "prompt_tokens": 5923,
+   "total_tokens": 6995,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 892,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens_details": null
+  },
+  "latency_s": 38.23323106765747,
+  "gpu_memory_mib": [
+   42903,
+   42761,
+   3,
+   3
+  ],
+  "context_limit": 32768
+ },
+ "structured_output": {
+  "failure": null,
+  "decision": {
+   "skill": "Insert",
+   "target_clip": "C01",
+   "done": false
+  },
+  "reasoning_chars": 2974,
+  "content": "{\n  \"skill\": \"Insert\",\n  \"target_clip\": \"C01\",\n  \"done\": false\n}",
+  "finish": "stop"
+ },
+ "note": "Serving/infrastructure check only (protocol Section 4 items 1-5); images are development renders; not a perception evaluation."
+}
